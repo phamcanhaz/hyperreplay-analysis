@@ -1,0 +1,114 @@
+{
+  "address": "0x6dbbefad3d24da625fa233c070678ab1938fcd38",
+  "fills": 1227,
+  "days": 3.6,
+  "trades": 55,
+  "oid_reduces": 249,
+  "wr": 96.4,
+  "pnl": 622.53,
+  "total_closedpnl": 4076.0,
+  "gross_profit": 622.55,
+  "gross_loss": 0.02,
+  "profit_factor": 31127.5,
+  "avg_win": 11.75,
+  "avg_loss": 0.01,
+  "coins": [
+    "#2310",
+    "BTC",
+    "HYPE",
+    "LIT",
+    "TRUMP",
+    "VVV",
+    "XMR",
+    "xyz:CL",
+    "xyz:SPCX"
+  ],
+  "n_coins": 9,
+  "hold_median": 227,
+  "capital": 33324.0,
+  "leverage": 3.0,
+  "active_days": 5,
+  "trades_per_day": 11.0,
+  "peak_hour": 23,
+  "session": "US",
+  "long_trades": 40,
+  "short_trades": 15,
+  "best_day": {
+    "date": "2026-06-12",
+    "pnl": 394.57
+  },
+  "worst_day": {
+    "date": "2026-06-10",
+    "pnl": 24.17
+  },
+  "max_losing_streak": 0,
+  "max_winning_streak": 5,
+  "per_coin": {
+    "#2310": {
+      "trades": 1,
+      "pnl": -0.02,
+      "wr": 0.0,
+      "weight": 1.8
+    },
+    "BTC": {
+      "trades": 3,
+      "pnl": 2.68,
+      "wr": 100.0,
+      "weight": 5.5
+    },
+    "HYPE": {
+      "trades": 26,
+      "pnl": 484.11,
+      "wr": 96.2,
+      "weight": 47.3
+    },
+    "LIT": {
+      "trades": 4,
+      "pnl": 7.89,
+      "wr": 100.0,
+      "weight": 7.3
+    },
+    "TRUMP": {
+      "trades": 2,
+      "pnl": 28.89,
+      "wr": 100.0,
+      "weight": 3.6
+    },
+    "VVV": {
+      "trades": 3,
+      "pnl": 27.77,
+      "wr": 100.0,
+      "weight": 5.5
+    },
+    "XMR": {
+      "trades": 1,
+      "pnl": 7.08,
+      "wr": 100.0,
+      "weight": 1.8
+    },
+    "xyz:CL": {
+      "trades": 2,
+      "pnl": 9.65,
+      "wr": 100.0,
+      "weight": 3.6
+    },
+    "xyz:SPCX": {
+      "trades": 13,
+      "pnl": 54.48,
+      "wr": 100.0,
+      "weight": 23.6
+    }
+  },
+  "directional": {
+    "long": {
+      "trades": 40,
+      "wr": 100.0,
+      "pnl": 54.35
+    },
+    "short": {
+      "trades": 15,
+      "wr": 100.0,
+      "pnl": 0.13
+    }
+  }
+}

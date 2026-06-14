@@ -1,0 +1,86 @@
+{
+  "address": "0xf8d2fded7432cd648200553dfcbca504aa3402d3",
+  "fills": 719,
+  "days": 0.1,
+  "trades": 78,
+  "oid_reduces": 77,
+  "wr": 79.5,
+  "pnl": 2755.46,
+  "total_closedpnl": 2693.89,
+  "gross_profit": 4078.59,
+  "gross_loss": 1323.13,
+  "profit_factor": 3.1,
+  "avg_win": 65.78,
+  "avg_loss": 82.7,
+  "coins": [
+    "BTC",
+    "ZEC",
+    "xyz:CL",
+    "xyz:GOLD",
+    "xyz:SILVER"
+  ],
+  "n_coins": 5,
+  "hold_median": 2140,
+  "capital": 57520.0,
+  "leverage": 3.0,
+  "active_days": 17,
+  "trades_per_day": 4.6,
+  "peak_hour": 5,
+  "session": "US",
+  "long_trades": 18,
+  "short_trades": 60,
+  "best_day": {
+    "date": "2026-06-05",
+    "pnl": 2658.54
+  },
+  "worst_day": {
+    "date": "2026-06-08",
+    "pnl": -504.31
+  },
+  "max_losing_streak": 3,
+  "max_winning_streak": 10,
+  "per_coin": {
+    "BTC": {
+      "trades": 34,
+      "pnl": 734.47,
+      "wr": 76.5,
+      "weight": 43.6
+    },
+    "ZEC": {
+      "trades": 18,
+      "pnl": 2303.24,
+      "wr": 88.9,
+      "weight": 23.1
+    },
+    "xyz:CL": {
+      "trades": 5,
+      "pnl": -388.86,
+      "wr": 60.0,
+      "weight": 6.4
+    },
+    "xyz:GOLD": {
+      "trades": 2,
+      "pnl": 2.91,
+      "wr": 100.0,
+      "weight": 2.6
+    },
+    "xyz:SILVER": {
+      "trades": 19,
+      "pnl": 103.7,
+      "wr": 78.9,
+      "weight": 24.4
+    }
+  },
+  "directional": {
+    "long": {
+      "trades": 18,
+      "wr": 70.0,
+      "pnl": 59.51
+    },
+    "short": {
+      "trades": 60,
+      "wr": 88.9,
+      "pnl": 44.19
+    }
+  }
+}

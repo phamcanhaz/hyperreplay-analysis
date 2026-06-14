@@ -1,0 +1,58 @@
+{
+  "address": "0xb1edfeccf03f35d2268f5dc4013508a6eb52c702",
+  "fills": 2000,
+  "days": 0.1,
+  "trades": 68,
+  "oid_reduces": 947,
+  "wr": 66.2,
+  "pnl": 2647.08,
+  "total_closedpnl": 13147.85,
+  "gross_profit": 3164.29,
+  "gross_loss": 517.21,
+  "profit_factor": 6.1,
+  "avg_win": 70.32,
+  "avg_loss": 22.49,
+  "coins": [
+    "BTC"
+  ],
+  "n_coins": 1,
+  "hold_median": 817,
+  "capital": 166779.0,
+  "leverage": 3.0,
+  "active_days": 3,
+  "trades_per_day": 22.7,
+  "peak_hour": 9,
+  "session": "ASIA",
+  "long_trades": 34,
+  "short_trades": 34,
+  "best_day": {
+    "date": "2026-06-04",
+    "pnl": 1470.01
+  },
+  "worst_day": {
+    "date": "2026-06-05",
+    "pnl": 64.34
+  },
+  "max_losing_streak": 0,
+  "max_winning_streak": 3,
+  "per_coin": {
+    "BTC": {
+      "trades": 68,
+      "pnl": 2647.08,
+      "wr": 66.2,
+      "weight": 100.0
+    }
+  },
+  "directional": {
+    "long": {
+      "trades": 34,
+      "wr": 58.8,
+      "pnl": 493.01
+    },
+    "short": {
+      "trades": 34,
+      "wr": 73.5,
+      "pnl": 2154.07
+    }
+  }
+}
