@@ -1,0 +1,139 @@
+[
+  {
+    "addr": "0x6dbbefad3d24da625fa233c070678ab1938fcd38",
+    "label": "Wallet #3 (benchmark)",
+    "fills": 1227,
+    "trades": 488,
+    "wr": 99.8,
+    "wins": 487,
+    "losses": 1,
+    "pnl": 2780.74,
+    "coins": 10,
+    "coin_list": [
+      "#2310",
+      "@107",
+      "BTC",
+      "HYPE",
+      "LIT",
+      "TRUMP",
+      "VVV",
+      "XMR",
+      "xyz:CL",
+      "xyz:SPCX"
+    ],
+    "avg_notional": 18211.0,
+    "max_notional": 99972.0,
+    "est_capital": 99972.0,
+    "start": "06/10 18:11",
+    "end": "06/14 09:20",
+    "days": 3.6,
+    "long_pct": 49.0,
+    "short_pct": 0.0
+  },
+  {
+    "addr": "0xb69ccb3ad06300fefe1c551e285de4a3c6a1a5da",
+    "label": "SHORT scalper, PnL=$6,372",
+    "fills": 2000,
+    "trades": 1498,
+    "wr": 42.3,
+    "wins": 633,
+    "losses": 865,
+    "pnl": -4495.62,
+    "coins": 7,
+    "coin_list": [
+      "BTC",
+      "ETH",
+      "HYPE",
+      "SOL",
+      "TRUMP",
+      "XRP",
+      "ZEC"
+    ],
+    "avg_notional": 59951.0,
+    "max_notional": 500640.0,
+    "est_capital": 500640.0,
+    "start": "06/05 12:25",
+    "end": "06/05 20:35",
+    "days": 0.3,
+    "long_pct": 42.7,
+    "short_pct": 0.0
+  },
+  {
+    "addr": "0x77a4b936667e6f10dc70b676d269e9df7deb2759",
+    "label": "SHORT, WR=87%, hold=720s",
+    "error": "No fills",
+    "fills": 0,
+    "trades": 0
+  },
+  {
+    "addr": "0xf8d2f7cd63a40b9a2cb5c6c4e7d61c95f30302d3",
+    "label": "STRONG SHORT, WR=80%, PnL=$2,755",
+    "error": "No fills",
+    "fills": 0,
+    "trades": 0
+  },
+  {
+    "addr": "0x8f63e3fa11518aa93ee865d5e9aae5a28e5dd74",
+    "label": "SHORT, PnL=$3,673",
+    "error": "No fills",
+    "fills": 0,
+    "trades": 0
+  },
+  {
+    "addr": "0x2cb2e06cfbb927388a5efd3818760b5c9b813f19",
+    "label": "STRONG SHORT, 9 coins",
+    "error": "No fills",
+    "fills": 0,
+    "trades": 0
+  },
+  {
+    "addr": "0x6e14c05d8ea92154a4ba5b8f7b84fc9c7db59f0d",
+    "label": "STRONG LONG, WR=94%, 48 coins",
+    "error": "No fills",
+    "fills": 0,
+    "trades": 0
+  },
+  {
+    "addr": "0xb1edfeccf03f35d2268f5dc4013508a6eb52c702",
+    "label": "BTC scalper, PnL=$2,647",
+    "fills": 2000,
+    "trades": 1128,
+    "wr": 48.5,
+    "wins": 547,
+    "losses": 581,
+    "pnl": 7861.67,
+    "coins": 1,
+    "coin_list": [
+      "BTC"
+    ],
+    "avg_notional": 119308.0,
+    "max_notional": 500338.0,
+    "est_capital": 500338.0,
+    "start": "06/03 18:04",
+    "end": "06/05 00:19",
+    "days": 1.3,
+    "long_pct": 54.2,
+    "short_pct": 0.0
+  },
+  {
+    "addr": "0x5f6070a14f15b5493163f539ab4ae6594ff36738",
+    "label": "SHORT, hold=432s si\u00eau t\u1ed1c",
+    "error": "No fills",
+    "fills": 0,
+    "trades": 0
+  },
+  {
+    "addr": "0x04dbc5c154c1491fe20cfc3a7c64a8bef1e4c605",
+    "label": "LONG, PnL=$2,186",
+    "error": "No fills",
+    "fills": 0,
+    "trades": 0
+  },
+  {
+    "addr": "0x2ddea64b4a933d4bdb3c8030ea1a1f88e283958c",
+    "label": "LONG, WR=76%, hold=477s",
+    "error": "No fills",
+    "fills": 0,
+    "trades": 0
+  }
+]

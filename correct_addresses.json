@@ -1,0 +1,222 @@
+[
+  {
+    "addr": "0xb69ccb3ad06300fefe1c551e285de4a3c6a1a5da",
+    "strat": "DAY_TRADER",
+    "bias": "SHORT",
+    "trades": 92,
+    "wr": 69.6,
+    "hold": 1018,
+    "pnl": 6372.48,
+    "coins": 5,
+    "copy": 45.0
+  },
+  {
+    "addr": "0x63b718f9a911c20d8b48fe2df560fa6289e5ff02",
+    "strat": "DAY_TRADER",
+    "bias": "STRONG LONG",
+    "trades": 539,
+    "wr": 64.9,
+    "hold": 1058,
+    "pnl": -548.2,
+    "coins": 25,
+    "copy": 45.0
+  },
+  {
+    "addr": "0x6dbbefad3d24da625fa233c070678ab1938fcd38",
+    "strat": "DAY_TRADER",
+    "bias": "LONG",
+    "trades": 55,
+    "wr": 96.4,
+    "hold": 725,
+    "pnl": 622.53,
+    "coins": 9,
+    "copy": 85.0
+  },
+  {
+    "addr": "0x388d9e1ccaec74527f73f8c87b5928ba28c06c03",
+    "strat": "SCALPER",
+    "bias": "NEUTRAL",
+    "trades": 162,
+    "wr": 60.5,
+    "hold": 269,
+    "pnl": 64.24,
+    "coins": 12,
+    "copy": 0
+  },
+  {
+    "addr": "0x77a44b15d5ad00fc7b8d6fea6ec1fa61a3be2759",
+    "strat": "DAY_TRADER",
+    "bias": "SHORT",
+    "trades": 179,
+    "wr": 87.2,
+    "hold": 720,
+    "pnl": 35.93,
+    "coins": 3,
+    "copy": 95.0
+  },
+  {
+    "addr": "0x4230d84bc168643535bddcc4b4d3aeec3989c19d",
+    "strat": "SCALPER",
+    "bias": "NEUTRAL",
+    "trades": 146,
+    "wr": 62.3,
+    "hold": 85,
+    "pnl": 51.54,
+    "coins": 4,
+    "copy": 0
+  },
+  {
+    "addr": "0xf8d2fded7432cd648200553dfcbca504aa3402d3",
+    "strat": "DAY_TRADER",
+    "bias": "STRONG SHORT",
+    "trades": 77,
+    "wr": 80.5,
+    "hold": 6443,
+    "pnl": 2755.46,
+    "coins": 5,
+    "copy": 100.0
+  },
+  {
+    "addr": "0x1b1aa967b913424e48cf40275b78fa66522e38d7",
+    "strat": "DAY_TRADER",
+    "bias": "LONG",
+    "trades": 323,
+    "wr": 61.6,
+    "hold": 11906,
+    "pnl": 270.01,
+    "coins": 18,
+    "copy": 75.0
+  },
+  {
+    "addr": "0x6e1402f1a16642da68336205c2231c7a45dc9f0d",
+    "strat": "DAY_TRADER",
+    "bias": "STRONG LONG",
+    "trades": 567,
+    "wr": 94.4,
+    "hold": 3619,
+    "pnl": 125.53,
+    "coins": 48,
+    "copy": 50.0
+  },
+  {
+    "addr": "0xb438d36b425b504724a1c72aa0941c80cb940995",
+    "strat": "DAY_TRADER",
+    "bias": "STRONG SHORT",
+    "trades": 445,
+    "wr": 74.6,
+    "hold": 6098,
+    "pnl": 35.43,
+    "coins": 49,
+    "copy": 50.0
+  },
+  {
+    "addr": "0x899d9f69f3f4a5acf25d22f382cddc8c4b720117",
+    "strat": "DAY_TRADER",
+    "bias": "LONG",
+    "trades": 264,
+    "wr": 72.3,
+    "hold": 8714,
+    "pnl": 18.26,
+    "coins": 59,
+    "copy": 75.0
+  },
+  {
+    "addr": "0x9d0e23c31f3e578b86f72bdcbf153822e52ea8c3",
+    "strat": "DAY_TRADER",
+    "bias": "SHORT",
+    "trades": 745,
+    "wr": 93.2,
+    "hold": 4718,
+    "pnl": 27.81,
+    "coins": 77,
+    "copy": 50.0
+  },
+  {
+    "addr": "0x6d1ca33c55a49409b1f74e2df021f4c4a1c75aa6",
+    "strat": "DAY_TRADER",
+    "bias": "SHORT",
+    "trades": 253,
+    "wr": 65.2,
+    "hold": 11871,
+    "pnl": 17.84,
+    "coins": 58,
+    "copy": 75.0
+  },
+  {
+    "addr": "0x39d85c63fd3f87c8a54e54f7152987e7d0ccaeb9",
+    "strat": "DAY_TRADER",
+    "bias": "LONG",
+    "trades": 170,
+    "wr": 68.2,
+    "hold": 8158,
+    "pnl": 42.65,
+    "coins": 47,
+    "copy": 100.0
+  },
+  {
+    "addr": "0x43b2fce1f2c548ac54e11c6fd860abc7f226770b",
+    "strat": "DAY_TRADER",
+    "bias": "LONG",
+    "trades": 214,
+    "wr": 90.7,
+    "hold": 7378,
+    "pnl": 10.09,
+    "coins": 6,
+    "copy": 100.0
+  },
+  {
+    "addr": "0x2ae64d3a931805d91614df81621727594a509887",
+    "strat": "DAY_TRADER",
+    "bias": "STRONG LONG",
+    "trades": 66,
+    "wr": 63.6,
+    "hold": 10482,
+    "pnl": 2502.25,
+    "coins": 5,
+    "copy": 100.0
+  },
+  {
+    "addr": "0x528cd5cbae0d8835e83dc58ba6eb1230abb52e1b",
+    "strat": "DAY_TRADER",
+    "bias": "STRONG LONG",
+    "trades": 35,
+    "wr": 65.7,
+    "hold": 1202,
+    "pnl": -1.84,
+    "coins": 19,
+    "copy": 85.0
+  },
+  {
+    "addr": "0x6653cbb797ec163d16b8178d2fe4e6d9210a8d0c",
+    "strat": "DAY_TRADER",
+    "bias": "LONG",
+    "trades": 87,
+    "wr": 69.0,
+    "hold": 1512,
+    "pnl": 54.09,
+    "coins": 6,
+    "copy": 45.0
+  },
+  {
+    "addr": "0x0a58c15bb78ec1e49d3c6fca14d417c9ab6e36a3",
+    "strat": "DAY_TRADER",
+    "bias": "LONG",
+    "trades": 129,
+    "wr": 62.8,
+    "hold": 7189,
+    "pnl": 14.01,
+    "coins": 38,
+    "copy": 75.0
+  },
+  {
+    "addr": "0x6d10a757317e22cea7feb85d5269ac19f354287d",
+    "strat": "DAY_TRADER",
+    "bias": "STRONG LONG",
+    "trades": 114,
+    "wr": 89.5,
+    "hold": 921,
+    "pnl": -0.74,
+    "coins": 2,
+    "copy": 70.0
+  }
+]
