@@ -1,0 +1,102 @@
+/home/bot/hyperreplay-analysis/copy_real.py:24: SyntaxWarning: invalid escape sequence '\$'
+  print(f"Max target position: \${max_notional:,.0f}")
+/home/bot/hyperreplay-analysis/copy_real.py:26: SyntaxWarning: invalid escape sequence '\$'
+  print(f"Position tối đa của ta: \${max_notional * scale:,.2f}")
+/home/bot/hyperreplay-analysis/copy_real.py:126: SyntaxWarning: invalid escape sequence '\$'
+  print(f"  Vốn:                \${CAPITAL:.0f}")
+/home/bot/hyperreplay-analysis/copy_real.py:131: SyntaxWarning: invalid escape sequence '\$'
+  print(f"  Lợi nhuận thực tế:   \${total:>+8.2f}")
+/home/bot/hyperreplay-analysis/copy_real.py:132: SyntaxWarning: invalid escape sequence '\$'
+  print(f"  Vốn cuối:            \${cash:>8.2f}")
+/home/bot/hyperreplay-analysis/copy_real.py:134: SyntaxWarning: invalid escape sequence '\$'
+  print(f"  Trung bình ngày:     \${total/3.6:>+8.2f}")
+/home/bot/hyperreplay-analysis/copy_real.py:135: SyntaxWarning: invalid escape sequence '\$'
+  print(f"  Ngoại suy tháng:     \${total/3.6*30:>+8.2f}")
+/home/bot/hyperreplay-analysis/copy_real.py:138: SyntaxWarning: invalid escape sequence '\$'
+  print(f"  Avg win:             \${avg_w:.4f}")
+/home/bot/hyperreplay-analysis/copy_real.py:139: SyntaxWarning: invalid escape sequence '\$'
+  print(f"  Avg loss:            \${avg_l:.4f}")
+/home/bot/hyperreplay-analysis/copy_real.py:152: SyntaxWarning: invalid escape sequence '\$'
+  print(f"  {ts} {label:6} {t['coin']:>8} entry={t['entry']:>8.2f} exit={t['exit']:>8.2f} PnL=\${t['pnl']:>+7.4f}")
+/home/bot/hyperreplay-analysis/copy_real.py:160: SyntaxWarning: invalid escape sequence '\$'
+  print(f"  {coin:>10}: \${pnl:>+8.2f} ({cnt} lần, {pnl/total*100:.0f}%)")
+/home/bot/hyperreplay-analysis/copy_real.py:167: SyntaxWarning: invalid escape sequence '\$'
+  print(f"  {d}: \${daily_pnl[d]:>+8.2f}")
+/home/bot/hyperreplay-analysis/copy_real.py:177: SyntaxWarning: invalid escape sequence '\$'
+  print(f"  5. Mỗi lệnh lời rất nhỏ (\${avg_w:.4f}) — đủ 1 lần lỗ lớn là mất hết")
+/home/bot/hyperreplay-analysis/copy_real.py:186: SyntaxWarning: invalid escape sequence '\$'
+  print(f"     {coin}: size={p['size']:.4f} entry={p['entry_px']:.2f} cur={cur:.2f} openPnL=\${open_pnl:+.4f}")
+Max target position: \$94,100
+Scale: 0.010627x (chúng ta = target × 0.010627)
+Position tối đa của ta: \$1,000.00
+
+==============================================================
+  KẾT QUẢ COPY: $50 USDT x20
+==============================================================
+  Vốn:                \$50
+  Đòn bẩy tối đa:      20x
+  Số lần mirror:       510
+  Thời gian:           3.6 ngày (10-14/06/2026)
+
+  Lợi nhuận thực tế:   \$  +29.55
+  Vốn cuối:            \$   79.55
+  Tỷ suất lợi nhuận:     +59.10%
+  Trung bình ngày:     \$   +8.21
+  Ngoại suy tháng:     \$ +246.24
+
+  Win rate:            93.9%
+  Avg win:             \$0.0617
+  Avg loss:            \$-0.0002
+  Profit Factor:       147745.0
+  Sharpe:              18.49
+  Max DD:              0.00%
+  Lệnh cùng lúc (ta):  5 (đang mở)
+
+==============================================================
+  VÍ DỤ GIAO DỊCH THẬT
+==============================================================
+  06/10 11:12 GIẢM       HYPE entry=   55.89 exit=   55.96 PnL=\$+0.0187
+  06/10 11:12 GIẢM       HYPE entry=   55.89 exit=   55.96 PnL=\$+0.0094
+  06/10 11:12 GIẢM       HYPE entry=   55.89 exit=   55.96 PnL=\$+0.0083
+  06/10 11:12 GIẢM       HYPE entry=   55.89 exit=   55.96 PnL=\$+0.0353
+  06/10 11:12 GIẢM       HYPE entry=   55.89 exit=   55.97 PnL=\$+0.0038
+  06/10 11:13 GIẢM       HYPE entry=   55.89 exit=   56.00 PnL=\$+0.0100
+  06/10 11:13 GIẢM       HYPE entry=   55.89 exit=   55.95 PnL=\$+0.0259
+  06/10 11:13 ĐÓNG       HYPE entry=   55.89 exit=   55.94 PnL=\$+0.0076
+
+==============================================================
+  PnL THEO COIN
+==============================================================
+        HYPE: \$  +20.54 (324 lần, 70%)
+    xyz:SPCX: \$   +5.21 (87 lần, 18%)
+         BTC: \$   +1.26 (27 lần, 4%)
+         VVV: \$   +1.06 (24 lần, 4%)
+         LIT: \$   +0.79 (30 lần, 3%)
+       TRUMP: \$   +0.35 (3 lần, 1%)
+      xyz:CL: \$   +0.18 (11 lần, 1%)
+         XMR: \$   +0.16 (3 lần, 1%)
+       #2310: \$   -0.00 (1 lần, -0%)
+
+==============================================================
+  PnL THEO NGÀY
+==============================================================
+  2026-06-10: \$   +5.43
+  2026-06-11: \$   +0.13
+  2026-06-12: \$  +14.43
+  2026-06-13: \$   +9.28
+  2026-06-14: \$   +0.29
+
+==============================================================
+  PHÂN TÍCH RỦI RO
+==============================================================
+  1. Data chỉ 3.6 ngày — chưa đại diện
+  2. Win rate 94% trong thị trường thuận lợi
+  3. HYPE chiếm 70% lợi nhuận
+  4. Họ không dùng stop loss — nếu crash, lỗ lớn
+  5. Mỗi lệnh lời rất nhỏ (\$0.0617) — đủ 1 lần lỗ lớn là mất hết
+  6. Vị thế đang mở: 5 coin — nếu gap ngược, lỗ thêm
+     xyz:SPCX: size=-0.0000 entry=161.06 cur=161.06 openPnL=\$+0.0000
+     xyz:CL: size=-0.0000 entry=82.38 cur=82.38 openPnL=\$+0.0000
+     BTC: size=-0.0000 entry=64622.81 cur=64545.00 openPnL=\$+0.0009
+     TRUMP: size=0.0000 entry=2.17 cur=2.17 openPnL=\$+0.0000
+     HYPE: size=0.0000 entry=60.90 cur=60.90 openPnL=\$+0.0000

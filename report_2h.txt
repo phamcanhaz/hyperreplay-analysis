@@ -1,0 +1,26 @@
+==============================================
+BÁO CÁO SAU 2 GIỜ
+Thời gian: 2026-06-14 13:07:51 VN
+==============================================
+✅ Bot còn sống
+
+Tổng dòng log: 11
+Giao dịch đã xử lý: 2
+Tổng PnL: $
+
+20 dòng cuối:
+----------------
+/home/bot/hyperreplay-analysis/paper_trade.py:177: SyntaxWarning: invalid escape sequence '\$'
+  trader.log(f"Scale: {scale:.6f}x (max target notional \${max_notional:,.0f})")
+[04:44:45] Kết nối WebSocket: wss://api.hyperliquid.xyz/ws
+[04:44:45] Target: 0x6dbbefad3d24da...
+[04:44:45] Scale: 0.010003x (max target notional \$99,972)
+[04:44:45] Ví sẽ chạy, Ctrl+C để dừng
+
+[04:44:46] ✅ Đã kết nối, đang chờ fills...
+[04:44:46] Bắt đầu paper trade — vốn $50.0 x20.0, scale=0.010003x
+[04:44:46] GIẢM      TRUMP sz=1.8185 entry=2.18 exit=2.17 PnL=$+0.02
+[04:44:46] GIẢM       HYPE sz=0.7679 entry=60.99 exit=60.90 PnL=$+0.02
+----------------
+
+Status lines:

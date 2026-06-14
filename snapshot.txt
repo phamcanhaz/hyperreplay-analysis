@@ -1,0 +1,19 @@
+=== SNAPSHOT 2026-06-14 11:07:30 VN ===
+Số dòng log hiện tại:
+16 /home/bot/hyperreplay-analysis/paper_trade_output.log
+
+10 dòng cuối:
+
+[04:01:56] ✅ Đã kết nối, đang chờ fills...
+[04:01:56] Bắt đầu paper trade — vốn $50.0 x20.0, scale=0.010003x
+[04:01:56] GIẢM      TRUMP sz=1.8185 entry=2.18 exit=2.17 PnL=$+0.02
+[04:01:56] GIẢM       HYPE sz=0.7679 entry=60.99 exit=60.90 PnL=$+0.02
+[04:02:56] ✅ Đã kết nối, đang chờ fills...
+[04:03:57] ✅ Đã kết nối, đang chờ fills...
+[04:04:58] ✅ Đã kết nối, đang chờ fills...
+[04:05:58] ✅ Đã kết nối, đang chờ fills...
+[04:06:59] ✅ Đã kết nối, đang chờ fills...
+
+Process:
+bot       994033  0.0  0.0   7352  2000 ?        S    11:01   0:00 /bin/bash -c cd /home/bot/hyperreplay-analysis && nohup python3 paper_trade.py > paper_trade_output.log 2>&1 & echo "PID: $!"
+bot       994034  0.1  0.2 115148 33372 ?        Sl   11:01   0:00 python3 paper_trade.py

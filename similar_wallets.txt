@@ -1,0 +1,46 @@
+Top wallets similar to Wallet #3 (0x6dbbefad)
+
+Criteria: DAY_TRADER/SCALPER, high WR, short hold time, multi-coin
+
+=== BEST MATCHES ===
+
+#1 0xb69ccb3ad06300fefe1c551e285de4a3c6a1a5da
+   DAY_TRADER SHORT | WR=69.6% | hold=1018s | 5 coins | PnL=$6,372 | copy=45%
+   Coins: ZEC, BTC, SOL, ETH, HYPE | Score=18.5 | US session
+   Most profitable scalper found!
+
+#2 0x77a4b936667e6f10dc70b676d269e9df7deb2759
+   DAY_TRADER SHORT | WR=87.2% | hold=720s | 3 coins | PnL=$35.93 | copy=95%
+   Hold time almost identical to wallet #3 (720s vs 725s)!
+   Low PnL but very high win rate
+
+#3 0xf8d2f7cd63a40b9a2cb5c6c4e7d61c95f30302d3
+   DAY_TRADER STRONG SHORT | WR=80.5% | hold=6443s | 5 coins | PnL=$2,755 | copy=100%
+   High WR, multi-coin, profitable
+
+#4 0x8f63e3fa11518aa93ee865d5e9aae5a28e5dd74
+   DAY_TRADER SHORT | WR=66.7% | hold=2297s | 3 coins | PnL=$3,673 | copy=50%
+
+#5 0x2cb2e06cfbb927388a5efd3818760b5c9b813f19
+   DAY_TRADER STRONG SHORT | WR=76.5% | hold=4037s | 9 coins | PnL=$1,359 | copy=100%
+   Same number of coins as wallet #3 (9)
+
+#6 0x2ae64d3a931805d91614df81621727594a509887
+   DAY_TRADER STRONG LONG | WR=63.6% | hold=10482s | 5 coins | PnL=$2,502 | copy=100%
+
+#7 0x6e14c05d8ea92154a4ba5b8f7b84fc9c7db59f0d
+   DAY_TRADER STRONG LONG | WR=94.4% | hold=3619s | 48 coins | PnL=$125.53 | copy=50%
+   567 trades, 100% LONG (no shorts), massive diversification
+
+#8 0xb1edfeccf03f35d2268f5dc4013508a6eb52c702
+   DAY_TRADER LONG | WR=67.2% | hold=1617s | BTC only | PnL=$2,647 | copy=45%
+   Pure BTC scalper
+
+#9 0x7aa11aafdfc46ebedbb3adabea180cce3607e8c2
+   SWING | WR=94.3% | hold=26019s | 165 coins | PnL=$1,044 | copy=75%
+   438 trades, extremely diversified, high WR
+
+=== QUICK SCALPERS ===
+0x388d6c0326abe88a6603f7c8b28a7eeb8f9a6c03 - SCALPER, hold=269s (4.5ph), 12 coins
+0x4230c19d1c03772cfad369a193213a9e1a16c19d - SCALPER, hold=85s (1.4ph), 4 coins
+0x2ddea64b4a933d4bdb3c8030ea1a1f88e283958c - DAY_TRADER LONG, WR=75.7%, hold=477s, 2 coins
