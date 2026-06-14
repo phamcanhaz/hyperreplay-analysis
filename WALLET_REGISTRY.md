@@ -243,7 +243,27 @@ Từ `validation_results.json` (1,082 wallets analyzed). Tiêu chí: DAY_TRADER/
 
 ---
 
-## V. NGUỒN DỮ LIỆU
+## V. HL_COPY_BOT — WALLET DISCOVERY ENGINE
+
+Hệ thống quét + phân tích ví tự động: [`HL_Copy_bot/`](HL_Copy_bot/)
+
+> ⚠️ **Hiện tại**: Chủ yếu tìm ví (scanner + analyzer). Chưa giao dịch thật — paper mode.
+
+| Module    | Tech   | Chức năng                                                  |
+| --------- | ------ | ---------------------------------------------------------- |
+| Scanner   | Rust   | Quét 10 coin recentTrades + leaderboard → 11,184 wallets   |
+| Analyzer  | Python | Deep analysis fills → scoring → copyability                |
+| Validator | Python | Kiểm tra điều kiện (trades≥15, WR≥35%, PnL≥$500, DD≤50%)   |
+| Copier    | Rust   | Mirror giao dịch (paper mode, $10k giả)                    |
+| RIFT      | Python | Monte Carlo (5000 sim), alpha decay, HMM regime (3 states) |
+
+**Luồng**: Scanner → `seen_wallets.json` → Analyzer → `validation_results.json` → Copy/Paper
+
+**Chi tiết**: [`HL_Copy_bot/README.md`](HL_Copy_bot/README.md)
+
+---
+
+## VI. NGUỒN DỮ LIỆU
 
 | File                                            | Nội dung                          |
 | ----------------------------------------------- | --------------------------------- |
@@ -258,7 +278,7 @@ Từ `validation_results.json` (1,082 wallets analyzed). Tiêu chí: DAY_TRADER/
 
 ---
 
-## VI. LINKS
+## VII. LINKS
 
 - **GitHub repo này**: `https://github.com/phamcanhaz/hyperreplay-analysis`
 - **Wallet #3 on Hyperliquid**: https://app.hyperliquid.xyz/address/0x6dbbefad3d24da625fa233c070678ab1938fcd38

@@ -24,3 +24,22 @@ Hyperliquid wallet analysis — focus on scalping bot patterns.
 ## Live Monitor
 
 `paper_trade.py` subscribes via WebSocket to Wallet #3's fills in real-time (no auth needed).
+
+---
+
+## HL_Copy_bot — Wallet Discovery Engine
+
+[`HL_Copy_bot/`](HL_Copy_bot/) là hệ thống quét + phân tích ví tự động.
+
+> ⚠️ **HIỆN TẠI**: Chủ yếu **tìm ví** → quét 11,184 ví, phân tích 1,082 ví, chọn 70 ví đạt chuẩn.
+> Chưa có giao dịch thật — chạy **paper trading** ($10k giả).
+
+| Module    | Công nghệ | Chức năng                            |
+| --------- | --------- | ------------------------------------ |
+| Scanner   | Rust      | Quét recentTrades + leaderboard      |
+| Analyzer  | Python    | Deep analysis + scoring + RIFT       |
+| Validator | Python    | Kiểm tra điều kiện copy              |
+| Copier    | Rust      | Mirror giao dịch (paper mode)        |
+| RIFT      | Python    | Monte Carlo, alpha decay, HMM regime |
+
+**Chi tiết**: [`HL_Copy_bot/README.md`](HL_Copy_bot/README.md)

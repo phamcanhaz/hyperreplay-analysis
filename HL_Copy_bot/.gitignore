@@ -1,0 +1,16 @@
+target/
+.env
+bot.log
+*.log
+logs/
+__pycache__/
+*.pyc
+.DS_Store
+seen_wallets*.json
+validation_results.json
+copy_wallets.json
+analysis_report.txt
+*.bak
+*.old
+lu?ng*giao*d?ch*bot*
+

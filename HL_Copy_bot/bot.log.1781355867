@@ -1,0 +1,676 @@
+╔════════════════════════════════════════════════════════════════╗
+║  📡 HL COPY BOT — Scan → Python Deep Analysis → Copy        ║
+║  Scanner discovers wallets, Python analyzes, bot copies      ║
+╚════════════════════════════════════════════════════════════════╝
+[2m2026-06-13T12:51:41.728626Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 📂 Loaded 6441 known wallets
+[2m2026-06-13T12:51:41.774058Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m ✅ Loaded validation data: 22 wallets validated
+[2m2026-06-13T12:51:41.850120Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [Copier] Paper mode — tracking paper portfolio ($10000)
+[2m2026-06-13T12:51:41.850252Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 🔄 Resuming copy: 0x18d10374 (15d PnL: $17524)
+[2m2026-06-13T12:51:41.850297Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 🔄 Resuming copy: 0x931153ba (15d PnL: $1645)
+[2m2026-06-13T12:51:41.850347Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 🔄 Resuming copy: 0x9da9ccc7 (15d PnL: $1367)
+[2m2026-06-13T12:51:41.850386Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 🔄 Resuming copy: 0x76fe28b8 (15d PnL: $61)
+[2m2026-06-13T12:51:41.850431Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 🔄 Resuming copy: 0x6e6f2ca7 (15d PnL: $155)
+[2m2026-06-13T12:51:41.850761Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+━━━ [Scan #1] ━━━
+[2m2026-06-13T12:51:42.297873Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] start — 5 targets, 821 prices loaded
+[2m2026-06-13T12:51:42.338077Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] connected
+[2m2026-06-13T12:51:42.867721Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] 5/5 subscriptions active
+[2m2026-06-13T12:51:42.867749Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] listening for fills...
+[2m2026-06-13T12:51:43.336570Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] fill-triggered sync
+[2m2026-06-13T12:51:44.092524Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] start — 5 targets, 821 prices loaded
+[2m2026-06-13T12:51:46.043564Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T12:51:46.043673Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] SKIP RESIZE SOL (cooldown 4s, our=$173 want=$129)
+[2m2026-06-13T12:51:46.043691Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 1 skipped (cooldown), 3 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T12:51:46.043733Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m 
+📊 PAPER PORTFOLIO
+  Initial equity: $10000.00
+  Current equity: $9986.05
+  Total PnL: $-13.95 (-0.14%)
+  Free collateral: $5872.34
+  Locked notional: $4113.71
+  Positions: 4
+    HYPE SHORT sz=4.5673 entry=$59.02 mtx=$59.41 uPnL=$-1.77
+    SOL LONG sz=2.5410 entry=$67.41 mtx=$67.91 uPnL=$1.28
+    ETH LONG sz=1.1993 entry=$1673.45 mtx=$1679.45 uPnL=$7.20
+    BTC SHORT sz=0.0261 entry=$63736.50 mtx=$64090.50 uPnL=$-9.25
+[2m2026-06-13T12:51:46.043753Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9986.05
+[2m2026-06-13T12:51:52.704261Z[0m [32m INFO[0m [2mhl_copy_bot::scanner[0m[2m:[0m 📡 Found 1 new wallet candidates
+[2m2026-06-13T12:51:52.713772Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 📊 Status: 6442 DB | 15 worthy | 5299 pending | 5 copied | regime=calm
+
+┌──────────┬──────────┬────────┬──────┬──────┬──────┬─────────┬───────┬───────┬──────────────────────────┐
+│ Wallet   │ 15d PnL  │  WR%   │  PF  │  DD% │ Bias │ Strategy│ Score │ Copy │ Warnings                 │
+├──────────┼──────────┼────────┼──────┼──────┼──────┼─────────┼───────┼───────┼──────────────────────────┤
+│ ★0x18d103│ $  17524│  91.7%│ 92230.9│  0.2%│ NEUTRAL│   SWING│    85│  100%│      insufficient_trades│
+│ ★0x931153│ $   1645│ 100.0%│ 999.0│  0.0%│  LONG│ DAY_TRADER│    66│  100%│      insufficient_trades│
+│  0xb69ccb│ $   2260│  75.8%│ 18.3│ 1804.5%│  LONG│ DAY_TRADER│    64│   45%│          FEW_ACTIVE_DAYS│
+│  0x7aa11a│ $   1044│  94.3%│  2.5│ 14.0%│  LONG│   SWING│    56│   50%│                         │
+│ ★0x9da9cc│ $   1367│  91.7%│ 17.6│ 37.2%│ NEUTRAL│   SWING│    52│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0xb1edfe│ $   2647│  67.2%│  6.1│ 240.8%│  LONG│ DAY_TRADER│    52│   45%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%│
+│ ★0x76fe28│ $     61│  75.0%│ 999.0│  0.0%│ NEUTRAL│ DAY_TRADER│    51│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│ ★0x6e6f2c│ $    155│  50.0%│ 55.2│  1.8%│ NEUTRAL│   SWING│    46│  100%│ POOR_LONG_WR,FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0x0a9769│ $    397│  63.6%│ 12.2│ 30.3%│  LONG│   SWING│    43│  100%│ CONCENTRATION_73%,insufficient_trades│
+│  0x44871d│ $    994│  73.3%│  3.2│ 123.2%│ NEUTRAL│   SWING│    32│  100%│       CONCENTRATION_100%│
+└──────────┴──────────┴────────┴──────┴──────┴──────┴─────────┴───────┴───────┴──────────────────────────┘
+
+📡 ACTIVE COPIES:
+  0x18d10374 → PnL=$17524 WR=91.7%
+  0x931153ba → PnL=$1645 WR=100.0%
+  0x9da9ccc7 → PnL=$1367 WR=91.7%
+  0x76fe28b8 → PnL=$61 WR=75.0%
+  0x6e6f2ca7 → PnL=$155 WR=50.0%
+[2m2026-06-13T12:52:07.715194Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+━━━ [Scan #2] ━━━
+[2m2026-06-13T12:52:18.655423Z[0m [32m INFO[0m [2mhl_copy_bot::scanner[0m[2m:[0m 📡 Found 3 new wallet candidates
+[2m2026-06-13T12:52:18.665916Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 📊 Status: 6445 DB | 15 worthy | 5302 pending | 5 copied | regime=calm
+
+┌──────────┬──────────┬────────┬──────┬──────┬──────┬─────────┬───────┬───────┬──────────────────────────┐
+│ Wallet   │ 15d PnL  │  WR%   │  PF  │  DD% │ Bias │ Strategy│ Score │ Copy │ Warnings                 │
+├──────────┼──────────┼────────┼──────┼──────┼──────┼─────────┼───────┼───────┼──────────────────────────┤
+│ ★0x18d103│ $  17524│  91.7%│ 92230.9│  0.2%│ NEUTRAL│   SWING│    85│  100%│      insufficient_trades│
+│ ★0x931153│ $   1645│ 100.0%│ 999.0│  0.0%│  LONG│ DAY_TRADER│    66│  100%│      insufficient_trades│
+│  0xb69ccb│ $   2260│  75.8%│ 18.3│ 1804.5%│  LONG│ DAY_TRADER│    64│   45%│          FEW_ACTIVE_DAYS│
+│  0x7aa11a│ $   1044│  94.3%│  2.5│ 14.0%│  LONG│   SWING│    56│   50%│                         │
+│ ★0x9da9cc│ $   1367│  91.7%│ 17.6│ 37.2%│ NEUTRAL│   SWING│    52│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0xb1edfe│ $   2647│  67.2%│  6.1│ 240.8%│  LONG│ DAY_TRADER│    52│   45%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%│
+│ ★0x76fe28│ $     61│  75.0%│ 999.0│  0.0%│ NEUTRAL│ DAY_TRADER│    51│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│ ★0x6e6f2c│ $    155│  50.0%│ 55.2│  1.8%│ NEUTRAL│   SWING│    46│  100%│ POOR_LONG_WR,FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0x0a9769│ $    397│  63.6%│ 12.2│ 30.3%│  LONG│   SWING│    43│  100%│ CONCENTRATION_73%,insufficient_trades│
+│  0x44871d│ $    994│  73.3%│  3.2│ 123.2%│ NEUTRAL│   SWING│    32│  100%│       CONCENTRATION_100%│
+└──────────┴──────────┴────────┴──────┴──────┴──────┴─────────┴───────┴───────┴──────────────────────────┘
+
+📡 ACTIVE COPIES:
+  0x18d10374 → PnL=$17524 WR=91.7%
+  0x931153ba → PnL=$1645 WR=100.0%
+  0x9da9ccc7 → PnL=$1367 WR=91.7%
+  0x76fe28b8 → PnL=$61 WR=75.0%
+  0x6e6f2ca7 → PnL=$155 WR=50.0%
+[2m2026-06-13T12:52:21.506855Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL ETH Close Long 10.0 @1679.4 user=0x9da9ccc7
+[2m2026-06-13T12:52:22.090346Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] start — 5 targets, 821 prices loaded
+[2m2026-06-13T12:52:24.780094Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T12:52:24.780151Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] SKIP RESIZE SOL (cooldown 42s, our=$173 want=$129)
+[2m2026-06-13T12:52:24.780159Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 1 skipped (cooldown), 3 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T12:52:24.780179Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m 
+📊 PAPER PORTFOLIO
+  Initial equity: $10000.00
+  Current equity: $9986.05
+  Total PnL: $-13.95 (-0.14%)
+  Free collateral: $5872.34
+  Locked notional: $4113.71
+  Positions: 4
+    HYPE SHORT sz=4.5673 entry=$59.02 mtx=$59.37 uPnL=$-1.59
+    SOL LONG sz=2.5410 entry=$67.41 mtx=$67.91 uPnL=$1.28
+    ETH LONG sz=1.1993 entry=$1673.45 mtx=$1679.30 uPnL=$7.02
+    BTC SHORT sz=0.0261 entry=$63736.50 mtx=$64090.50 uPnL=$-9.25
+[2m2026-06-13T12:52:24.780185Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9986.05
+[2m2026-06-13T12:52:33.667366Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+━━━ [Scan #3] ━━━
+[2m2026-06-13T12:52:44.561725Z[0m [32m INFO[0m [2mhl_copy_bot::scanner[0m[2m:[0m 📡 Found 2 new wallet candidates
+[2m2026-06-13T12:52:44.569914Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 📊 Status: 6447 DB | 15 worthy | 5304 pending | 5 copied | regime=calm
+
+┌──────────┬──────────┬────────┬──────┬──────┬──────┬─────────┬───────┬───────┬──────────────────────────┐
+│ Wallet   │ 15d PnL  │  WR%   │  PF  │  DD% │ Bias │ Strategy│ Score │ Copy │ Warnings                 │
+├──────────┼──────────┼────────┼──────┼──────┼──────┼─────────┼───────┼───────┼──────────────────────────┤
+│ ★0x18d103│ $  17524│  91.7%│ 92230.9│  0.2%│ NEUTRAL│   SWING│    85│  100%│      insufficient_trades│
+│ ★0x931153│ $   1645│ 100.0%│ 999.0│  0.0%│  LONG│ DAY_TRADER│    66│  100%│      insufficient_trades│
+│  0xb69ccb│ $   2260│  75.8%│ 18.3│ 1804.5%│  LONG│ DAY_TRADER│    64│   45%│          FEW_ACTIVE_DAYS│
+│  0x7aa11a│ $   1044│  94.3%│  2.5│ 14.0%│  LONG│   SWING│    56│   50%│                         │
+│ ★0x9da9cc│ $   1367│  91.7%│ 17.6│ 37.2%│ NEUTRAL│   SWING│    52│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0xb1edfe│ $   2647│  67.2%│  6.1│ 240.8%│  LONG│ DAY_TRADER│    52│   45%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%│
+│ ★0x76fe28│ $     61│  75.0%│ 999.0│  0.0%│ NEUTRAL│ DAY_TRADER│    51│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│ ★0x6e6f2c│ $    155│  50.0%│ 55.2│  1.8%│ NEUTRAL│   SWING│    46│  100%│ POOR_LONG_WR,FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0x0a9769│ $    397│  63.6%│ 12.2│ 30.3%│  LONG│   SWING│    43│  100%│ CONCENTRATION_73%,insufficient_trades│
+│  0x44871d│ $    994│  73.3%│  3.2│ 123.2%│ NEUTRAL│   SWING│    32│  100%│       CONCENTRATION_100%│
+└──────────┴──────────┴────────┴──────┴──────┴──────┴─────────┴───────┴───────┴──────────────────────────┘
+
+📡 ACTIVE COPIES:
+  0x18d10374 → PnL=$17524 WR=91.7%
+  0x931153ba → PnL=$1645 WR=100.0%
+  0x9da9ccc7 → PnL=$1367 WR=91.7%
+  0x76fe28b8 → PnL=$61 WR=75.0%
+  0x6e6f2ca7 → PnL=$155 WR=50.0%
+[2m2026-06-13T12:52:59.571165Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+━━━ [Scan #4] ━━━
+[2m2026-06-13T12:53:09.853396Z[0m [32m INFO[0m [2mhl_copy_bot::scanner[0m[2m:[0m 📡 Found 3 new wallet candidates
+[2m2026-06-13T12:53:09.862057Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 📊 Status: 6450 DB | 15 worthy | 5307 pending | 5 copied | regime=calm
+
+┌──────────┬──────────┬────────┬──────┬──────┬──────┬─────────┬───────┬───────┬──────────────────────────┐
+│ Wallet   │ 15d PnL  │  WR%   │  PF  │  DD% │ Bias │ Strategy│ Score │ Copy │ Warnings                 │
+├──────────┼──────────┼────────┼──────┼──────┼──────┼─────────┼───────┼───────┼──────────────────────────┤
+│ ★0x18d103│ $  17524│  91.7%│ 92230.9│  0.2%│ NEUTRAL│   SWING│    85│  100%│      insufficient_trades│
+│ ★0x931153│ $   1645│ 100.0%│ 999.0│  0.0%│  LONG│ DAY_TRADER│    66│  100%│      insufficient_trades│
+│  0xb69ccb│ $   2260│  75.8%│ 18.3│ 1804.5%│  LONG│ DAY_TRADER│    64│   45%│          FEW_ACTIVE_DAYS│
+│  0x7aa11a│ $   1044│  94.3%│  2.5│ 14.0%│  LONG│   SWING│    56│   50%│                         │
+│ ★0x9da9cc│ $   1367│  91.7%│ 17.6│ 37.2%│ NEUTRAL│   SWING│    52│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0xb1edfe│ $   2647│  67.2%│  6.1│ 240.8%│  LONG│ DAY_TRADER│    52│   45%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%│
+│ ★0x76fe28│ $     61│  75.0%│ 999.0│  0.0%│ NEUTRAL│ DAY_TRADER│    51│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│ ★0x6e6f2c│ $    155│  50.0%│ 55.2│  1.8%│ NEUTRAL│   SWING│    46│  100%│ POOR_LONG_WR,FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0x0a9769│ $    397│  63.6%│ 12.2│ 30.3%│  LONG│   SWING│    43│  100%│ CONCENTRATION_73%,insufficient_trades│
+│  0x44871d│ $    994│  73.3%│  3.2│ 123.2%│ NEUTRAL│   SWING│    32│  100%│       CONCENTRATION_100%│
+└──────────┴──────────┴────────┴──────┴──────┴──────┴─────────┴───────┴───────┴──────────────────────────┘
+
+📡 ACTIVE COPIES:
+  0x18d10374 → PnL=$17524 WR=91.7%
+  0x931153ba → PnL=$1645 WR=100.0%
+  0x9da9ccc7 → PnL=$1367 WR=91.7%
+  0x76fe28b8 → PnL=$61 WR=75.0%
+  0x6e6f2ca7 → PnL=$155 WR=50.0%
+[2m2026-06-13T12:53:24.862812Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+━━━ [Scan #5] ━━━
+[2m2026-06-13T12:53:25.316391Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] start — 5 targets, 821 prices loaded
+[2m2026-06-13T12:53:27.491695Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T12:53:27.491894Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] SKIP RESIZE SOL (cooldown 105s, our=$173 want=$129)
+[2m2026-06-13T12:53:27.491929Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 1 skipped (cooldown), 3 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T12:53:27.492001Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m 
+📊 PAPER PORTFOLIO
+  Initial equity: $10000.00
+  Current equity: $9986.45
+  Total PnL: $-13.55 (-0.14%)
+  Free collateral: $5872.74
+  Locked notional: $4113.71
+  Positions: 4
+    HYPE SHORT sz=4.5673 entry=$59.02 mtx=$59.36 uPnL=$-1.57
+    SOL LONG sz=2.5410 entry=$67.41 mtx=$67.89 uPnL=$1.24
+    ETH LONG sz=1.1993 entry=$1673.45 mtx=$1679.25 uPnL=$6.96
+    BTC SHORT sz=0.0261 entry=$63736.50 mtx=$64072.50 uPnL=$-8.78
+[2m2026-06-13T12:53:27.492067Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9986.45
+[2m2026-06-13T12:53:35.200026Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 📊 Status: 6450 DB | 15 worthy | 5307 pending | 5 copied | regime=calm
+
+┌──────────┬──────────┬────────┬──────┬──────┬──────┬─────────┬───────┬───────┬──────────────────────────┐
+│ Wallet   │ 15d PnL  │  WR%   │  PF  │  DD% │ Bias │ Strategy│ Score │ Copy │ Warnings                 │
+├──────────┼──────────┼────────┼──────┼──────┼──────┼─────────┼───────┼───────┼──────────────────────────┤
+│ ★0x18d103│ $  17524│  91.7%│ 92230.9│  0.2%│ NEUTRAL│   SWING│    85│  100%│      insufficient_trades│
+│ ★0x931153│ $   1645│ 100.0%│ 999.0│  0.0%│  LONG│ DAY_TRADER│    66│  100%│      insufficient_trades│
+│  0xb69ccb│ $   2260│  75.8%│ 18.3│ 1804.5%│  LONG│ DAY_TRADER│    64│   45%│          FEW_ACTIVE_DAYS│
+│  0x7aa11a│ $   1044│  94.3%│  2.5│ 14.0%│  LONG│   SWING│    56│   50%│                         │
+│ ★0x9da9cc│ $   1367│  91.7%│ 17.6│ 37.2%│ NEUTRAL│   SWING│    52│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0xb1edfe│ $   2647│  67.2%│  6.1│ 240.8%│  LONG│ DAY_TRADER│    52│   45%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%│
+│ ★0x76fe28│ $     61│  75.0%│ 999.0│  0.0%│ NEUTRAL│ DAY_TRADER│    51│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│ ★0x6e6f2c│ $    155│  50.0%│ 55.2│  1.8%│ NEUTRAL│   SWING│    46│  100%│ POOR_LONG_WR,FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0x0a9769│ $    397│  63.6%│ 12.2│ 30.3%│  LONG│   SWING│    43│  100%│ CONCENTRATION_73%,insufficient_trades│
+│  0x44871d│ $    994│  73.3%│  3.2│ 123.2%│ NEUTRAL│   SWING│    32│  100%│       CONCENTRATION_100%│
+└──────────┴──────────┴────────┴──────┴──────┴──────┴─────────┴───────┴───────┴──────────────────────────┘
+
+📡 ACTIVE COPIES:
+  0x18d10374 → PnL=$17524 WR=91.7%
+  0x931153ba → PnL=$1645 WR=100.0%
+  0x9da9ccc7 → PnL=$1367 WR=91.7%
+  0x76fe28b8 → PnL=$61 WR=75.0%
+  0x6e6f2ca7 → PnL=$155 WR=50.0%
+[2m2026-06-13T12:53:50.200714Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+━━━ [Scan #6] ━━━
+[2m2026-06-13T12:54:00.550014Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 📊 Status: 6450 DB | 15 worthy | 5307 pending | 5 copied | regime=calm
+
+┌──────────┬──────────┬────────┬──────┬──────┬──────┬─────────┬───────┬───────┬──────────────────────────┐
+│ Wallet   │ 15d PnL  │  WR%   │  PF  │  DD% │ Bias │ Strategy│ Score │ Copy │ Warnings                 │
+├──────────┼──────────┼────────┼──────┼──────┼──────┼─────────┼───────┼───────┼──────────────────────────┤
+│ ★0x18d103│ $  17524│  91.7%│ 92230.9│  0.2%│ NEUTRAL│   SWING│    85│  100%│      insufficient_trades│
+│ ★0x931153│ $   1645│ 100.0%│ 999.0│  0.0%│  LONG│ DAY_TRADER│    66│  100%│      insufficient_trades│
+│  0xb69ccb│ $   2260│  75.8%│ 18.3│ 1804.5%│  LONG│ DAY_TRADER│    64│   45%│          FEW_ACTIVE_DAYS│
+│  0x7aa11a│ $   1044│  94.3%│  2.5│ 14.0%│  LONG│   SWING│    56│   50%│                         │
+│ ★0x9da9cc│ $   1367│  91.7%│ 17.6│ 37.2%│ NEUTRAL│   SWING│    52│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0xb1edfe│ $   2647│  67.2%│  6.1│ 240.8%│  LONG│ DAY_TRADER│    52│   45%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%│
+│ ★0x76fe28│ $     61│  75.0%│ 999.0│  0.0%│ NEUTRAL│ DAY_TRADER│    51│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│ ★0x6e6f2c│ $    155│  50.0%│ 55.2│  1.8%│ NEUTRAL│   SWING│    46│  100%│ POOR_LONG_WR,FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0x0a9769│ $    397│  63.6%│ 12.2│ 30.3%│  LONG│   SWING│    43│  100%│ CONCENTRATION_73%,insufficient_trades│
+│  0x44871d│ $    994│  73.3%│  3.2│ 123.2%│ NEUTRAL│   SWING│    32│  100%│       CONCENTRATION_100%│
+└──────────┴──────────┴────────┴──────┴──────┴──────┴─────────┴───────┴───────┴──────────────────────────┘
+
+📡 ACTIVE COPIES:
+  0x18d10374 → PnL=$17524 WR=91.7%
+  0x931153ba → PnL=$1645 WR=100.0%
+  0x9da9ccc7 → PnL=$1367 WR=91.7%
+  0x76fe28b8 → PnL=$61 WR=75.0%
+  0x6e6f2ca7 → PnL=$155 WR=50.0%
+[2m2026-06-13T12:54:04.724962Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.46825 @64068.0 user=0x6e6f2ca7
+[2m2026-06-13T12:54:04.724991Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.16084 @64068.0 user=0x6e6f2ca7
+[2m2026-06-13T12:54:05.238200Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] start — 5 targets, 821 prices loaded
+[2m2026-06-13T12:54:05.484040Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.00122 @64068.0 user=0x6e6f2ca7
+[2m2026-06-13T12:54:06.388465Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] start — 5 targets, 821 prices loaded
+[2m2026-06-13T12:54:07.317116Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.00018 @64068.0 user=0x6e6f2ca7
+[2m2026-06-13T12:54:07.871971Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] start — 5 targets, 821 prices loaded
+[2m2026-06-13T12:54:10.768905Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T12:54:10.768971Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] SKIP RESIZE SOL (cooldown 148s, our=$173 want=$125)
+[2m2026-06-13T12:54:10.768980Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 1 skipped (cooldown), 3 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T12:54:10.768998Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m 
+📊 PAPER PORTFOLIO
+  Initial equity: $10000.00
+  Current equity: $9986.90
+  Total PnL: $-13.10 (-0.13%)
+  Free collateral: $5873.20
+  Locked notional: $4113.71
+  Positions: 4
+    HYPE SHORT sz=4.5673 entry=$59.02 mtx=$59.34 uPnL=$-1.45
+    SOL LONG sz=2.5410 entry=$67.41 mtx=$67.89 uPnL=$1.23
+    ETH LONG sz=1.1993 entry=$1673.45 mtx=$1679.45 uPnL=$7.20
+    BTC SHORT sz=0.0261 entry=$63736.50 mtx=$64068.50 uPnL=$-8.68
+[2m2026-06-13T12:54:10.769008Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9986.90
+[2m2026-06-13T12:54:15.551318Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+━━━ [Scan #7] ━━━
+[2m2026-06-13T12:54:25.781805Z[0m [32m INFO[0m [2mhl_copy_bot::scanner[0m[2m:[0m 📡 Found 3 new wallet candidates
+[2m2026-06-13T12:54:25.790107Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 📊 Status: 6453 DB | 15 worthy | 5310 pending | 5 copied | regime=calm
+
+┌──────────┬──────────┬────────┬──────┬──────┬──────┬─────────┬───────┬───────┬──────────────────────────┐
+│ Wallet   │ 15d PnL  │  WR%   │  PF  │  DD% │ Bias │ Strategy│ Score │ Copy │ Warnings                 │
+├──────────┼──────────┼────────┼──────┼──────┼──────┼─────────┼───────┼───────┼──────────────────────────┤
+│ ★0x18d103│ $  17524│  91.7%│ 92230.9│  0.2%│ NEUTRAL│   SWING│    85│  100%│      insufficient_trades│
+│ ★0x931153│ $   1645│ 100.0%│ 999.0│  0.0%│  LONG│ DAY_TRADER│    66│  100%│      insufficient_trades│
+│  0xb69ccb│ $   2260│  75.8%│ 18.3│ 1804.5%│  LONG│ DAY_TRADER│    64│   45%│          FEW_ACTIVE_DAYS│
+│  0x7aa11a│ $   1044│  94.3%│  2.5│ 14.0%│  LONG│   SWING│    56│   50%│                         │
+│ ★0x9da9cc│ $   1367│  91.7%│ 17.6│ 37.2%│ NEUTRAL│   SWING│    52│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0xb1edfe│ $   2647│  67.2%│  6.1│ 240.8%│  LONG│ DAY_TRADER│    52│   45%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%│
+│ ★0x76fe28│ $     61│  75.0%│ 999.0│  0.0%│ NEUTRAL│ DAY_TRADER│    51│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│ ★0x6e6f2c│ $    155│  50.0%│ 55.2│  1.8%│ NEUTRAL│   SWING│    46│  100%│ POOR_LONG_WR,FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0x0a9769│ $    397│  63.6%│ 12.2│ 30.3%│  LONG│   SWING│    43│  100%│ CONCENTRATION_73%,insufficient_trades│
+│  0x44871d│ $    994│  73.3%│  3.2│ 123.2%│ NEUTRAL│   SWING│    32│  100%│       CONCENTRATION_100%│
+└──────────┴──────────┴────────┴──────┴──────┴──────┴─────────┴───────┴───────┴──────────────────────────┘
+
+📡 ACTIVE COPIES:
+  0x18d10374 → PnL=$17524 WR=91.7%
+  0x931153ba → PnL=$1645 WR=100.0%
+  0x9da9ccc7 → PnL=$1367 WR=91.7%
+  0x76fe28b8 → PnL=$61 WR=75.0%
+  0x6e6f2ca7 → PnL=$155 WR=50.0%
+[2m2026-06-13T12:54:34.932748Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.31213 @64076.0 user=0x6e6f2ca7
+[2m2026-06-13T12:54:35.453014Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] start — 5 targets, 821 prices loaded
+[2m2026-06-13T12:54:37.592342Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T12:54:37.592494Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] SKIP RESIZE SOL (cooldown 175s, our=$173 want=$123)
+[2m2026-06-13T12:54:37.592530Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 1 skipped (cooldown), 3 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T12:54:37.592604Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m 
+📊 PAPER PORTFOLIO
+  Initial equity: $10000.00
+  Current equity: $9986.64
+  Total PnL: $-13.36 (-0.13%)
+  Free collateral: $5872.94
+  Locked notional: $4113.71
+  Positions: 4
+    HYPE SHORT sz=4.5673 entry=$59.02 mtx=$59.35 uPnL=$-1.53
+    SOL LONG sz=2.5410 entry=$67.41 mtx=$67.89 uPnL=$1.24
+    ETH LONG sz=1.1993 entry=$1673.45 mtx=$1679.45 uPnL=$7.20
+    BTC SHORT sz=0.0261 entry=$63736.50 mtx=$64075.50 uPnL=$-8.86
+[2m2026-06-13T12:54:37.592635Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 2s, equity=$9986.64
+[2m2026-06-13T12:54:40.791354Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+━━━ [Scan #8] ━━━
+[2m2026-06-13T12:54:50.869186Z[0m [32m INFO[0m [2mhl_copy_bot::scanner[0m[2m:[0m 📡 Found 1 new wallet candidates
+[2m2026-06-13T12:54:50.877344Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 📊 Status: 6454 DB | 15 worthy | 5311 pending | 5 copied | regime=calm
+
+┌──────────┬──────────┬────────┬──────┬──────┬──────┬─────────┬───────┬───────┬──────────────────────────┐
+│ Wallet   │ 15d PnL  │  WR%   │  PF  │  DD% │ Bias │ Strategy│ Score │ Copy │ Warnings                 │
+├──────────┼──────────┼────────┼──────┼──────┼──────┼─────────┼───────┼───────┼──────────────────────────┤
+│ ★0x18d103│ $  17524│  91.7%│ 92230.9│  0.2%│ NEUTRAL│   SWING│    85│  100%│      insufficient_trades│
+│ ★0x931153│ $   1645│ 100.0%│ 999.0│  0.0%│  LONG│ DAY_TRADER│    66│  100%│      insufficient_trades│
+│  0xb69ccb│ $   2260│  75.8%│ 18.3│ 1804.5%│  LONG│ DAY_TRADER│    64│   45%│          FEW_ACTIVE_DAYS│
+│  0x7aa11a│ $   1044│  94.3%│  2.5│ 14.0%│  LONG│   SWING│    56│   50%│                         │
+│ ★0x9da9cc│ $   1367│  91.7%│ 17.6│ 37.2%│ NEUTRAL│   SWING│    52│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0xb1edfe│ $   2647│  67.2%│  6.1│ 240.8%│  LONG│ DAY_TRADER│    52│   45%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%│
+│ ★0x76fe28│ $     61│  75.0%│ 999.0│  0.0%│ NEUTRAL│ DAY_TRADER│    51│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│ ★0x6e6f2c│ $    155│  50.0%│ 55.2│  1.8%│ NEUTRAL│   SWING│    46│  100%│ POOR_LONG_WR,FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0x0a9769│ $    397│  63.6%│ 12.2│ 30.3%│  LONG│   SWING│    43│  100%│ CONCENTRATION_73%,insufficient_trades│
+│  0x44871d│ $    994│  73.3%│  3.2│ 123.2%│ NEUTRAL│   SWING│    32│  100%│       CONCENTRATION_100%│
+└──────────┴──────────┴────────┴──────┴──────┴──────┴─────────┴───────┴───────┴──────────────────────────┘
+
+📡 ACTIVE COPIES:
+  0x18d10374 → PnL=$17524 WR=91.7%
+  0x931153ba → PnL=$1645 WR=100.0%
+  0x9da9ccc7 → PnL=$1367 WR=91.7%
+  0x76fe28b8 → PnL=$61 WR=75.0%
+  0x6e6f2ca7 → PnL=$155 WR=50.0%
+[2m2026-06-13T12:55:05.877902Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+━━━ [Scan #9] ━━━
+[2m2026-06-13T12:55:15.805247Z[0m [32m INFO[0m [2mhl_copy_bot::scanner[0m[2m:[0m 📡 Found 3 new wallet candidates
+[2m2026-06-13T12:55:15.815687Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 📊 Status: 6457 DB | 15 worthy | 5314 pending | 5 copied | regime=calm
+
+┌──────────┬──────────┬────────┬──────┬──────┬──────┬─────────┬───────┬───────┬──────────────────────────┐
+│ Wallet   │ 15d PnL  │  WR%   │  PF  │  DD% │ Bias │ Strategy│ Score │ Copy │ Warnings                 │
+├──────────┼──────────┼────────┼──────┼──────┼──────┼─────────┼───────┼───────┼──────────────────────────┤
+│ ★0x18d103│ $  17524│  91.7%│ 92230.9│  0.2%│ NEUTRAL│   SWING│    85│  100%│      insufficient_trades│
+│ ★0x931153│ $   1645│ 100.0%│ 999.0│  0.0%│  LONG│ DAY_TRADER│    66│  100%│      insufficient_trades│
+│  0xb69ccb│ $   2260│  75.8%│ 18.3│ 1804.5%│  LONG│ DAY_TRADER│    64│   45%│          FEW_ACTIVE_DAYS│
+│  0x7aa11a│ $   1044│  94.3%│  2.5│ 14.0%│  LONG│   SWING│    56│   50%│                         │
+│ ★0x9da9cc│ $   1367│  91.7%│ 17.6│ 37.2%│ NEUTRAL│   SWING│    52│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0xb1edfe│ $   2647│  67.2%│  6.1│ 240.8%│  LONG│ DAY_TRADER│    52│   45%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%│
+│ ★0x76fe28│ $     61│  75.0%│ 999.0│  0.0%│ NEUTRAL│ DAY_TRADER│    51│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│ ★0x6e6f2c│ $    155│  50.0%│ 55.2│  1.8%│ NEUTRAL│   SWING│    46│  100%│ POOR_LONG_WR,FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0x0a9769│ $    397│  63.6%│ 12.2│ 30.3%│  LONG│   SWING│    43│  100%│ CONCENTRATION_73%,insufficient_trades│
+│  0x44871d│ $    994│  73.3%│  3.2│ 123.2%│ NEUTRAL│   SWING│    32│  100%│       CONCENTRATION_100%│
+└──────────┴──────────┴────────┴──────┴──────┴──────┴─────────┴───────┴───────┴──────────────────────────┘
+
+📡 ACTIVE COPIES:
+  0x18d10374 → PnL=$17524 WR=91.7%
+  0x931153ba → PnL=$1645 WR=100.0%
+  0x9da9ccc7 → PnL=$1367 WR=91.7%
+  0x76fe28b8 → PnL=$61 WR=75.0%
+  0x6e6f2ca7 → PnL=$155 WR=50.0%
+[2m2026-06-13T12:55:30.817261Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+━━━ [Scan #10] ━━━
+[2m2026-06-13T12:55:37.977101Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] start — 5 targets, 821 prices loaded
+[2m2026-06-13T12:55:40.756307Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T12:55:40.756402Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] SKIP RESIZE SOL (cooldown 238s, our=$173 want=$123)
+[2m2026-06-13T12:55:40.756424Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 1 skipped (cooldown), 3 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T12:55:40.756471Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m 
+📊 PAPER PORTFOLIO
+  Initial equity: $10000.00
+  Current equity: $9986.43
+  Total PnL: $-13.57 (-0.14%)
+  Free collateral: $5872.73
+  Locked notional: $4113.71
+  Positions: 4
+    HYPE SHORT sz=4.5673 entry=$59.02 mtx=$59.49 uPnL=$-2.16
+    SOL LONG sz=2.5410 entry=$67.41 mtx=$67.93 uPnL=$1.33
+    ETH LONG sz=1.1993 entry=$1673.45 mtx=$1680.05 uPnL=$7.92
+    BTC SHORT sz=0.0261 entry=$63736.50 mtx=$64090.50 uPnL=$-9.25
+[2m2026-06-13T12:55:40.756496Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9986.43
+[2m2026-06-13T12:55:41.200445Z[0m [32m INFO[0m [2mhl_copy_bot::scanner[0m[2m:[0m 📡 Found 3 new wallet candidates
+[2m2026-06-13T12:55:41.281703Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 📊 Status: 6460 DB | 15 worthy | 5317 pending | 5 copied | regime=calm
+
+┌──────────┬──────────┬────────┬──────┬──────┬──────┬─────────┬───────┬───────┬──────────────────────────┐
+│ Wallet   │ 15d PnL  │  WR%   │  PF  │  DD% │ Bias │ Strategy│ Score │ Copy │ Warnings                 │
+├──────────┼──────────┼────────┼──────┼──────┼──────┼─────────┼───────┼───────┼──────────────────────────┤
+│ ★0x18d103│ $  17524│  91.7%│ 92230.9│  0.2%│ NEUTRAL│   SWING│    85│  100%│      insufficient_trades│
+│ ★0x931153│ $   1645│ 100.0%│ 999.0│  0.0%│  LONG│ DAY_TRADER│    66│  100%│      insufficient_trades│
+│  0xb69ccb│ $   2260│  75.8%│ 18.3│ 1804.5%│  LONG│ DAY_TRADER│    64│   45%│          FEW_ACTIVE_DAYS│
+│  0x7aa11a│ $   1044│  94.3%│  2.5│ 14.0%│  LONG│   SWING│    56│   50%│                         │
+│ ★0x9da9cc│ $   1367│  91.7%│ 17.6│ 37.2%│ NEUTRAL│   SWING│    52│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0xb1edfe│ $   2647│  67.2%│  6.1│ 240.8%│  LONG│ DAY_TRADER│    52│   45%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%│
+│ ★0x76fe28│ $     61│  75.0%│ 999.0│  0.0%│ NEUTRAL│ DAY_TRADER│    51│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│ ★0x6e6f2c│ $    155│  50.0%│ 55.2│  1.8%│ NEUTRAL│   SWING│    46│  100%│ POOR_LONG_WR,FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0x0a9769│ $    397│  63.6%│ 12.2│ 30.3%│  LONG│   SWING│    43│  100%│ CONCENTRATION_73%,insufficient_trades│
+│  0x44871d│ $    994│  73.3%│  3.2│ 123.2%│ NEUTRAL│   SWING│    32│  100%│       CONCENTRATION_100%│
+└──────────┴──────────┴────────┴──────┴──────┴──────┴─────────┴───────┴───────┴──────────────────────────┘
+
+📡 ACTIVE COPIES:
+  0x18d10374 → PnL=$17524 WR=91.7%
+  0x931153ba → PnL=$1645 WR=100.0%
+  0x9da9ccc7 → PnL=$1367 WR=91.7%
+  0x76fe28b8 → PnL=$61 WR=75.0%
+  0x6e6f2ca7 → PnL=$155 WR=50.0%
+[2m2026-06-13T12:55:56.283513Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+━━━ [Scan #11] ━━━
+[2m2026-06-13T12:56:06.441238Z[0m [32m INFO[0m [2mhl_copy_bot::scanner[0m[2m:[0m 📡 Found 2 new wallet candidates
+[2m2026-06-13T12:56:06.448779Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 📊 Status: 6462 DB | 15 worthy | 5319 pending | 5 copied | regime=calm
+
+┌──────────┬──────────┬────────┬──────┬──────┬──────┬─────────┬───────┬───────┬──────────────────────────┐
+│ Wallet   │ 15d PnL  │  WR%   │  PF  │  DD% │ Bias │ Strategy│ Score │ Copy │ Warnings                 │
+├──────────┼──────────┼────────┼──────┼──────┼──────┼─────────┼───────┼───────┼──────────────────────────┤
+│ ★0x18d103│ $  17524│  91.7%│ 92230.9│  0.2%│ NEUTRAL│   SWING│    85│  100%│      insufficient_trades│
+│ ★0x931153│ $   1645│ 100.0%│ 999.0│  0.0%│  LONG│ DAY_TRADER│    66│  100%│      insufficient_trades│
+│  0xb69ccb│ $   2260│  75.8%│ 18.3│ 1804.5%│  LONG│ DAY_TRADER│    64│   45%│          FEW_ACTIVE_DAYS│
+│  0x7aa11a│ $   1044│  94.3%│  2.5│ 14.0%│  LONG│   SWING│    56│   50%│                         │
+│ ★0x9da9cc│ $   1367│  91.7%│ 17.6│ 37.2%│ NEUTRAL│   SWING│    52│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0xb1edfe│ $   2647│  67.2%│  6.1│ 240.8%│  LONG│ DAY_TRADER│    52│   45%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%│
+│ ★0x76fe28│ $     61│  75.0%│ 999.0│  0.0%│ NEUTRAL│ DAY_TRADER│    51│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│ ★0x6e6f2c│ $    155│  50.0%│ 55.2│  1.8%│ NEUTRAL│   SWING│    46│  100%│ POOR_LONG_WR,FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0x0a9769│ $    397│  63.6%│ 12.2│ 30.3%│  LONG│   SWING│    43│  100%│ CONCENTRATION_73%,insufficient_trades│
+│  0x44871d│ $    994│  73.3%│  3.2│ 123.2%│ NEUTRAL│   SWING│    32│  100%│       CONCENTRATION_100%│
+└──────────┴──────────┴────────┴──────┴──────┴──────┴─────────┴───────┴───────┴──────────────────────────┘
+
+📡 ACTIVE COPIES:
+  0x18d10374 → PnL=$17524 WR=91.7%
+  0x931153ba → PnL=$1645 WR=100.0%
+  0x9da9ccc7 → PnL=$1367 WR=91.7%
+  0x76fe28b8 → PnL=$61 WR=75.0%
+  0x6e6f2ca7 → PnL=$155 WR=50.0%
+[2m2026-06-13T12:56:21.450133Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+━━━ [Scan #12] ━━━
+[2m2026-06-13T12:56:23.594665Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL ETH Close Long 17.7728 @1680.2 user=0x9da9ccc7
+[2m2026-06-13T12:56:24.025124Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] start — 5 targets, 821 prices loaded
+[2m2026-06-13T12:56:26.716857Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T12:56:26.716937Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] SKIP RESIZE SOL (cooldown 284s, our=$173 want=$123)
+[2m2026-06-13T12:56:26.716945Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 1 skipped (cooldown), 3 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T12:56:26.716973Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m 
+📊 PAPER PORTFOLIO
+  Initial equity: $10000.00
+  Current equity: $9986.72
+  Total PnL: $-13.28 (-0.13%)
+  Free collateral: $5873.01
+  Locked notional: $4113.71
+  Positions: 4
+    HYPE SHORT sz=4.5673 entry=$59.02 mtx=$59.47 uPnL=$-2.07
+    SOL LONG sz=2.5410 entry=$67.41 mtx=$67.93 uPnL=$1.34
+    ETH LONG sz=1.1993 entry=$1673.45 mtx=$1680.25 uPnL=$8.16
+    BTC SHORT sz=0.0261 entry=$63736.50 mtx=$64092.50 uPnL=$-9.31
+[2m2026-06-13T12:56:26.716981Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9986.72
+[2m2026-06-13T12:56:31.244546Z[0m [32m INFO[0m [2mhl_copy_bot::scanner[0m[2m:[0m 📡 Found 3 new wallet candidates
+[2m2026-06-13T12:56:31.252277Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 📊 Status: 6465 DB | 15 worthy | 5322 pending | 5 copied | regime=calm
+
+┌──────────┬──────────┬────────┬──────┬──────┬──────┬─────────┬───────┬───────┬──────────────────────────┐
+│ Wallet   │ 15d PnL  │  WR%   │  PF  │  DD% │ Bias │ Strategy│ Score │ Copy │ Warnings                 │
+├──────────┼──────────┼────────┼──────┼──────┼──────┼─────────┼───────┼───────┼──────────────────────────┤
+│ ★0x18d103│ $  17524│  91.7%│ 92230.9│  0.2%│ NEUTRAL│   SWING│    85│  100%│      insufficient_trades│
+│ ★0x931153│ $   1645│ 100.0%│ 999.0│  0.0%│  LONG│ DAY_TRADER│    66│  100%│      insufficient_trades│
+│  0xb69ccb│ $   2260│  75.8%│ 18.3│ 1804.5%│  LONG│ DAY_TRADER│    64│   45%│          FEW_ACTIVE_DAYS│
+│  0x7aa11a│ $   1044│  94.3%│  2.5│ 14.0%│  LONG│   SWING│    56│   50%│                         │
+│ ★0x9da9cc│ $   1367│  91.7%│ 17.6│ 37.2%│ NEUTRAL│   SWING│    52│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0xb1edfe│ $   2647│  67.2%│  6.1│ 240.8%│  LONG│ DAY_TRADER│    52│   45%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%│
+│ ★0x76fe28│ $     61│  75.0%│ 999.0│  0.0%│ NEUTRAL│ DAY_TRADER│    51│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│ ★0x6e6f2c│ $    155│  50.0%│ 55.2│  1.8%│ NEUTRAL│   SWING│    46│  100%│ POOR_LONG_WR,FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0x0a9769│ $    397│  63.6%│ 12.2│ 30.3%│  LONG│   SWING│    43│  100%│ CONCENTRATION_73%,insufficient_trades│
+│  0x44871d│ $    994│  73.3%│  3.2│ 123.2%│ NEUTRAL│   SWING│    32│  100%│       CONCENTRATION_100%│
+└──────────┴──────────┴────────┴──────┴──────┴──────┴─────────┴───────┴───────┴──────────────────────────┘
+
+📡 ACTIVE COPIES:
+  0x18d10374 → PnL=$17524 WR=91.7%
+  0x931153ba → PnL=$1645 WR=100.0%
+  0x9da9ccc7 → PnL=$1367 WR=91.7%
+  0x76fe28b8 → PnL=$61 WR=75.0%
+  0x6e6f2ca7 → PnL=$155 WR=50.0%
+[2m2026-06-13T12:56:46.252690Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+━━━ [Scan #13] ━━━
+[2m2026-06-13T12:56:51.869139Z[0m [32m INFO[0m [2mhl_copy_bot::scanner[0m[2m:[0m 📡 Found 4 new wallet candidates
+[2m2026-06-13T12:56:51.876307Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 📊 Status: 6469 DB | 15 worthy | 5326 pending | 5 copied | regime=calm
+
+┌──────────┬──────────┬────────┬──────┬──────┬──────┬─────────┬───────┬───────┬──────────────────────────┐
+│ Wallet   │ 15d PnL  │  WR%   │  PF  │  DD% │ Bias │ Strategy│ Score │ Copy │ Warnings                 │
+├──────────┼──────────┼────────┼──────┼──────┼──────┼─────────┼───────┼───────┼──────────────────────────┤
+│ ★0x18d103│ $  17524│  91.7%│ 92230.9│  0.2%│ NEUTRAL│   SWING│    85│  100%│      insufficient_trades│
+│ ★0x931153│ $   1645│ 100.0%│ 999.0│  0.0%│  LONG│ DAY_TRADER│    66│  100%│      insufficient_trades│
+│  0xb69ccb│ $   2260│  75.8%│ 18.3│ 1804.5%│  LONG│ DAY_TRADER│    64│   45%│          FEW_ACTIVE_DAYS│
+│  0x7aa11a│ $   1044│  94.3%│  2.5│ 14.0%│  LONG│   SWING│    56│   50%│                         │
+│ ★0x9da9cc│ $   1367│  91.7%│ 17.6│ 37.2%│ NEUTRAL│   SWING│    52│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0xb1edfe│ $   2647│  67.2%│  6.1│ 240.8%│  LONG│ DAY_TRADER│    52│   45%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%│
+│ ★0x76fe28│ $     61│  75.0%│ 999.0│  0.0%│ NEUTRAL│ DAY_TRADER│    51│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│ ★0x6e6f2c│ $    155│  50.0%│ 55.2│  1.8%│ NEUTRAL│   SWING│    46│  100%│ POOR_LONG_WR,FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0x0a9769│ $    397│  63.6%│ 12.2│ 30.3%│  LONG│   SWING│    43│  100%│ CONCENTRATION_73%,insufficient_trades│
+│  0x44871d│ $    994│  73.3%│  3.2│ 123.2%│ NEUTRAL│   SWING│    32│  100%│       CONCENTRATION_100%│
+└──────────┴──────────┴────────┴──────┴──────┴──────┴─────────┴───────┴───────┴──────────────────────────┘
+
+📡 ACTIVE COPIES:
+  0x18d10374 → PnL=$17524 WR=91.7%
+  0x931153ba → PnL=$1645 WR=100.0%
+  0x9da9ccc7 → PnL=$1367 WR=91.7%
+  0x76fe28b8 → PnL=$61 WR=75.0%
+  0x6e6f2ca7 → PnL=$155 WR=50.0%
+[2m2026-06-13T12:56:55.834862Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.00644 @64150.0 user=0x18d10374
+[2m2026-06-13T12:56:56.584158Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] start — 5 targets, 821 prices loaded
+[2m2026-06-13T12:56:56.960902Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.25 @64150.0 user=0x18d10374
+[2m2026-06-13T12:56:56.960932Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.33333 @64150.0 user=0x18d10374
+[2m2026-06-13T12:56:56.960956Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.5 @64150.0 user=0x18d10374
+[2m2026-06-13T12:56:56.960960Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.5 @64150.0 user=0x18d10374
+[2m2026-06-13T12:56:56.960963Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.26666 @64150.0 user=0x18d10374
+[2m2026-06-13T12:56:56.960975Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.25 @64150.0 user=0x18d10374
+[2m2026-06-13T12:56:56.960985Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 7.79216 @64150.0 user=0x18d10374
+[2m2026-06-13T12:56:56.960989Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.10141 @64150.0 user=0x18d10374
+[2m2026-06-13T12:56:57.470001Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] start — 5 targets, 821 prices loaded
+[2m2026-06-13T12:57:00.030094Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T12:57:00.030171Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] RESIZE SOL from $173 to $123 (Δ=28.8%)
+[2m2026-06-13T12:57:00.466098Z[0m [32m INFO[0m [2mhl_copy_bot::paper[0m[2m:[0m [PAPER] CLOSE SOL LONG sz=2.5410 entry=$67.41 exit=$67.99 PnL=$1.49 cash=$6047.66
+[2m2026-06-13T12:57:00.729156Z[0m [32m INFO[0m [2mhl_copy_bot::paper[0m[2m:[0m [PAPER] OPEN SOL LONG sz=1.8092 @$67.99 notional=$123 cash=$5924.65
+[2m2026-06-13T12:57:00.729178Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] RESIZE BTC from $1677 to $3535 (Δ=110.7%)
+[2m2026-06-13T12:57:00.976829Z[0m [32m INFO[0m [2mhl_copy_bot::paper[0m[2m:[0m [PAPER] CLOSE BTC SHORT sz=0.0261 entry=$63736.50 exit=$64173.50 PnL=$-11.42 cash=$7579.15
+[2m2026-06-13T12:57:01.272708Z[0m [32m INFO[0m [2mhl_copy_bot::paper[0m[2m:[0m [PAPER] OPEN BTC SHORT sz=0.0551 @$64173.50 notional=$3535 cash=$4044.38
+[2m2026-06-13T12:57:01.272729Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 2 acted, 0 skipped (cooldown), 2 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T12:57:01.272750Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m 
+📊 PAPER PORTFOLIO
+  Initial equity: $10000.00
+  Current equity: $9986.08
+  Total PnL: $-13.92 (-0.14%)
+  Free collateral: $4051.80
+  Locked notional: $5934.28
+  Positions: 4
+    HYPE SHORT sz=4.5673 entry=$59.02 mtx=$59.53 uPnL=$-2.36
+    SOL LONG sz=1.8092 entry=$67.99 mtx=$67.99 uPnL=$0.01
+    ETH LONG sz=1.1993 entry=$1673.45 mtx=$1681.55 uPnL=$9.71
+    BTC SHORT sz=0.0551 entry=$64173.50 mtx=$64172.50 uPnL=$0.06
+[2m2026-06-13T12:57:01.272756Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 4s, equity=$9986.08
+[2m2026-06-13T12:57:06.876930Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+━━━ [Scan #14] ━━━
+[2m2026-06-13T12:57:13.757148Z[0m [32m INFO[0m [2mhl_copy_bot::scanner[0m[2m:[0m 📡 Found 7 new wallet candidates
+[2m2026-06-13T12:57:13.764199Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 📊 Status: 6476 DB | 15 worthy | 5333 pending | 5 copied | regime=calm
+
+┌──────────┬──────────┬────────┬──────┬──────┬──────┬─────────┬───────┬───────┬──────────────────────────┐
+│ Wallet   │ 15d PnL  │  WR%   │  PF  │  DD% │ Bias │ Strategy│ Score │ Copy │ Warnings                 │
+├──────────┼──────────┼────────┼──────┼──────┼──────┼─────────┼───────┼───────┼──────────────────────────┤
+│ ★0x18d103│ $  17524│  91.7%│ 92230.9│  0.2%│ NEUTRAL│   SWING│    85│  100%│      insufficient_trades│
+│ ★0x931153│ $   1645│ 100.0%│ 999.0│  0.0%│  LONG│ DAY_TRADER│    66│  100%│      insufficient_trades│
+│  0xb69ccb│ $   2260│  75.8%│ 18.3│ 1804.5%│  LONG│ DAY_TRADER│    64│   45%│          FEW_ACTIVE_DAYS│
+│  0x7aa11a│ $   1044│  94.3%│  2.5│ 14.0%│  LONG│   SWING│    56│   50%│                         │
+│ ★0x9da9cc│ $   1367│  91.7%│ 17.6│ 37.2%│ NEUTRAL│   SWING│    52│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0xb1edfe│ $   2647│  67.2%│  6.1│ 240.8%│  LONG│ DAY_TRADER│    52│   45%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%│
+│ ★0x76fe28│ $     61│  75.0%│ 999.0│  0.0%│ NEUTRAL│ DAY_TRADER│    51│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│ ★0x6e6f2c│ $    155│  50.0%│ 55.2│  1.8%│ NEUTRAL│   SWING│    46│  100%│ POOR_LONG_WR,FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0x0a9769│ $    397│  63.6%│ 12.2│ 30.3%│  LONG│   SWING│    43│  100%│ CONCENTRATION_73%,insufficient_trades│
+│  0x44871d│ $    994│  73.3%│  3.2│ 123.2%│ NEUTRAL│   SWING│    32│  100%│       CONCENTRATION_100%│
+└──────────┴──────────┴────────┴──────┴──────┴──────┴─────────┴───────┴───────┴──────────────────────────┘
+
+📡 ACTIVE COPIES:
+  0x18d10374 → PnL=$17524 WR=91.7%
+  0x931153ba → PnL=$1645 WR=100.0%
+  0x9da9ccc7 → PnL=$1367 WR=91.7%
+  0x76fe28b8 → PnL=$61 WR=75.0%
+  0x6e6f2ca7 → PnL=$155 WR=50.0%
+[2m2026-06-13T12:57:23.072826Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL ETH Close Long 0.009 @1682.6 user=0x9da9ccc7
+[2m2026-06-13T12:57:23.550690Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] start — 5 targets, 821 prices loaded
+[2m2026-06-13T12:57:26.039433Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T12:57:26.039614Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T12:57:26.039697Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m 
+📊 PAPER PORTFOLIO
+  Initial equity: $10000.00
+  Current equity: $9985.31
+  Total PnL: $-14.69 (-0.15%)
+  Free collateral: $4051.03
+  Locked notional: $5934.28
+  Positions: 4
+    HYPE SHORT sz=4.5673 entry=$59.02 mtx=$59.55 uPnL=$-2.45
+    SOL LONG sz=1.8092 entry=$67.99 mtx=$68.02 uPnL=$0.06
+    ETH LONG sz=1.1993 entry=$1673.45 mtx=$1682.55 uPnL=$10.91
+    BTC SHORT sz=0.0551 entry=$64173.50 mtx=$64207.50 uPnL=$-1.87
+[2m2026-06-13T12:57:26.039723Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9985.31
+[2m2026-06-13T12:57:28.765380Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+━━━ [Scan #15] ━━━
+[2m2026-06-13T12:57:34.673159Z[0m [32m INFO[0m [2mhl_copy_bot::scanner[0m[2m:[0m 📡 Found 5 new wallet candidates
+[2m2026-06-13T12:57:34.758808Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 📊 Status: 6481 DB | 15 worthy | 5338 pending | 5 copied | regime=calm
+
+┌──────────┬──────────┬────────┬──────┬──────┬──────┬─────────┬───────┬───────┬──────────────────────────┐
+│ Wallet   │ 15d PnL  │  WR%   │  PF  │  DD% │ Bias │ Strategy│ Score │ Copy │ Warnings                 │
+├──────────┼──────────┼────────┼──────┼──────┼──────┼─────────┼───────┼───────┼──────────────────────────┤
+│ ★0x18d103│ $  17524│  91.7%│ 92230.9│  0.2%│ NEUTRAL│   SWING│    85│  100%│      insufficient_trades│
+│ ★0x931153│ $   1645│ 100.0%│ 999.0│  0.0%│  LONG│ DAY_TRADER│    66│  100%│      insufficient_trades│
+│  0xb69ccb│ $   2260│  75.8%│ 18.3│ 1804.5%│  LONG│ DAY_TRADER│    64│   45%│          FEW_ACTIVE_DAYS│
+│  0x7aa11a│ $   1044│  94.3%│  2.5│ 14.0%│  LONG│   SWING│    56│   50%│                         │
+│ ★0x9da9cc│ $   1367│  91.7%│ 17.6│ 37.2%│ NEUTRAL│   SWING│    52│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0xb1edfe│ $   2647│  67.2%│  6.1│ 240.8%│  LONG│ DAY_TRADER│    52│   45%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%│
+│ ★0x76fe28│ $     61│  75.0%│ 999.0│  0.0%│ NEUTRAL│ DAY_TRADER│    51│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│ ★0x6e6f2c│ $    155│  50.0%│ 55.2│  1.8%│ NEUTRAL│   SWING│    46│  100%│ POOR_LONG_WR,FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0x0a9769│ $    397│  63.6%│ 12.2│ 30.3%│  LONG│   SWING│    43│  100%│ CONCENTRATION_73%,insufficient_trades│
+│  0x44871d│ $    994│  73.3%│  3.2│ 123.2%│ NEUTRAL│   SWING│    32│  100%│       CONCENTRATION_100%│
+└──────────┴──────────┴────────┴──────┴──────┴──────┴─────────┴───────┴───────┴──────────────────────────┘
+
+📡 ACTIVE COPIES:
+  0x18d10374 → PnL=$17524 WR=91.7%
+  0x931153ba → PnL=$1645 WR=100.0%
+  0x9da9ccc7 → PnL=$1367 WR=91.7%
+  0x76fe28b8 → PnL=$61 WR=75.0%
+  0x6e6f2ca7 → PnL=$155 WR=50.0%
+[2m2026-06-13T12:57:49.759833Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+━━━ [Scan #16] ━━━
+[2m2026-06-13T12:57:56.238654Z[0m [32m INFO[0m [2mhl_copy_bot::scanner[0m[2m:[0m 📡 Found 3 new wallet candidates
+[2m2026-06-13T12:57:56.245751Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 📊 Status: 6484 DB | 15 worthy | 5341 pending | 5 copied | regime=calm
+
+┌──────────┬──────────┬────────┬──────┬──────┬──────┬─────────┬───────┬───────┬──────────────────────────┐
+│ Wallet   │ 15d PnL  │  WR%   │  PF  │  DD% │ Bias │ Strategy│ Score │ Copy │ Warnings                 │
+├──────────┼──────────┼────────┼──────┼──────┼──────┼─────────┼───────┼───────┼──────────────────────────┤
+│ ★0x18d103│ $  17524│  91.7%│ 92230.9│  0.2%│ NEUTRAL│   SWING│    85│  100%│      insufficient_trades│
+│ ★0x931153│ $   1645│ 100.0%│ 999.0│  0.0%│  LONG│ DAY_TRADER│    66│  100%│      insufficient_trades│
+│  0xb69ccb│ $   2260│  75.8%│ 18.3│ 1804.5%│  LONG│ DAY_TRADER│    64│   45%│          FEW_ACTIVE_DAYS│
+│  0x7aa11a│ $   1044│  94.3%│  2.5│ 14.0%│  LONG│   SWING│    56│   50%│                         │
+│ ★0x9da9cc│ $   1367│  91.7%│ 17.6│ 37.2%│ NEUTRAL│   SWING│    52│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0xb1edfe│ $   2647│  67.2%│  6.1│ 240.8%│  LONG│ DAY_TRADER│    52│   45%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%│
+│ ★0x76fe28│ $     61│  75.0%│ 999.0│  0.0%│ NEUTRAL│ DAY_TRADER│    51│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│ ★0x6e6f2c│ $    155│  50.0%│ 55.2│  1.8%│ NEUTRAL│   SWING│    46│  100%│ POOR_LONG_WR,FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0x0a9769│ $    397│  63.6%│ 12.2│ 30.3%│  LONG│   SWING│    43│  100%│ CONCENTRATION_73%,insufficient_trades│
+│  0x44871d│ $    994│  73.3%│  3.2│ 123.2%│ NEUTRAL│   SWING│    32│  100%│       CONCENTRATION_100%│
+└──────────┴──────────┴────────┴──────┴──────┴──────┴─────────┴───────┴───────┴──────────────────────────┘
+
+📡 ACTIVE COPIES:
+  0x18d10374 → PnL=$17524 WR=91.7%
+  0x931153ba → PnL=$1645 WR=100.0%
+  0x9da9ccc7 → PnL=$1367 WR=91.7%
+  0x76fe28b8 → PnL=$61 WR=75.0%
+  0x6e6f2ca7 → PnL=$155 WR=50.0%
+[2m2026-06-13T12:58:11.247145Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+━━━ [Scan #17] ━━━
+[2m2026-06-13T12:58:16.979467Z[0m [32m INFO[0m [2mhl_copy_bot::scanner[0m[2m:[0m 📡 Found 5 new wallet candidates
+[2m2026-06-13T12:58:16.987439Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 📊 Status: 6489 DB | 15 worthy | 5346 pending | 5 copied | regime=calm
+
+┌──────────┬──────────┬────────┬──────┬──────┬──────┬─────────┬───────┬───────┬──────────────────────────┐
+│ Wallet   │ 15d PnL  │  WR%   │  PF  │  DD% │ Bias │ Strategy│ Score │ Copy │ Warnings                 │
+├──────────┼──────────┼────────┼──────┼──────┼──────┼─────────┼───────┼───────┼──────────────────────────┤
+│ ★0x18d103│ $  17524│  91.7%│ 92230.9│  0.2%│ NEUTRAL│   SWING│    85│  100%│      insufficient_trades│
+│ ★0x931153│ $   1645│ 100.0%│ 999.0│  0.0%│  LONG│ DAY_TRADER│    66│  100%│      insufficient_trades│
+│  0xb69ccb│ $   2260│  75.8%│ 18.3│ 1804.5%│  LONG│ DAY_TRADER│    64│   45%│          FEW_ACTIVE_DAYS│
+│  0x7aa11a│ $   1044│  94.3%│  2.5│ 14.0%│  LONG│   SWING│    56│   50%│                         │
+│ ★0x9da9cc│ $   1367│  91.7%│ 17.6│ 37.2%│ NEUTRAL│   SWING│    52│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0xb1edfe│ $   2647│  67.2%│  6.1│ 240.8%│  LONG│ DAY_TRADER│    52│   45%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%│
+│ ★0x76fe28│ $     61│  75.0%│ 999.0│  0.0%│ NEUTRAL│ DAY_TRADER│    51│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│ ★0x6e6f2c│ $    155│  50.0%│ 55.2│  1.8%│ NEUTRAL│   SWING│    46│  100%│ POOR_LONG_WR,FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0x0a9769│ $    397│  63.6%│ 12.2│ 30.3%│  LONG│   SWING│    43│  100%│ CONCENTRATION_73%,insufficient_trades│
+│  0x44871d│ $    994│  73.3%│  3.2│ 123.2%│ NEUTRAL│   SWING│    32│  100%│       CONCENTRATION_100%│
+└──────────┴──────────┴────────┴──────┴──────┴──────┴─────────┴───────┴───────┴──────────────────────────┘
+
+📡 ACTIVE COPIES:
+  0x18d10374 → PnL=$17524 WR=91.7%
+  0x931153ba → PnL=$1645 WR=100.0%
+  0x9da9ccc7 → PnL=$1367 WR=91.7%
+  0x76fe28b8 → PnL=$61 WR=75.0%
+  0x6e6f2ca7 → PnL=$155 WR=50.0%
+[2m2026-06-13T12:58:26.567049Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] start — 5 targets, 821 prices loaded
+[2m2026-06-13T12:58:28.605532Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T12:58:28.605720Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T12:58:28.605809Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m 
+📊 PAPER PORTFOLIO
+  Initial equity: $10000.00
+  Current equity: $9986.77
+  Total PnL: $-13.23 (-0.13%)
+  Free collateral: $4052.49
+  Locked notional: $5934.28
+  Positions: 4
+    HYPE SHORT sz=4.5673 entry=$59.02 mtx=$59.45 uPnL=$-1.98
+    SOL LONG sz=1.8092 entry=$67.99 mtx=$67.94 uPnL=$-0.09
+    ETH LONG sz=1.1993 entry=$1673.45 mtx=$1680.65 uPnL=$8.63
+    BTC SHORT sz=0.0551 entry=$64173.50 mtx=$64145.50 uPnL=$1.54
+[2m2026-06-13T12:58:28.605837Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 2s, equity=$9986.77
+[2m2026-06-13T12:58:31.989218Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+━━━ [Scan #18] ━━━
+[2m2026-06-13T12:58:38.148671Z[0m [32m INFO[0m [2mhl_copy_bot::scanner[0m[2m:[0m 📡 Found 3 new wallet candidates
+[2m2026-06-13T12:58:38.156437Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 📊 Status: 6492 DB | 15 worthy | 5349 pending | 5 copied | regime=calm
+
+┌──────────┬──────────┬────────┬──────┬──────┬──────┬─────────┬───────┬───────┬──────────────────────────┐
+│ Wallet   │ 15d PnL  │  WR%   │  PF  │  DD% │ Bias │ Strategy│ Score │ Copy │ Warnings                 │
+├──────────┼──────────┼────────┼──────┼──────┼──────┼─────────┼───────┼───────┼──────────────────────────┤
+│ ★0x18d103│ $  17524│  91.7%│ 92230.9│  0.2%│ NEUTRAL│   SWING│    85│  100%│      insufficient_trades│
+│ ★0x931153│ $   1645│ 100.0%│ 999.0│  0.0%│  LONG│ DAY_TRADER│    66│  100%│      insufficient_trades│
+│  0xb69ccb│ $   2260│  75.8%│ 18.3│ 1804.5%│  LONG│ DAY_TRADER│    64│   45%│          FEW_ACTIVE_DAYS│
+│  0x7aa11a│ $   1044│  94.3%│  2.5│ 14.0%│  LONG│   SWING│    56│   50%│                         │
+│ ★0x9da9cc│ $   1367│  91.7%│ 17.6│ 37.2%│ NEUTRAL│   SWING│    52│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0xb1edfe│ $   2647│  67.2%│  6.1│ 240.8%│  LONG│ DAY_TRADER│    52│   45%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%│
+│ ★0x76fe28│ $     61│  75.0%│ 999.0│  0.0%│ NEUTRAL│ DAY_TRADER│    51│  100%│ FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│ ★0x6e6f2c│ $    155│  50.0%│ 55.2│  1.8%│ NEUTRAL│   SWING│    46│  100%│ POOR_LONG_WR,FEW_ACTIVE_DAYS,CONCENTRATION_100%,insufficient_trades│
+│  0x0a9769│ $    397│  63.6%│ 12.2│ 30.3%│  LONG│   SWING│    43│  100%│ CONCENTRATION_73%,insufficient_trades│
+│  0x44871d│ $    994│  73.3%│  3.2│ 123.2%│ NEUTRAL│   SWING│    32│  100%│       CONCENTRATION_100%│
+└──────────┴──────────┴────────┴──────┴──────┴──────┴─────────┴───────┴───────┴──────────────────────────┘
+
+📡 ACTIVE COPIES:
+  0x18d10374 → PnL=$17524 WR=91.7%
+  0x931153ba → PnL=$1645 WR=100.0%
+  0x9da9ccc7 → PnL=$1367 WR=91.7%
+  0x76fe28b8 → PnL=$61 WR=75.0%
+  0x6e6f2ca7 → PnL=$155 WR=50.0%

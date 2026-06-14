@@ -1,0 +1,1016 @@
+====================================================================================================
+PHÂN TÍCH CHI TIẾT 5 VÍ ĐANG COPY
+Thời gian: 2026-06-14 02:19 UTC
+Cửa sổ phân tích: 30 ngày gần nhất
+====================================================================================================
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+VÍ #1: 0xc4cda69c9354eb77bce1d70c349b2de691be80b8
+  📊 Tổng quan:
+     Số fills: 2000
+     Số trades tái tạo: 190
+     Strategy: SWING
+     Total PnL: $1,434.84
+     Win rate: 83.2%
+     Avg hold: 37.9h
+     Fill PnL (thuần): $-13.89
+  📌 Positions đang mở:
+     LONG xyz:SPCX size=4.78 entry=$184.03
+     LONG xyz:BRENTOIL size=15.88 entry=$97.55
+     LONG VIRTUAL size=4824.80 entry=$0.62
+     LONG xyz:GOOGL size=12.11 entry=$371.48
+     LONG xyz:TSLA size=4.79 entry=$415.94
+     LONG xyz:CRCL size=39.84 entry=$86.28
+     LONG PAXG size=0.38 entry=$4404.54
+     LONG xyz:SILVER size=38.36 entry=$70.32
+     LONG xyz:XYZ100 size=0.10 entry=$29799.39
+     LONG xyz:SP500 size=0.29 entry=$7513.81
+     LONG AR size=313.43 entry=$2.19
+     LONG GRASS size=2230.50 entry=$0.38
+     LONG para:AVGO size=5.57 entry=$408.96
+     LONG INJ size=19.00 entry=$5.73
+     LONG TON size=56.60 entry=$1.77
+     LONG APT size=989.68 entry=$0.71
+     LONG xyz:BB size=79.20 entry=$10.09
+     LONG xyz:INTC size=2.69 entry=$104.18
+     LONG xyz:MU size=0.32 entry=$945.48
+     LONG xyz:NVDA size=4.30 entry=$212.02
+     LONG xyz:ARM size=0.84 entry=$359.55
+     LONG XMR size=0.31 entry=$322.15
+     LONG ENA size=7635.00 entry=$0.09
+     LONG TAO size=0.48 entry=$209.53
+     LONG SUI size=133.90 entry=$0.75
+     LONG xyz:HOOD size=2.40 entry=$83.51
+     LONG xyz:MRVL size=1.01 entry=$288.78
+     LONG ZEC size=0.24 entry=$414.71
+     LONG PENGU size=15003.00 entry=$0.01
+     LONG KAS size=3299.00 entry=$0.03
+     LONG XRP size=89.00 entry=$1.12
+     LONG LINK size=12.90 entry=$7.71
+     LONG PUMP size=67069.00 entry=$0.00
+     LONG WLD size=205.00 entry=$0.49
+     LONG xyz:RKLB size=2.64 entry=$113.32
+     LONG xyz:AMD size=0.63 entry=$479.05
+     LONG xyz:DRAM size=4.90 entry=$59.59
+     LONG LIT size=64.00 entry=$1.54
+     LONG NEAR size=47.10 entry=$2.12
+     LONG xyz:COIN size=1.26 entry=$158.92
+     LONG xyz:COPPER size=31.27 entry=$6.40
+     LONG xyz:URNM size=3.48 entry=$57.60
+     LONG PURR size=1044.00 entry=$0.10
+     LONG JUP size=608.00 entry=$0.16
+     LONG MORPHO size=53.20 entry=$1.88
+     LONG AAVE size=1.55 entry=$64.45
+     LONG XLM size=491.00 entry=$0.20
+     LONG kPEPE size=35248.00 entry=$0.00
+     LONG kBONK size=22351.00 entry=$0.00
+     LONG xyz:DELL size=0.74 entry=$400.79
+     LONG HYPE size=1.57 entry=$63.49
+     LONG SOL size=1.49 entry=$66.85
+     LONG MNT size=182.10 entry=$0.55
+     LONG ETH size=0.06 entry=$1687.40
+     LONG xyz:JP225 size=0.00 entry=$65614.00
+     LONG xyz:KR200 size=0.24 entry=$1261.97
+     LONG xyz:XLE size=5.14 entry=$58.51
+     LONG xyz:NATGAS size=64.00 entry=$3.12
+     LONG xyz:RIVN size=11.49 entry=$17.41
+
+  📅 Nhật ký giao dịch theo ngày:
+  2026-05-15 |   3 trades | PnL=$    1.31 | W:2 L:1 | avg_hold=87.0h
+    13:23-13:38  LONG xyz:URNM sz=1x entry=$59.90    exit=$60.00    PnL=$1.04     ROI=0.16%
+    17:31-09:27  LONG      SUI sz=1x entry=$1.06     exit=$1.06     PnL=$-0.17    ROI=-0.05%
+    04:50-09:32  LONG xyz:BABA sz=1x entry=$135.32   exit=$135.50   PnL=$0.44     ROI=0.13%
+  2026-05-16 |   3 trades | PnL=$   10.29 | W:2 L:1 | avg_hold=67.0h
+    09:55-23:46  LONG xyz:NATGAS sz=1x entry=$3.12     exit=$3.19     PnL=$10.49    ROI=2.10%
+    09:54-19:01  LONG   xyz:CL sz=1x entry=$102.62   exit=$102.56   PnL=$-0.35    ROI=-0.07%
+    09:54-19:51  LONG xyz:RIVN sz=1x entry=$13.58    exit=$13.58    PnL=$0.15     ROI=0.04%
+  2026-05-17 |   6 trades | PnL=$   34.23 | W:5 L:1 | avg_hold=16.0h
+    11:16-21:27  LONG      ZEC sz=1x entry=$525.47   exit=$552.48   PnL=$20.10    ROI=5.10%
+    22:42-01:01  LONG     HYPE sz=1x entry=$46.19    exit=$46.84    PnL=$10.79    ROI=1.35%
+    23:05-12:41  LONG xyz:BRENTOIL sz=1x entry=$106.04   exit=$103.84   PnL=$-4.15    ROI=-2.08%
+    23:41-14:32  LONG      WLD sz=1x entry=$0.23     exit=$0.23     PnL=$0.36     ROI=0.36%
+    23:34-19:02  LONG      ZEC sz=1x entry=$526.90   exit=$542.75   PnL=$7.04     ROI=2.97%
+    08:58-20:45  LONG     ONDO sz=1x entry=$0.35     exit=$0.35     PnL=$0.09     ROI=0.02%
+  2026-05-18 |   9 trades | PnL=$   67.61 | W:8 L:1 | avg_hold=31.5h
+    12:09-13:41  LONG xyz:RKLB sz=1x entry=$130.17   exit=$130.22   PnL=$0.07     ROI=0.03%
+    12:33-14:35  LONG xyz:PLATINUM sz=1x entry=$1967.60  exit=$1971.70  PnL=$0.60     ROI=0.20%
+    13:20-19:01  LONG xyz:BRENTOIL sz=1x entry=$105.65   exit=$106.00   PnL=$1.94     ROI=0.32%
+    13:22-10:20  LONG     AERO sz=1x entry=$0.41     exit=$0.41     PnL=$0.55     ROI=0.19%
+    11:13-15:12  LONG xyz:NATGAS sz=1x entry=$3.21     exit=$3.27     PnL=$18.04    ROI=1.64%
+    19:02-20:35  LONG   xyz:CL sz=1x entry=$103.44   exit=$103.90   PnL=$2.19     ROI=0.44%
+    01:02-19:02  LONG     HYPE sz=1x entry=$50.27    exit=$51.51    PnL=$40.05    ROI=2.42%
+    13:23-20:20  LONG      SOL sz=1x entry=$85.81    exit=$85.83    PnL=$-0.01    ROI=-0.01%
+    12:33-18:53  LONG xyz:PALLADIUM sz=1x entry=$1381.88  exit=$1388.40  PnL=$4.18     ROI=0.46%
+  2026-05-19 |  10 trades | PnL=$   52.76 | W:7 L:3 | avg_hold=79.1h
+    15:16-17:13  LONG xyz:RKLB sz=1x entry=$123.02   exit=$126.74   PnL=$18.06    ROI=3.01%
+    15:20-17:45  LONG      ZEC sz=1x entry=$566.04   exit=$572.72   PnL=$2.46     ROI=1.14%
+    17:45-22:17  LONG      ZEC sz=1x entry=$572.61   exit=$567.80   PnL=$-2.61    ROI=-0.88%
+    23:54-05:54  LONG     ONDO sz=1x entry=$0.37     exit=$0.39     PnL=$12.51    ROI=4.17%
+    21:13-12:59  LONG    ASTER sz=1x entry=$0.66     exit=$0.67     PnL=$3.29     ROI=0.82%
+    17:41-18:56  LONG xyz:RKLB sz=1x entry=$131.19   exit=$132.78   PnL=$3.67     ROI=1.20%
+    15:42-19:20  LONG xyz:AMZN sz=1x entry=$261.44   exit=$264.58   PnL=$10.17    ROI=1.19%
+    15:15-20:20  LONG xyz:NVDA sz=1x entry=$222.88   exit=$222.00   PnL=$-2.41    ROI=-0.40%
+    23:54-14:42  LONG xyz:NATGAS sz=1x entry=$3.18     exit=$3.20     PnL=$7.80     ROI=0.56%
+    23:54-15:00  LONG   xyz:CL sz=1x entry=$93.18    exit=$91.03    PnL=$-0.18    ROI=-2.31%
+  2026-05-20 |  12 trades | PnL=$  125.80 | W:11 L:1 | avg_hold=27.7h
+    10:30-12:43  LONG     ONDO sz=1x entry=$0.38     exit=$0.39     PnL=$11.41    ROI=3.81%
+    07:11-13:36  LONG     PUMP sz=1x entry=$0.00     exit=$0.00     PnL=$-0.29    ROI=-0.10%
+    13:45-15:25  LONG  xyz:AMD sz=1x entry=$434.35   exit=$445.66   PnL=$0.24     ROI=2.60%
+    13:46-15:25  LONG     PUMP sz=1x entry=$0.00     exit=$0.00     PnL=$7.32     ROI=2.63%
+    05:56-15:45  LONG      ZEC sz=1x entry=$586.13   exit=$629.91   PnL=$22.20    ROI=7.43%
+    20:24-21:47  LONG     NEAR sz=1x entry=$1.68     exit=$1.72     PnL=$6.63     ROI=2.63%
+    19:32-08:17  LONG     HYPE sz=1x entry=$55.36    exit=$58.50    PnL=$12.39    ROI=5.64%
+    20:03-13:58  LONG xyz:RIVN sz=1x entry=$13.77    exit=$13.81    PnL=$0.83     ROI=0.28%
+    17:49-21:17  LONG  xyz:AMD sz=1x entry=$446.37   exit=$448.81   PnL=$4.85     ROI=0.54%
+    19:00-14:36  LONG xyz:RKLB sz=1x entry=$129.56   exit=$138.19   PnL=$59.73    ROI=6.65%
+    19:33-10:35  LONG      ZEC sz=1x entry=$637.67   exit=$638.47   PnL=$0.12     ROI=0.09%
+    20:20-20:41  LONG xyz:NVDA sz=1x entry=$220.33   exit=$221.62   PnL=$0.37     ROI=0.58%
+  2026-05-21 |   7 trades | PnL=$   45.14 | W:5 L:2 | avg_hold=48.6h
+    05:42-17:35  LONG    PENGU sz=1x entry=$0.01     exit=$0.01     PnL=$7.20     ROI=2.40%
+    13:57-18:53  LONG xyz:SNDK sz=1x entry=$1466.70  exit=$1525.80  PnL=$8.02     ROI=4.02%
+    08:51-23:55  LONG      LIT sz=1x entry=$1.39     exit=$1.43     PnL=$8.27     ROI=2.77%
+    19:37-15:08  LONG  xyz:ARM sz=1x entry=$294.16   exit=$312.20   PnL=$18.38    ROI=6.12%
+    20:14-22:25  LONG xyz:META sz=1x entry=$608.62   exit=$608.60   PnL=$-0.07    ROI=-0.01%
+    08:51-03:03  LONG     HYPE sz=1x entry=$58.78    exit=$58.77    PnL=$-0.78    ROI=-0.04%
+    17:42-21:50  LONG xyz:AMZN sz=1x entry=$269.11   exit=$272.83   PnL=$4.12     ROI=1.37%
+  2026-05-22 |   5 trades | PnL=$   61.77 | W:4 L:1 | avg_hold=81.1h
+    01:47-01:48  LONG      ENA sz=1x entry=$0.11     exit=$0.11     PnL=$-0.06    ROI=-0.09%
+    14:38-17:47  LONG     NEAR sz=1x entry=$2.18     exit=$2.35     PnL=$47.97    ROI=7.99%
+    14:38-06:00  LONG  VIRTUAL sz=1x entry=$0.74     exit=$0.75     PnL=$4.60     ROI=1.89%
+    19:50-19:07  LONG    SYRUP sz=1x entry=$0.21     exit=$0.21     PnL=$3.19     ROI=1.14%
+    14:41-18:08  LONG      ENA sz=1x entry=$0.10     exit=$0.10     PnL=$6.07     ROI=3.14%
+  2026-05-24 |   9 trades | PnL=$  104.03 | W:8 L:1 | avg_hold=94.4h
+    10:37-16:48  LONG     NEAR sz=1x entry=$2.39     exit=$2.78     PnL=$16.41    ROI=16.44%
+    07:29-20:58  LONG  xyz:ARM sz=1x entry=$311.93   exit=$317.91   PnL=$3.34     ROI=1.91%
+    10:37-21:45  LONG    GRASS sz=1x entry=$0.54     exit=$0.61     PnL=$6.62     ROI=13.23%
+    07:29-14:20  LONG  xyz:AMD sz=1x entry=$477.68   exit=$490.80   PnL=$5.56     ROI=2.74%
+    12:42-14:41  LONG xyz:RKLB sz=1x entry=$142.15   exit=$142.94   PnL=$0.06     ROI=0.55%
+    12:42-21:18  LONG xyz:TSLA sz=1x entry=$430.52   exit=$435.05   PnL=$1.53     ROI=1.05%
+    10:37-01:40  LONG      VVV sz=1x entry=$18.62    exit=$16.26    PnL=$-13.20   ROI=-12.72%
+    12:41-22:29  LONG      ZEC sz=1x entry=$563.05   exit=$567.75   PnL=$3.81     ROI=0.80%
+    20:08-05:04  LONG      SUI sz=1x entry=$0.73     exit=$0.75     PnL=$79.90    ROI=3.10%
+  2026-05-25 |   4 trades | PnL=$   35.66 | W:3 L:1 | avg_hold=71.7h
+    08:53-20:11  LONG xyz:META sz=1x entry=$623.55   exit=$636.83   PnL=$12.73    ROI=2.12%
+    22:59-21:44  LONG      MNT sz=1x entry=$0.65     exit=$0.63     PnL=$-3.83    ROI=-3.83%
+    08:52-19:56  LONG xyz:CRCL sz=1x entry=$107.88   exit=$108.13   PnL=$1.27     ROI=0.22%
+    13:29-15:15  LONG xyz:SILVER sz=1x entry=$75.87    exit=$76.41    PnL=$25.49    ROI=0.71%
+  2026-05-26 |  11 trades | PnL=$   83.33 | W:11 L:0 | avg_hold=37.6h
+    10:27-13:33  LONG   xyz:MU sz=1x entry=$797.51   exit=$840.96   PnL=$3.04     ROI=5.44%
+    13:33-13:43  LONG xyz:SNDK sz=1x entry=$1538.30  exit=$1586.00  PnL=$2.57     ROI=3.09%
+    13:12-13:44  LONG xyz:DRAM sz=1x entry=$57.11    exit=$58.83    PnL=$7.72     ROI=3.00%
+    08:15-14:41  LONG    SYRUP sz=1x entry=$0.19     exit=$0.20     PnL=$2.57     ROI=2.57%
+    07:08-15:01  LONG     HYPE sz=1x entry=$62.28    exit=$63.41    PnL=$26.54    ROI=1.77%
+    13:36-17:07  LONG  xyz:ARM sz=1x entry=$310.68   exit=$317.65   PnL=$6.67     ROI=2.24%
+    14:23-04:29  LONG xyz:SKHX sz=1x entry=$1473.69  exit=$1515.70  PnL=$8.51     ROI=2.84%
+    08:41-04:30  LONG xyz:COPPER sz=1x entry=$6.39     exit=$6.44     PnL=$1.96     ROI=0.65%
+    17:30-18:30  LONG     HYPE sz=1x entry=$59.75    exit=$60.30    PnL=$23.22    ROI=0.89%
+    13:43-20:37  LONG      WLD sz=1x entry=$0.38     exit=$0.38     PnL=$0.08     ROI=0.10%
+    14:22-04:57  LONG xyz:AAPL sz=1x entry=$312.57   exit=$313.54   PnL=$0.45     ROI=0.30%
+  2026-05-27 |   3 trades | PnL=$   16.24 | W:3 L:0 | avg_hold=43.2h
+    02:07-07:23  LONG    GRASS sz=1x entry=$0.51     exit=$0.52     PnL=$5.58     ROI=2.34%
+    12:29-20:11  LONG xyz:RKLB sz=1x entry=$147.63   exit=$150.34   PnL=$7.40     ROI=1.83%
+    12:29-09:07  LONG xyz:COPPER sz=1x entry=$6.39     exit=$6.52     PnL=$3.26     ROI=1.98%
+  2026-05-28 |  10 trades | PnL=$   61.05 | W:9 L:1 | avg_hold=11.1h
+    14:18-15:51  LONG xyz:RKLB sz=1x entry=$144.86   exit=$146.62   PnL=$3.62     ROI=1.21%
+    15:30-18:28  LONG xyz:HOOD sz=1x entry=$79.96    exit=$83.44    PnL=$13.03    ROI=4.34%
+    16:12-18:29  LONG   RENDER sz=1x entry=$1.97     exit=$2.02     PnL=$1.22     ROI=2.35%
+    08:50-18:29  LONG     NEAR sz=1x entry=$2.37     exit=$2.40     PnL=$4.69     ROI=1.17%
+    04:42-22:07  LONG      VVV sz=1x entry=$16.43    exit=$16.44    PnL=$-0.03    ROI=-0.01%
+    04:02-22:25  LONG      SKY sz=1x entry=$0.06     exit=$0.07     PnL=$0.18     ROI=0.18%
+    16:11-00:13  LONG   xyz:BB sz=1x entry=$8.90     exit=$9.25     PnL=$11.57    ROI=4.00%
+    19:40-07:40  LONG xyz:HOOD sz=1x entry=$84.22    exit=$85.77    PnL=$5.49     ROI=1.83%
+    19:58-15:17  LONG xyz:CRCL sz=1x entry=$108.37   exit=$112.02   PnL=$10.08    ROI=3.36%
+    20:12-15:58  LONG     HYPE sz=1x entry=$62.08    exit=$65.71    PnL=$11.20    ROI=5.82%
+  2026-05-29 |   5 trades | PnL=$  162.28 | W:5 L:0 | avg_hold=20.7h
+    15:32-17:07  LONG xyz:HOOD sz=1x entry=$92.15    exit=$93.28    PnL=$3.63     ROI=1.21%
+    03:00-17:07  LONG    GRASS sz=1x entry=$0.45     exit=$0.46     PnL=$1.76     ROI=1.76%
+    19:41-21:02  LONG      XLM sz=1x entry=$0.24     exit=$0.24     PnL=$2.78     ROI=2.79%
+    08:31-17:08  LONG xyz:RKLB sz=1x entry=$142.72   exit=$144.45   PnL=$7.22     ROI=1.20%
+    16:48-22:47  LONG     HYPE sz=1x entry=$69.37    exit=$72.50    PnL=$146.89   ROI=4.48%
+  2026-05-30 |   1 trades | PnL=$    8.78 | W:1 L:0 | avg_hold=9.3h
+    19:07-04:27  LONG      BNB sz=1x entry=$718.62   exit=$739.95   PnL=$8.78     ROI=2.93%
+  2026-05-31 |   9 trades | PnL=$   89.77 | W:8 L:1 | avg_hold=36.7h
+    06:27-22:01  LONG xyz:NATGAS sz=1x entry=$3.24     exit=$3.34     PnL=$9.92     ROI=3.31%
+    15:28-23:24  LONG xyz:PLTR sz=1x entry=$160.23   exit=$164.96   PnL=$8.83     ROI=2.94%
+    21:58-00:00  LONG     PUMP sz=1x entry=$0.00     exit=$0.00     PnL=$0.05     ROI=0.02%
+    06:26-00:29  LONG xyz:HOOD sz=1x entry=$95.98    exit=$97.38    PnL=$8.76     ROI=1.46%
+    12:31-07:12  LONG      XLM sz=1x entry=$0.26     exit=$0.26     PnL=$5.12     ROI=2.56%
+    06:27-05:42  LONG xyz:SILVER sz=1x entry=$75.24    exit=$76.75    PnL=$11.96    ROI=1.99%
+    06:26-15:34  LONG xyz:COIN sz=1x entry=$190.62   exit=$171.71   PnL=$-29.79   ROI=-9.93%
+    23:27-12:39  LONG     HYPE sz=1x entry=$71.51    exit=$73.01    PnL=$70.10    ROI=2.06%
+    12:04-18:31  LONG xyz:RKLB sz=1x entry=$121.52   exit=$122.31   PnL=$4.82     ROI=0.64%
+  2026-06-01 |   7 trades | PnL=$    4.11 | W:5 L:2 | avg_hold=37.2h
+    00:02-01:24  LONG     PUMP sz=1x entry=$0.00     exit=$0.00     PnL=$-2.45    ROI=-0.81%
+    18:45-05:45  LONG     PUMP sz=1x entry=$0.00     exit=$0.00     PnL=$0.01     ROI=0.02%
+    09:09-07:12  LONG      ZEC sz=1x entry=$557.06   exit=$548.03   PnL=$-4.99    ROI=-1.66%
+    23:45-20:35  LONG xyz:SMSN sz=1x entry=$248.09   exit=$250.67   PnL=$0.16     ROI=1.03%
+    10:43-16:03  LONG xyz:SNDK sz=1x entry=$1768.30  exit=$1784.80  PnL=$2.77     ROI=0.93%
+    06:57-17:11  LONG xyz:NATGAS sz=1x entry=$3.32     exit=$3.36     PnL=$1.78     ROI=0.96%
+    20:37-18:20  LONG xyz:HOOD sz=1x entry=$87.05    exit=$87.55    PnL=$6.83     ROI=0.57%
+  2026-06-02 |   9 trades | PnL=$   44.08 | W:7 L:2 | avg_hold=34.5h
+    08:38-20:35  LONG  xyz:AMD sz=1x entry=$513.20   exit=$519.86   PnL=$5.15     ROI=1.29%
+    19:39-20:57  LONG      ZEC sz=1x entry=$589.47   exit=$607.50   PnL=$8.90     ROI=3.02%
+    14:25-23:37  LONG      SOL sz=1x entry=$77.91    exit=$73.45    PnL=$-11.48   ROI=-5.75%
+    19:35-08:14  LONG      ENA sz=1x entry=$0.10     exit=$0.10     PnL=$17.11    ROI=8.44%
+    23:46-12:28  LONG  xyz:AMD sz=1x entry=$525.11   exit=$537.15   PnL=$20.55    ROI=2.29%
+    15:30-01:22  LONG     AVAX sz=1x entry=$8.36     exit=$7.83     PnL=$-6.34    ROI=-6.34%
+    08:38-18:20  LONG xyz:NVDA sz=1x entry=$219.05   exit=$220.45   PnL=$0.80     ROI=0.63%
+    08:38-18:20  LONG  xyz:ARM sz=1x entry=$392.71   exit=$395.43   PnL=$5.43     ROI=0.68%
+    14:29-08:04  LONG      TAO sz=1x entry=$204.93   exit=$209.95   PnL=$3.96     ROI=2.41%
+  2026-06-03 |  14 trades | PnL=$   71.50 | W:10 L:4 | avg_hold=35.1h
+    05:37-08:13  LONG      WLD sz=1x entry=$0.42     exit=$0.45     PnL=$16.63    ROI=6.84%
+    06:34-08:14  LONG xyz:INTC sz=1x entry=$107.32   exit=$110.69   PnL=$9.38     ROI=3.13%
+    06:18-11:08  LONG     ONDO sz=1x entry=$0.41     exit=$0.42     PnL=$9.08     ROI=3.18%
+    05:37-12:28  LONG      XLM sz=1x entry=$0.23     exit=$0.23     PnL=$5.63     ROI=1.88%
+    08:37-21:13  LONG para:AVGO sz=1x entry=$501.12   exit=$423.18   PnL=$-46.78   ROI=-15.56%
+    05:53-15:38  LONG   xyz:BB sz=1x entry=$10.12    exit=$10.56    PnL=$8.76     ROI=4.33%
+    08:34-15:56  LONG xyz:MRVL sz=1x entry=$299.78   exit=$304.62   PnL=$18.35    ROI=1.61%
+    15:38-16:50  LONG      ENA sz=1x entry=$0.10     exit=$0.10     PnL=$27.61    ROI=3.07%
+    12:31-16:55  LONG     ONDO sz=1x entry=$0.39     exit=$0.39     PnL=$-0.41    ROI=-0.14%
+    09:15-18:19  LONG xyz:INTC sz=1x entry=$111.00   exit=$112.53   PnL=$2.54     ROI=1.37%
+    09:34-07:56  LONG      ZEC sz=1x entry=$339.12   exit=$292.82   PnL=$-7.43    ROI=-13.69%
+    19:49-13:47  LONG xyz:SNDK sz=1x entry=$1791.73  exit=$1631.20  PnL=$-24.74   ROI=-8.97%
+    00:19-08:52  LONG      SOL sz=1x entry=$63.99    exit=$65.47    PnL=$43.04    ROI=2.27%
+    15:20-13:15  LONG     HYPE sz=1x entry=$61.78    exit=$63.25    PnL=$9.84     ROI=2.35%
+  2026-06-04 |  18 trades | PnL=$  184.37 | W:15 L:3 | avg_hold=21.1h
+    02:03-04:52  LONG      STX sz=1x entry=$0.20     exit=$0.20     PnL=$0.06     ROI=3.15%
+    01:56-04:53  LONG xyz:COIN sz=1x entry=$158.52   exit=$164.72   PnL=$3.90     ROI=3.90%
+    02:05-09:25  LONG      MNT sz=1x entry=$0.58     exit=$0.57     PnL=$-2.96    ROI=-2.97%
+    09:12-15:10  LONG      WLD sz=1x entry=$0.52     exit=$0.57     PnL=$70.10    ROI=10.01%
+    13:46-15:55  LONG  xyz:AMD sz=1x entry=$507.27   exit=$521.19   PnL=$14.73    ROI=2.74%
+    13:39-18:20  LONG   xyz:MU sz=1x entry=$1007.59  exit=$1030.20  PnL=$13.13    ROI=2.24%
+    16:00-18:20  LONG xyz:MRVL sz=1x entry=$305.38   exit=$316.75   PnL=$11.12    ROI=3.72%
+    16:01-18:20  LONG   xyz:BB sz=1x entry=$10.48    exit=$10.74    PnL=$7.38     ROI=2.46%
+    19:00-21:49  LONG xyz:HOOD sz=1x entry=$87.44    exit=$88.07    PnL=$2.15     ROI=0.72%
+    21:16-21:49  LONG xyz:META sz=1x entry=$626.51   exit=$626.54   PnL=$-0.01    ROI=-0.00%
+    16:39-22:02  LONG xyz:AMZN sz=1x entry=$254.03   exit=$254.07   PnL=$0.02     ROI=0.01%
+    22:32-22:50  LONG     DASH sz=1x entry=$33.41    exit=$33.44    PnL=$0.08     ROI=0.04%
+    17:11-10:04  LONG      WLD sz=1x entry=$0.55     exit=$0.57     PnL=$54.06    ROI=4.15%
+    17:59-13:15  LONG  xyz:QNT sz=1x entry=$58.06    exit=$59.52    PnL=$3.77     ROI=2.51%
+    19:01-09:38  LONG xyz:MRVL sz=1x entry=$286.39   exit=$286.92   PnL=$1.21     ROI=0.18%
+    09:24-22:20  LONG      ETH sz=1x entry=$1680.35  exit=$1683.10  PnL=$4.31     ROI=0.13%
+    19:00-00:23  LONG xyz:RKLB sz=1x entry=$112.32   exit=$112.15   PnL=$-1.30    ROI=-0.16%
+    17:03-00:41  LONG     ONDO sz=1x entry=$0.35     exit=$0.35     PnL=$2.62     ROI=0.38%
+  2026-06-05 |  26 trades | PnL=$  165.97 | W:23 L:3 | avg_hold=26.5h
+    08:01-08:18  LONG      ZEC sz=1x entry=$313.36   exit=$313.23   PnL=$-0.08    ROI=-0.08%
+    00:28-08:19  LONG      LIT sz=1x entry=$1.47     exit=$1.51     PnL=$23.64    ROI=2.96%
+    07:37-09:21  LONG     AAVE sz=1x entry=$68.34    exit=$68.43    PnL=$0.31     ROI=0.10%
+    06:26-09:22  LONG     CAKE sz=1x entry=$1.17     exit=$1.20     PnL=$2.42     ROI=2.41%
+    08:21-13:14  LONG      XMR sz=1x entry=$329.01   exit=$329.20   PnL=$0.04     ROI=0.02%
+    00:28-13:14  LONG      VVV sz=1x entry=$15.95    exit=$16.48    PnL=$6.57     ROI=3.29%
+    00:27-17:39  LONG      ENA sz=1x entry=$0.09     exit=$0.09     PnL=$17.03    ROI=7.10%
+    16:10-18:24  LONG    ASTER sz=1x entry=$0.60     exit=$0.62     PnL=$3.32     ROI=3.43%
+    07:55-18:24  LONG      KAS sz=1x entry=$0.03     exit=$0.03     PnL=$0.23     ROI=0.23%
+    19:22-20:43  LONG      LIT sz=1x entry=$1.44     exit=$1.55     PnL=$35.73    ROI=7.89%
+    18:01-20:44  LONG      ENA sz=1x entry=$0.09     exit=$0.09     PnL=$15.73    ROI=4.52%
+    18:42-21:04 SHORT xyz:META sz=1x entry=$592.75   exit=$591.15   PnL=$0.26     ROI=0.26%
+    10:26-21:44  LONG      WLD sz=1x entry=$0.52     exit=$0.54     PnL=$6.55     ROI=3.97%
+    16:50-23:35  LONG      ZEC sz=1x entry=$371.25   exit=$378.39   PnL=$7.48     ROI=1.88%
+    18:56-23:35  LONG      MNT sz=1x entry=$0.51     exit=$0.51     PnL=$0.11     ROI=0.11%
+    03:02-08:36  LONG      SKY sz=1x entry=$0.06     exit=$0.06     PnL=$4.37     ROI=0.87%
+    00:28-09:24  LONG     PUMP sz=1x entry=$0.00     exit=$0.00     PnL=$-0.40    ROI=-0.04%
+    13:50-09:29  LONG xyz:COIN sz=1x entry=$152.83   exit=$155.37   PnL=$8.67     ROI=1.66%
+    03:03-09:31  LONG     LINK sz=1x entry=$7.71     exit=$7.78     PnL=$3.07     ROI=0.77%
+    21:07-09:31  LONG      XRP sz=1x entry=$1.13     exit=$1.16     PnL=$7.36     ROI=2.48%
+    22:39-17:07  LONG      WLD sz=1x entry=$0.47     exit=$0.48     PnL=$15.74    ROI=3.15%
+    19:28-00:06  LONG  xyz:AMD sz=1x entry=$465.68   exit=$469.77   PnL=$0.43     ROI=0.87%
+    15:06-01:07  LONG xyz:PALLADIUM sz=1x entry=$1251.31  exit=$1236.90  PnL=$-3.48    ROI=-1.16%
+    00:29-08:50  LONG     NEAR sz=1x entry=$2.11     exit=$2.12     PnL=$1.67     ROI=0.33%
+    14:53-14:59  LONG xyz:SNDK sz=1x entry=$1625.17  exit=$1671.50  PnL=$8.78     ROI=2.84%
+    13:56-15:11  LONG      XPL sz=1x entry=$0.07     exit=$0.07     PnL=$0.42     ROI=0.42%
+  2026-06-06 |   3 trades | PnL=$    0.75 | W:3 L:0 | avg_hold=35.3h
+    00:05-09:32  LONG      KAS sz=1x entry=$0.03     exit=$0.03     PnL=$0.02     ROI=0.41%
+    00:25-09:35  LONG      ZEC sz=1x entry=$396.18   exit=$396.75   PnL=$0.20     ROI=0.10%
+    04:40-19:54  LONG xyz:URNM sz=1x entry=$54.42    exit=$54.69    PnL=$0.53     ROI=0.50%
+  2026-06-07 |   4 trades | PnL=$    4.73 | W:3 L:1 | avg_hold=5.1h
+    05:11-09:32  LONG    PENGU sz=1x entry=$0.01     exit=$0.01     PnL=$1.17     ROI=0.39%
+    05:21-09:39  LONG xyz:HOOD sz=1x entry=$82.15    exit=$82.30    PnL=$0.54     ROI=0.18%
+    05:12-13:56  LONG xyz:DRAM sz=1x entry=$56.65    exit=$58.21    PnL=$8.26     ROI=2.75%
+    21:57-01:08  LONG xyz:NATGAS sz=1x entry=$3.24     exit=$3.18     PnL=$-5.24    ROI=-1.75%
+  2026-06-08 |   2 trades | PnL=$   -0.72 | W:0 L:2 | avg_hold=0.0h
+    13:08-13:09  LONG xyz:DELL sz=1x entry=$400.38   exit=$400.38   PnL=$-0.02    ROI=-0.01%
+    13:30-13:30  LONG xyz:JP225 sz=1x entry=$65569.00 exit=$65295.00 PnL=$-0.70    ROI=-0.43%
+
+  📈 Thống kê theo coin:
+            ZEC: 13 trades, WR=69.2%, PnL=$57.20
+     xyz:NATGAS: 6 trades, WR=83.3%, PnL=$42.79
+           HYPE: 10 trades, WR=90.0%, PnL=$350.24
+     xyz:BRENTOIL: 2 trades, WR=50.0%, PnL=$-2.21
+       xyz:URNM: 2 trades, WR=100.0%, PnL=$1.57
+       xyz:RKLB: 10 trades, WR=90.0%, PnL=$103.35
+            WLD: 7 trades, WR=100.0%, PnL=$163.52
+     xyz:PLATINUM: 1 trades, WR=100.0%, PnL=$0.60
+         xyz:CL: 3 trades, WR=33.3%, PnL=$1.66
+           ONDO: 6 trades, WR=83.3%, PnL=$35.30
+            SUI: 2 trades, WR=50.0%, PnL=$79.73
+       xyz:BABA: 1 trades, WR=100.0%, PnL=$0.44
+           AERO: 1 trades, WR=100.0%, PnL=$0.55
+          ASTER: 2 trades, WR=100.0%, PnL=$6.61
+           PUMP: 6 trades, WR=50.0%, PnL=$4.24
+        xyz:AMD: 7 trades, WR=100.0%, PnL=$51.51
+       xyz:AMZN: 3 trades, WR=100.0%, PnL=$14.31
+       xyz:RIVN: 2 trades, WR=100.0%, PnL=$0.98
+       xyz:NVDA: 3 trades, WR=66.7%, PnL=$-1.24
+            SOL: 3 trades, WR=33.3%, PnL=$31.55
+           NEAR: 5 trades, WR=100.0%, PnL=$77.37
+          PENGU: 2 trades, WR=100.0%, PnL=$8.37
+       xyz:SNDK: 5 trades, WR=80.0%, PnL=$-2.60
+     xyz:PALLADIUM: 2 trades, WR=50.0%, PnL=$0.70
+            LIT: 3 trades, WR=100.0%, PnL=$67.64
+            ENA: 6 trades, WR=83.3%, PnL=$83.49
+        xyz:ARM: 4 trades, WR=100.0%, PnL=$33.82
+       xyz:META: 4 trades, WR=50.0%, PnL=$12.91
+        VIRTUAL: 1 trades, WR=100.0%, PnL=$4.60
+          SYRUP: 2 trades, WR=100.0%, PnL=$5.76
+          GRASS: 3 trades, WR=100.0%, PnL=$13.96
+         xyz:MU: 2 trades, WR=100.0%, PnL=$16.17
+       xyz:DRAM: 2 trades, WR=100.0%, PnL=$15.98
+       xyz:TSLA: 1 trades, WR=100.0%, PnL=$1.53
+       xyz:SKHX: 1 trades, WR=100.0%, PnL=$8.51
+     xyz:COPPER: 2 trades, WR=100.0%, PnL=$5.22
+            MNT: 3 trades, WR=33.3%, PnL=$-6.68
+            VVV: 3 trades, WR=33.3%, PnL=$-6.66
+       xyz:HOOD: 7 trades, WR=100.0%, PnL=$40.43
+         RENDER: 1 trades, WR=100.0%, PnL=$1.22
+       xyz:CRCL: 2 trades, WR=100.0%, PnL=$11.35
+            SKY: 2 trades, WR=100.0%, PnL=$4.55
+         xyz:BB: 3 trades, WR=100.0%, PnL=$27.71
+     xyz:SILVER: 2 trades, WR=100.0%, PnL=$37.45
+            XLM: 3 trades, WR=100.0%, PnL=$13.53
+            BNB: 1 trades, WR=100.0%, PnL=$8.78
+       xyz:PLTR: 1 trades, WR=100.0%, PnL=$8.83
+       xyz:COIN: 3 trades, WR=66.7%, PnL=$-17.22
+       xyz:SMSN: 1 trades, WR=100.0%, PnL=$0.16
+       xyz:INTC: 2 trades, WR=100.0%, PnL=$11.92
+      para:AVGO: 1 trades, WR=0.0%, PnL=$-46.78
+           AVAX: 1 trades, WR=0.0%, PnL=$-6.34
+            STX: 1 trades, WR=100.0%, PnL=$0.06
+       xyz:AAPL: 1 trades, WR=100.0%, PnL=$0.45
+       xyz:MRVL: 3 trades, WR=100.0%, PnL=$30.68
+           DASH: 1 trades, WR=100.0%, PnL=$0.08
+           AAVE: 1 trades, WR=100.0%, PnL=$0.31
+           CAKE: 1 trades, WR=100.0%, PnL=$2.42
+            XMR: 1 trades, WR=100.0%, PnL=$0.04
+        xyz:QNT: 1 trades, WR=100.0%, PnL=$3.77
+            KAS: 2 trades, WR=100.0%, PnL=$0.25
+            TAO: 1 trades, WR=100.0%, PnL=$3.96
+           LINK: 1 trades, WR=100.0%, PnL=$3.07
+            XRP: 1 trades, WR=100.0%, PnL=$7.36
+            ETH: 1 trades, WR=100.0%, PnL=$4.31
+       xyz:DELL: 1 trades, WR=0.0%, PnL=$-0.02
+      xyz:JP225: 1 trades, WR=0.0%, PnL=$-0.70
+            XPL: 1 trades, WR=100.0%, PnL=$0.42
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+VÍ #2: 0x8faf84cfba2fded55c8c21c149fc33be79e2b7ba
+  📊 Tổng quan:
+     Số fills: 1771
+     Số trades tái tạo: 151
+     Strategy: SWING
+     Total PnL: $1,112.62
+     Win rate: 73.5%
+     Avg hold: 12.1h
+     Fill PnL (thuần): $3,003.96
+  📌 Positions đang mở:
+     LONG @142 size=0.29 entry=$63669.00
+
+  📅 Nhật ký giao dịch theo ngày:
+  2026-05-18 |   1 trades | PnL=$  -14.06 | W:0 L:1 | avg_hold=139.0h
+    15:31-10:31 SHORT      ETH sz=1x entry=$2118.00  exit=$2121.10  PnL=$-14.06   ROI=-0.19%
+  2026-05-20 |   2 trades | PnL=$   -1.57 | W:0 L:2 | avg_hold=13.7h
+    15:13-15:17 SHORT xyz:GOLD sz=1x entry=$4525.00  exit=$4550.90  PnL=$-1.48    ROI=-0.66%
+    15:17-18:39 SHORT xyz:GOLD sz=1x entry=$4547.00  exit=$4543.80  PnL=$-0.09    ROI=-0.02%
+  2026-05-21 |   2 trades | PnL=$   -2.01 | W:1 L:1 | avg_hold=63.6h
+    18:57-10:31 SHORT      SOL sz=1x entry=$87.00    exit=$86.31    PnL=$13.95    ROI=0.75%
+    18:48-10:32 SHORT xyz:GOLD sz=1x entry=$4540.10  exit=$4550.30  PnL=$-15.96   ROI=-0.31%
+  2026-05-26 |   2 trades | PnL=$  305.28 | W:2 L:0 | avg_hold=156.5h
+    14:47-16:10 SHORT      BTC sz=1x entry=$76900.00 exit=$70840.00 PnL=$121.72   ROI=7.87%
+    14:47-14:23 SHORT      ETH sz=1x entry=$2110.00  exit=$1942.10  PnL=$183.56   ROI=7.94%
+  2026-05-28 |   1 trades | PnL=$ -408.98 | W:0 L:1 | avg_hold=20.3h
+    18:34-14:52 SHORT xyz:GOLD sz=1x entry=$4520.49  exit=$4558.60  PnL=$-408.98  ROI=-0.93%
+  2026-06-04 |  16 trades | PnL=$  512.13 | W:13 L:3 | avg_hold=16.4h
+    01:01-02:04 SHORT      ETC sz=1x entry=$7.68     exit=$7.24     PnL=$39.62    ROI=5.71%
+    01:17-02:48 SHORT     AVAX sz=1x entry=$7.91     exit=$7.88     PnL=$5.61     ROI=0.33%
+    06:26-08:12 SHORT     HYPE sz=1x entry=$71.50    exit=$67.43    PnL=$95.82    ROI=5.69%
+    18:08-18:31  LONG     HYPE sz=1x entry=$66.41    exit=$66.86    PnL=$0.49     ROI=0.63%
+    18:33-18:37  LONG     HYPE sz=1x entry=$66.67    exit=$67.14    PnL=$0.53     ROI=0.68%
+    18:37-18:40  LONG     HYPE sz=1x entry=$67.17    exit=$67.40    PnL=$0.22     ROI=0.29%
+    07:00-21:37 SHORT     NEAR sz=1x entry=$2.46     exit=$2.22     PnL=$148.91   ROI=9.97%
+    18:41-00:16  LONG     HYPE sz=1x entry=$64.36    exit=$63.33    PnL=$-1.28    ROI=-1.65%
+    07:14-03:05 SHORT   RENDER sz=1x entry=$1.96     exit=$1.76     PnL=$48.19    ROI=10.06%
+    04:24-05:55  LONG      BCH sz=1x entry=$247.70   exit=$234.35   PnL=$-103.52  ROI=-5.43%
+    12:35-06:03  LONG      BTC sz=1x entry=$63400.00 exit=$62046.00 PnL=$-0.52    ROI=-2.18%
+    02:04-06:18 SHORT     DASH sz=1x entry=$35.17    exit=$31.65    PnL=$19.11    ROI=10.00%
+    02:05-06:24 SHORT      POL sz=1x entry=$0.09     exit=$0.08     PnL=$7.40     ROI=9.99%
+    23:46-06:24 SHORT      LTC sz=1x entry=$45.32    exit=$42.96    PnL=$64.31    ROI=5.20%
+    02:05-16:00 SHORT       OP sz=1x entry=$0.11     exit=$0.10     PnL=$160.03   ROI=10.64%
+    22:33-23:21 SHORT xyz:MRVL sz=1x entry=$305.60   exit=$286.81   PnL=$27.21    ROI=6.14%
+  2026-06-05 |  53 trades | PnL=$  257.72 | W:44 L:9 | avg_hold=2.3h
+    00:16-00:20 SHORT     HYPE sz=1x entry=$63.39    exit=$63.57    PnL=$-8.69    ROI=-0.32%
+    00:20-00:26  LONG     HYPE sz=1x entry=$63.57    exit=$64.19    PnL=$0.74     ROI=0.95%
+    00:28-00:31  LONG     HYPE sz=1x entry=$64.44    exit=$64.58    PnL=$0.14     ROI=0.18%
+    00:57-01:17  LONG      ZEC sz=1x entry=$432.88   exit=$437.63   PnL=$1.69     ROI=1.08%
+    01:22-01:23  LONG      ZEC sz=1x entry=$425.64   exit=$427.03   PnL=$0.43     ROI=0.28%
+    00:32-01:25  LONG     HYPE sz=1x entry=$64.42    exit=$65.27    PnL=$1.01     ROI=1.30%
+    01:28-01:29  LONG      ZEC sz=1x entry=$419.32   exit=$422.15   PnL=$0.39     ROI=0.66%
+    01:25-01:32  LONG     HYPE sz=1x entry=$65.22    exit=$65.74    PnL=$0.61     ROI=0.78%
+    01:33-03:21  LONG      ZEC sz=1x entry=$410.71   exit=$421.84   PnL=$7.23     ROI=2.67%
+    01:33-05:00  LONG     HYPE sz=1x entry=$62.68    exit=$63.35    PnL=$2.42     ROI=1.03%
+    01:02-06:03 SHORT     AVAX sz=1x entry=$7.60     exit=$7.21     PnL=$39.99    ROI=5.05%
+    03:25-07:15  LONG      ZEC sz=1x entry=$269.64   exit=$268.56   PnL=$-37.36   ROI=-0.44%
+    07:20-07:21  LONG      ZEC sz=1x entry=$275.37   exit=$276.74   PnL=$0.76     ROI=0.48%
+    05:01-07:31  LONG     HYPE sz=1x entry=$60.54    exit=$61.42    PnL=$0.01     ROI=1.44%
+    07:33-07:34  LONG     HYPE sz=1x entry=$61.38    exit=$61.63    PnL=$0.28     ROI=0.35%
+    07:31-07:38  LONG      ZEC sz=1x entry=$305.80   exit=$309.94   PnL=$2.09     ROI=1.34%
+    07:37-07:40  LONG     HYPE sz=1x entry=$61.68    exit=$62.04    PnL=$0.42     ROI=0.55%
+    07:41-07:43  LONG     HYPE sz=1x entry=$62.09    exit=$62.47    PnL=$0.47     ROI=0.60%
+    07:41-07:45  LONG      ZEC sz=1x entry=$314.24   exit=$315.81   PnL=$0.76     ROI=0.49%
+    07:51-07:51  LONG      ZEC sz=1x entry=$309.01   exit=$311.60   PnL=$1.27     ROI=0.82%
+    07:56-07:57  LONG      ZEC sz=1x entry=$296.37   exit=$297.85   PnL=$0.69     ROI=0.48%
+    08:16-08:22  LONG      ZEC sz=1x entry=$320.58   exit=$325.15   PnL=$2.17     ROI=1.41%
+    08:27-08:27  LONG      ZEC sz=1x entry=$318.70   exit=$319.78   PnL=$0.03     ROI=0.30%
+    08:32-08:34  LONG      ZEC sz=1x entry=$321.69   exit=$323.50   PnL=$0.84     ROI=0.55%
+    08:37-08:48  LONG      ZEC sz=1x entry=$313.19   exit=$311.50   PnL=$-0.89    ROI=-0.58%
+    08:52-08:56  LONG      ZEC sz=1x entry=$305.83   exit=$307.36   PnL=$0.76     ROI=0.49%
+    08:57-08:58  LONG      ZEC sz=1x entry=$311.77   exit=$314.00   PnL=$1.05     ROI=0.67%
+    09:03-09:09  LONG      ZEC sz=1x entry=$310.02   exit=$314.12   PnL=$2.03     ROI=1.31%
+    09:13-09:13  LONG      ZEC sz=1x entry=$315.19   exit=$317.49   PnL=$1.06     ROI=0.69%
+    09:23-09:23  LONG      ZEC sz=1x entry=$315.28   exit=$316.87   PnL=$0.76     ROI=0.49%
+    09:33-09:34  LONG      ZEC sz=1x entry=$334.22   exit=$335.46   PnL=$0.51     ROI=0.33%
+    09:38-09:41  LONG      ZEC sz=1x entry=$336.26   exit=$337.37   PnL=$0.44     ROI=0.29%
+    09:43-09:44  LONG      ZEC sz=1x entry=$341.44   exit=$343.39   PnL=$0.83     ROI=0.53%
+    09:48-09:49  LONG      ZEC sz=1x entry=$355.52   exit=$353.00   PnL=$-1.18    ROI=-0.75%
+    09:53-09:55  LONG      ZEC sz=1x entry=$349.44   exit=$351.91   PnL=$1.06     ROI=0.69%
+    09:59-09:59  LONG      ZEC sz=1x entry=$349.19   exit=$351.23   PnL=$0.90     ROI=0.57%
+    10:04-10:08  LONG      ZEC sz=1x entry=$344.31   exit=$347.17   PnL=$1.26     ROI=0.82%
+    10:09-12:04  LONG      ZEC sz=1x entry=$311.94   exit=$298.50   PnL=$-1.63    ROI=-4.35%
+    07:45-12:09  LONG     HYPE sz=1x entry=$62.15    exit=$62.07    PnL=$-0.14    ROI=-0.17%
+    13:31-13:34 SHORT xyz:LITE sz=1x entry=$903.37   exit=$930.06   PnL=$-13.55   ROI=-2.96%
+    06:31-14:25 SHORT xyz:COIN sz=1x entry=$160.64   exit=$152.39   PnL=$63.88    ROI=5.13%
+    05:38-15:15 SHORT     LINK sz=1x entry=$7.77     exit=$7.30     PnL=$151.57   ROI=6.00%
+    13:46-16:45 SHORT xyz:NVDA sz=1x entry=$213.53   exit=$207.20   PnL=$49.15    ROI=2.96%
+    18:38-20:01 SHORT      BTC sz=1x entry=$60113.00 exit=$60410.00 PnL=$-50.38   ROI=-0.54%
+    20:03-22:04  LONG      SOL sz=1x entry=$63.04    exit=$64.38    PnL=$7.68     ROI=2.08%
+    20:01-22:06  LONG      XRP sz=1x entry=$1.09     exit=$1.10     PnL=$3.96     ROI=0.54%
+    20:02-23:19 SHORT      ETH sz=1x entry=$1601.81  exit=$1583.10  PnL=$29.09    ROI=1.12%
+    20:01-23:24  LONG      BTC sz=1x entry=$60367.00 exit=$60960.00 PnL=$3.46     ROI=0.94%
+    23:21-00:00  LONG      XMR sz=1x entry=$308.42   exit=$310.65   PnL=$0.19     ROI=0.68%
+    23:01-00:02  LONG      SOL sz=1x entry=$63.17    exit=$63.99    PnL=$9.17     ROI=1.25%
+    22:20-00:05 SHORT      XRP sz=1x entry=$1.11     exit=$1.11     PnL=$0.20     ROI=0.32%
+    07:48-04:20 SHORT      BCH sz=1x entry=$225.40   exit=$205.68   PnL=$5.16     ROI=8.71%
+    16:30-07:07 SHORT      TRX sz=1x entry=$0.32     exit=$0.33     PnL=$-27.07   ROI=-1.84%
+  2026-06-06 |  22 trades | PnL=$  594.57 | W:20 L:2 | avg_hold=10.0h
+    00:02-00:02  LONG      XMR sz=1x entry=$311.95   exit=$313.34   PnL=$0.16     ROI=0.40%
+    00:07-00:10  LONG      XMR sz=1x entry=$310.51   exit=$312.27   PnL=$0.13     ROI=0.55%
+    01:02-05:02  LONG      SOL sz=1x entry=$62.15    exit=$60.17    PnL=$-476.70  ROI=-3.22%
+    00:12-05:11  LONG      XMR sz=1x entry=$303.55   exit=$308.12   PnL=$1.73     ROI=1.46%
+    00:00-05:21  LONG      ETH sz=1x entry=$1520.80  exit=$1532.80  PnL=$77.81    ROI=0.75%
+    01:51-05:21  LONG      XRP sz=1x entry=$1.07     exit=$1.07     PnL=$22.14    ROI=0.72%
+    05:13-05:22  LONG      XMR sz=1x entry=$307.76   exit=$311.12   PnL=$0.42     ROI=1.08%
+    05:24-05:26  LONG      XMR sz=1x entry=$311.18   exit=$312.07   PnL=$0.10     ROI=0.24%
+    05:29-05:49  LONG      XMR sz=1x entry=$309.36   exit=$310.54   PnL=$0.13     ROI=0.34%
+    05:08-10:02 SHORT      SOL sz=1x entry=$62.52    exit=$62.17    PnL=$37.84    ROI=0.51%
+    00:00-10:11  LONG      BTC sz=1x entry=$60372.99 exit=$60624.00 PnL=$0.11     ROI=0.37%
+    06:00-13:00  LONG      ETH sz=1x entry=$1550.32  exit=$1568.90  PnL=$19.30    ROI=1.16%
+    05:54-14:37  LONG      XMR sz=1x entry=$302.23   exit=$297.14   PnL=$-0.67    ROI=-1.73%
+    11:01-15:03  LONG      SOL sz=1x entry=$61.87    exit=$62.01    PnL=$0.87     ROI=0.19%
+    06:00-15:06  LONG      XRP sz=1x entry=$1.09     exit=$1.09     PnL=$5.08     ROI=0.55%
+    15:45-00:31 SHORT      XRP sz=1x entry=$1.10     exit=$1.10     PnL=$0.29     ROI=0.21%
+    11:03-05:22  LONG      BTC sz=1x entry=$60705.00 exit=$61803.00 PnL=$8.13     ROI=1.76%
+    23:48-07:46  LONG     DASH sz=1x entry=$32.43    exit=$35.67    PnL=$744.57   ROI=9.97%
+    13:08-12:09 SHORT      ETH sz=1x entry=$1629.67  exit=$1620.10  PnL=$80.40    ROI=0.54%
+    15:42-12:11 SHORT      SOL sz=1x entry=$64.61    exit=$64.12    PnL=$31.92    ROI=0.72%
+    21:44-23:21  LONG      TON sz=1x entry=$1.63     exit=$1.70     PnL=$35.94    ROI=4.18%
+    09:30-14:17  LONG      INJ sz=1x entry=$5.41     exit=$5.56     PnL=$4.87     ROI=2.75%
+  2026-06-07 |  18 trades | PnL=$   26.20 | W:15 L:3 | avg_hold=15.3h
+    00:32-09:34  LONG      XRP sz=1x entry=$1.09     exit=$1.15     PnL=$6.83     ROI=4.95%
+    05:22-13:20 SHORT      BTC sz=1x entry=$62296.08 exit=$61662.00 PnL=$32.80    ROI=0.97%
+    09:37-16:39 SHORT      XRP sz=1x entry=$1.15     exit=$1.14     PnL=$1.68     ROI=1.22%
+    13:00-20:21 SHORT      SOL sz=1x entry=$64.90    exit=$64.49    PnL=$3.31     ROI=0.60%
+    12:12-22:14 SHORT      BCH sz=1x entry=$221.18   exit=$232.08   PnL=$-97.13   ROI=-4.97%
+    19:03-22:15 SHORT    kPEPE sz=1x entry=$0.00     exit=$0.00     PnL=$-140.72  ROI=-5.53%
+    21:03-22:19 SHORT      SOL sz=1x entry=$67.08    exit=$66.59    PnL=$30.28    ROI=0.68%
+    16:56-22:23  LONG      XRP sz=1x entry=$1.13     exit=$1.15     PnL=$5.40     ROI=1.95%
+    22:37-23:01 SHORT      BTC sz=1x entry=$63300.00 exit=$63021.00 PnL=$36.37    ROI=0.40%
+    22:25-01:25  LONG     HYPE sz=1x entry=$59.20    exit=$59.48    PnL=$5.90     ROI=0.43%
+    13:03-04:06 SHORT      ETH sz=1x entry=$1679.72  exit=$1668.30  PnL=$28.23    ROI=0.64%
+    23:01-12:04  LONG      BTC sz=1x entry=$62691.42 exit=$62844.00 PnL=$0.51     ROI=0.20%
+    23:01-12:05  LONG      XRP sz=1x entry=$1.14     exit=$1.15     PnL=$4.27     ROI=0.77%
+    23:03-12:15  LONG      SOL sz=1x entry=$65.60    exit=$66.11    PnL=$0.21     ROI=0.73%
+    12:23-14:10  LONG      SUI sz=1x entry=$0.73     exit=$0.76     PnL=$202.05   ROI=4.18%
+    08:47-19:37  LONG     DOGE sz=1x entry=$0.09     exit=$0.09     PnL=$64.77    ROI=1.78%
+    08:30-11:01  LONG      TAO sz=1x entry=$213.82   exit=$215.02   PnL=$1.79     ROI=0.52%
+    07:48-14:18  LONG    PENGU sz=1x entry=$0.01     exit=$0.01     PnL=$-160.35  ROI=-2.82%
+  2026-06-08 |   7 trades | PnL=$   40.50 | W:5 L:2 | avg_hold=9.8h
+    08:23-13:23 SHORT     HYPE sz=1x entry=$61.64    exit=$64.60    PnL=$-14.62   ROI=-4.85%
+    21:10-22:49  LONG      ZEC sz=1x entry=$473.78   exit=$459.04   PnL=$-24.34   ROI=-3.15%
+    12:30-23:51 SHORT      SOL sz=1x entry=$67.34    exit=$66.71    PnL=$4.77     ROI=0.89%
+    12:36-23:52 SHORT      BTC sz=1x entry=$63588.77 exit=$63048.00 PnL=$2.23     ROI=0.81%
+    05:12-00:31 SHORT      ETH sz=1x entry=$1686.29  exit=$1669.60  PnL=$1.75     ROI=0.95%
+    16:39-00:32 SHORT      BCH sz=1x entry=$210.80   exit=$205.72   PnL=$69.38    ROI=2.37%
+    12:30-00:33 SHORT      XRP sz=1x entry=$1.17     exit=$1.16     PnL=$1.33     ROI=1.15%
+  2026-06-09 |  17 trades | PnL=$  -66.04 | W:10 L:7 | avg_hold=14.1h
+    01:02-09:34  LONG      ETH sz=1x entry=$1666.10  exit=$1667.90  PnL=$0.04     ROI=0.06%
+    01:03-10:03  LONG      XRP sz=1x entry=$1.15     exit=$1.16     PnL=$2.17     ROI=0.78%
+    05:43-11:08  LONG      BTC sz=1x entry=$63046.83 exit=$62636.00 PnL=$-1.92    ROI=-0.69%
+    10:56-11:08 SHORT      SOL sz=1x entry=$66.39    exit=$66.27    PnL=$0.20     ROI=0.15%
+    10:07-11:08 SHORT      XRP sz=1x entry=$1.16     exit=$1.16     PnL=$0.01     ROI=0.01%
+    09:50-11:08 SHORT      ETH sz=1x entry=$1669.80  exit=$1671.30  PnL=$-0.18    ROI=-0.13%
+    00:42-16:12 SHORT      POL sz=1x entry=$0.08     exit=$0.07     PnL=$41.01    ROI=4.13%
+    14:31-18:18 SHORT      LTC sz=1x entry=$42.10    exit=$43.12    PnL=$-120.03  ROI=-2.46%
+    13:12-00:22  LONG      TIA sz=1x entry=$0.33     exit=$0.33     PnL=$-0.11    ROI=-0.02%
+    14:51-12:30 SHORT     DOGE sz=1x entry=$0.08     exit=$0.08     PnL=$27.19    ROI=0.59%
+    16:20-12:30 SHORT      XRP sz=1x entry=$1.12     exit=$1.12     PnL=$41.43    ROI=0.42%
+    00:50-12:30 SHORT      APT sz=1x entry=$0.65     exit=$0.65     PnL=$-8.33    ROI=-0.23%
+    15:08-12:30 SHORT      SEI sz=1x entry=$0.05     exit=$0.05     PnL=$-1.29    ROI=-0.38%
+    14:18-12:30 SHORT      FET sz=1x entry=$0.20     exit=$0.20     PnL=$12.32    ROI=2.69%
+    14:24-12:30 SHORT     HBAR sz=1x entry=$0.08     exit=$0.08     PnL=$51.07    ROI=1.57%
+    16:20-12:30 SHORT    EIGEN sz=1x entry=$0.18     exit=$0.18     PnL=$-125.33  ROI=-3.41%
+    16:00-12:30 SHORT     DASH sz=1x entry=$35.81    exit=$34.56    PnL=$15.71    ROI=3.47%
+  2026-06-10 |   6 trades | PnL=$  -13.71 | W:1 L:5 | avg_hold=2.7h
+    05:46-12:30 SHORT      BCH sz=1x entry=$200.01   exit=$196.10   PnL=$86.12    ROI=1.91%
+    12:26-12:30 SHORT      POL sz=1x entry=$0.07     exit=$0.07     PnL=$-1.23    ROI=-1.13%
+    04:44-12:30 SHORT FARTCOIN sz=1x entry=$0.11     exit=$0.11     PnL=$-7.25    ROI=-0.47%
+    11:33-12:30 SHORT    TRUMP sz=1x entry=$1.62     exit=$1.64     PnL=$-82.36   ROI=-1.26%
+    12:45-13:29  LONG      BNB sz=1x entry=$589.02   exit=$588.77   PnL=$-2.05    ROI=-0.09%
+    23:30-23:44  LONG     HYPE sz=1x entry=$53.54    exit=$53.24    PnL=$-6.94    ROI=-0.59%
+  2026-06-11 |   2 trades | PnL=$ -112.87 | W:0 L:2 | avg_hold=1.0h
+    16:15-16:45  LONG     WLFI sz=1x entry=$0.06     exit=$0.06     PnL=$-7.67    ROI=-0.64%
+    22:35-00:03  LONG      TON sz=1x entry=$1.71     exit=$1.69     PnL=$-105.20  ROI=-1.15%
+  2026-06-12 |   2 trades | PnL=$   -4.54 | W:0 L:2 | avg_hold=0.0h
+    00:03-00:07 SHORT      TON sz=1x entry=$1.69     exit=$1.70     PnL=$-4.31    ROI=-0.46%
+    00:07-00:08  LONG      TON sz=1x entry=$1.70     exit=$1.70     PnL=$-0.23    ROI=-0.28%
+
+  📈 Thống kê theo coin:
+       xyz:GOLD: 4 trades, WR=0.0%, PnL=$-426.51
+            SOL: 12 trades, WR=91.7%, PnL=$-336.50
+            ETH: 10 trades, WR=80.0%, PnL=$405.94
+            BTC: 11 trades, WR=72.7%, PnL=$152.51
+            ETC: 1 trades, WR=100.0%, PnL=$39.62
+           AVAX: 2 trades, WR=100.0%, PnL=$45.60
+           HYPE: 19 trades, WR=73.7%, PnL=$77.39
+           NEAR: 1 trades, WR=100.0%, PnL=$148.91
+            ZEC: 28 trades, WR=82.1%, PnL=$-36.39
+         RENDER: 1 trades, WR=100.0%, PnL=$48.19
+            BCH: 5 trades, WR=60.0%, PnL=$-39.99
+           DASH: 3 trades, WR=100.0%, PnL=$779.39
+            POL: 3 trades, WR=66.7%, PnL=$47.18
+            LTC: 2 trades, WR=50.0%, PnL=$-55.72
+       xyz:LITE: 1 trades, WR=0.0%, PnL=$-13.55
+       xyz:COIN: 1 trades, WR=100.0%, PnL=$63.88
+           LINK: 1 trades, WR=100.0%, PnL=$151.57
+             OP: 1 trades, WR=100.0%, PnL=$160.03
+       xyz:NVDA: 1 trades, WR=100.0%, PnL=$49.15
+            XRP: 13 trades, WR=100.0%, PnL=$94.79
+            XMR: 8 trades, WR=87.5%, PnL=$2.19
+            TRX: 1 trades, WR=0.0%, PnL=$-27.07
+          kPEPE: 1 trades, WR=0.0%, PnL=$-140.72
+            TON: 4 trades, WR=25.0%, PnL=$-73.80
+       xyz:MRVL: 1 trades, WR=100.0%, PnL=$27.21
+            SUI: 1 trades, WR=100.0%, PnL=$202.05
+            INJ: 1 trades, WR=100.0%, PnL=$4.87
+           DOGE: 2 trades, WR=100.0%, PnL=$91.96
+            TAO: 1 trades, WR=100.0%, PnL=$1.79
+          PENGU: 1 trades, WR=0.0%, PnL=$-160.35
+            TIA: 1 trades, WR=0.0%, PnL=$-0.11
+            APT: 1 trades, WR=0.0%, PnL=$-8.33
+            SEI: 1 trades, WR=0.0%, PnL=$-1.29
+            FET: 1 trades, WR=100.0%, PnL=$12.32
+           HBAR: 1 trades, WR=100.0%, PnL=$51.07
+          EIGEN: 1 trades, WR=0.0%, PnL=$-125.33
+       FARTCOIN: 1 trades, WR=0.0%, PnL=$-7.25
+          TRUMP: 1 trades, WR=0.0%, PnL=$-82.36
+            BNB: 1 trades, WR=0.0%, PnL=$-2.05
+           WLFI: 1 trades, WR=0.0%, PnL=$-7.67
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+VÍ #3: 0x6dbbefad3d24da625fa233c070678ab1938fcd38
+  📊 Tổng quan:
+     Số fills: 1218
+     Số trades tái tạo: 54
+     Strategy: DAY_TRADER
+     Total PnL: $615.32
+     Win rate: 96.3%
+     Avg hold: 0.2h
+     Fill PnL (thuần): $3,536.31
+
+  📅 Nhật ký giao dịch theo ngày:
+  2026-06-10 |  13 trades | PnL=$   74.26 | W:13 L:0 | avg_hold=0.1h
+    11:11-11:13  LONG     HYPE sz=1x entry=$55.89    exit=$55.94    PnL=$0.31     ROI=0.03%
+    12:06-12:30  LONG     HYPE sz=1x entry=$55.15    exit=$55.25    PnL=$2.28     ROI=0.17%
+    12:31-12:31 SHORT      BTC sz=1x entry=$61536.51 exit=$61487.00 PnL=$0.04     ROI=0.04%
+    13:45-13:45 SHORT      BTC sz=1x entry=$62342.57 exit=$62220.00 PnL=$0.46     ROI=0.18%
+    16:39-16:41  LONG     HYPE sz=1x entry=$55.93    exit=$56.11    PnL=$21.08    ROI=0.31%
+    16:45-17:02  LONG     HYPE sz=1x entry=$55.73    exit=$56.00    PnL=$12.33    ROI=0.47%
+    17:32-17:33  LONG     HYPE sz=1x entry=$55.19    exit=$55.27    PnL=$12.82    ROI=0.14%
+    18:29-18:30  LONG     HYPE sz=1x entry=$54.90    exit=$55.01    PnL=$10.19    ROI=0.19%
+    18:33-18:52  LONG     HYPE sz=1x entry=$54.37    exit=$54.47    PnL=$0.36     ROI=0.14%
+    19:19-19:24  LONG     HYPE sz=1x entry=$53.81    exit=$53.93    PnL=$2.48     ROI=0.20%
+    21:07-21:15  LONG     HYPE sz=1x entry=$53.33    exit=$53.38    PnL=$2.55     ROI=0.07%
+    22:07-22:13  LONG     HYPE sz=1x entry=$52.80    exit=$52.95    PnL=$0.06     ROI=0.28%
+    23:20-23:20  LONG     HYPE sz=1x entry=$53.17    exit=$53.28    PnL=$9.30     ROI=0.19%
+  2026-06-11 |   1 trades | PnL=$    9.34 | W:1 L:0 | avg_hold=0.2h
+    22:03-22:13  LONG   xyz:CL sz=1x entry=$84.09    exit=$84.22    PnL=$9.34     ROI=0.14%
+  2026-06-12 |  21 trades | PnL=$  417.41 | W:20 L:1 | avg_hold=0.1h
+    02:55-02:56  LONG      XMR sz=1x entry=$377.80   exit=$378.97   PnL=$7.08     ROI=0.29%
+    13:59-14:05 SHORT xyz:SPCX sz=1x entry=$176.84   exit=$176.11   PnL=$0.01     ROI=0.40%
+    14:39-14:41  LONG xyz:SPCX sz=1x entry=$171.89   exit=$172.40   PnL=$0.43     ROI=0.29%
+    15:00-15:05  LONG xyz:SPCX sz=1x entry=$166.94   exit=$167.40   PnL=$1.45     ROI=0.27%
+    15:28-15:28 SHORT xyz:SPCX sz=1x entry=$163.37   exit=$163.10   PnL=$0.12     ROI=0.16%
+    15:32-15:33  LONG xyz:SPCX sz=1x entry=$157.69   exit=$159.10   PnL=$3.14     ROI=0.89%
+    15:38-15:39  LONG     HYPE sz=1x entry=$60.24    exit=$60.42    PnL=$1.73     ROI=0.29%
+    15:40-15:42  LONG xyz:SPCX sz=1x entry=$156.12   exit=$157.50   PnL=$2.03     ROI=0.88%
+    15:47-15:48  LONG xyz:SPCX sz=1x entry=$154.34   exit=$156.40   PnL=$3.78     ROI=1.33%
+    15:49-15:53  LONG xyz:SPCX sz=1x entry=$161.31   exit=$163.10   PnL=$12.42    ROI=1.11%
+    15:59-16:04  LONG     HYPE sz=1x entry=$59.67    exit=$59.76    PnL=$3.56     ROI=0.14%
+    16:01-16:05  LONG xyz:SPCX sz=1x entry=$157.38   exit=$159.40   PnL=$5.29     ROI=1.28%
+    16:29-16:29  LONG     HYPE sz=1x entry=$60.39    exit=$61.07    PnL=$344.19   ROI=1.12%
+    17:14-17:14  LONG xyz:SPCX sz=1x entry=$170.03   exit=$170.90   PnL=$15.39    ROI=0.50%
+    18:14-18:15  LONG xyz:SPCX sz=1x entry=$167.51   exit=$168.70   PnL=$0.89     ROI=0.71%
+    18:16-18:18  LONG xyz:SPCX sz=1x entry=$166.51   exit=$167.50   PnL=$0.29     ROI=0.59%
+    19:15-19:19  LONG     HYPE sz=1x entry=$60.92    exit=$60.97    PnL=$0.43     ROI=0.07%
+    19:34-19:50  LONG xyz:SPCX sz=1x entry=$160.31   exit=$161.06   PnL=$9.24     ROI=0.47%
+    20:48-20:50  LONG     HYPE sz=1x entry=$60.56    exit=$60.70    PnL=$1.89     ROI=0.22%
+    21:48-21:59  LONG     HYPE sz=1x entry=$60.34    exit=$60.53    PnL=$0.00     ROI=0.27%
+    23:37-23:40  LONG     HYPE sz=1x entry=$59.45    exit=$59.63    PnL=$4.05     ROI=0.28%
+  2026-06-13 |  19 trades | PnL=$  114.31 | W:18 L:1 | avg_hold=0.4h
+    00:09-00:10  LONG     HYPE sz=1x entry=$58.98    exit=$59.11    PnL=$0.39     ROI=0.18%
+    00:17-00:22  LONG     HYPE sz=1x entry=$58.94    exit=$59.16    PnL=$18.49    ROI=0.36%
+    00:28-00:41  LONG   xyz:CL sz=1x entry=$82.31    exit=$82.38    PnL=$0.31     ROI=0.08%
+    02:25-02:37 SHORT      VVV sz=1x entry=$16.13    exit=$15.84    PnL=$18.73    ROI=1.79%
+    02:55-02:58  LONG     HYPE sz=1x entry=$59.18    exit=$59.26    PnL=$7.50     ROI=0.13%
+    02:50-03:10 SHORT      VVV sz=1x entry=$16.91    exit=$16.82    PnL=$3.33     ROI=0.51%
+    03:13-03:14 SHORT    TRUMP sz=1x entry=$2.32     exit=$2.29     PnL=$19.68    ROI=0.99%
+    04:29-04:33  LONG     HYPE sz=1x entry=$58.20    exit=$58.37    PnL=$3.17     ROI=0.28%
+    05:01-05:10  LONG     HYPE sz=1x entry=$57.68    exit=$57.81    PnL=$3.65     ROI=0.20%
+    02:38-05:11  LONG    #2310 sz=1x entry=$1.00     exit=$1.00     PnL=$-0.02    ROI=-0.10%
+    05:15-05:34  LONG     HYPE sz=1x entry=$57.42    exit=$57.54    PnL=$13.69    ROI=0.20%
+    12:49-12:56 SHORT      VVV sz=1x entry=$17.48    exit=$17.29    PnL=$5.71     ROI=1.08%
+    12:50-13:26 SHORT      LIT sz=1x entry=$1.60     exit=$1.59     PnL=$0.41     ROI=0.43%
+    15:01-17:14 SHORT      LIT sz=1x entry=$1.63     exit=$1.62     PnL=$1.53     ROI=0.42%
+    17:11-17:19  LONG     HYPE sz=1x entry=$59.23    exit=$59.38    PnL=$0.40     ROI=0.21%
+    19:51-20:15 SHORT      LIT sz=1x entry=$1.64     exit=$1.63     PnL=$2.20     ROI=0.74%
+    21:41-21:44 SHORT      BTC sz=1x entry=$64622.81 exit=$64545.00 PnL=$2.18     ROI=0.08%
+    21:44-22:12 SHORT      LIT sz=1x entry=$1.65     exit=$1.63     PnL=$3.75     ROI=1.04%
+    23:56-00:09 SHORT    TRUMP sz=1x entry=$2.18     exit=$2.17     PnL=$9.21     ROI=0.35%
+
+  📈 Thống kê theo coin:
+           HYPE: 25 trades, WR=96.0%, PnL=$476.90
+            BTC: 3 trades, WR=100.0%, PnL=$2.68
+         xyz:CL: 2 trades, WR=100.0%, PnL=$9.65
+            XMR: 1 trades, WR=100.0%, PnL=$7.08
+       xyz:SPCX: 13 trades, WR=100.0%, PnL=$54.48
+            VVV: 3 trades, WR=100.0%, PnL=$27.77
+          TRUMP: 2 trades, WR=100.0%, PnL=$28.89
+          #2310: 1 trades, WR=0.0%, PnL=$-0.02
+            LIT: 4 trades, WR=100.0%, PnL=$7.89
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+VÍ #4: 0x373b036b4b2128c578e6695f9ee76bdb5e75a387
+  📊 Tổng quan:
+     Số fills: 1076
+     Số trades tái tạo: 147
+     Strategy: SWING
+     Total PnL: $1,129.77
+     Win rate: 61.2%
+     Avg hold: 62.3h
+     Fill PnL (thuần): $-364.60
+  📌 Positions đang mở:
+     LONG JUP size=14551.00 entry=$0.17
+     SHORT TRUMP size=1197.60 entry=$2.02
+     LONG JTO size=987.00 entry=$0.57
+     SHORT SUI size=741.60 entry=$0.76
+     LONG ZEC size=2.45 entry=$417.62
+     SHORT ETH size=0.62 entry=$1648.85
+     LONG STABLE size=8684.00 entry=$0.03
+     SHORT BCH size=1.52 entry=$197.12
+     LONG PUMP size=136799.00 entry=$0.00
+     SHORT DOT size=209.60 entry=$0.95
+     LONG PURR size=3294.00 entry=$0.09
+     SHORT MON size=14229.00 entry=$0.02
+     LONG XMR size=0.59 entry=$339.71
+     SHORT ATOM size=100.55 entry=$1.99
+     LONG HMSTR size=2232548.00 entry=$0.00
+     SHORT SEI size=7224.00 entry=$0.05
+     LONG COMP size=11.43 entry=$17.50
+     SHORT ALGO size=2261.00 entry=$0.09
+
+  📅 Nhật ký giao dịch theo ngày:
+  2026-05-15 |  10 trades | PnL=$ -124.97 | W:5 L:5 | avg_hold=141.3h
+    05:30-07:03 SHORT   MORPHO sz=1x entry=$2.00     exit=$1.79     PnL=$16.07    ROI=10.72%
+    05:30-07:03  LONG     HYPE sz=1x entry=$45.69    exit=$41.35    PnL=$-14.29   ROI=-9.53%
+    14:15-07:02  LONG     BOME sz=1x entry=$0.00     exit=$0.00     PnL=$0.32     ROI=0.13%
+    14:15-07:02 SHORT      SUI sz=1x entry=$1.10     exit=$1.06     PnL=$7.70     ROI=3.22%
+    22:00-08:00  LONG     NEAR sz=1x entry=$1.53     exit=$1.66     PnL=$23.63    ROI=7.87%
+    22:00-08:00 SHORT      ZRO sz=1x entry=$1.31     exit=$1.34     PnL=$-2.47    ROI=-2.54%
+    14:15-15:00  LONG      JTO sz=1x entry=$0.47     exit=$0.46     PnL=$-1.73    ROI=-0.86%
+    14:15-15:00 SHORT    TRUMP sz=1x entry=$2.24     exit=$2.04     PnL=$18.01    ROI=9.00%
+    12:23-17:33  LONG    LINEA sz=1x entry=$0.00     exit=$0.00     PnL=$-84.85   ROI=-6.86%
+    12:23-17:33 SHORT      ICP sz=1x entry=$2.68     exit=$3.17     PnL=$-87.36   ROI=-18.62%
+  2026-05-16 |   2 trades | PnL=$    1.35 | W:1 L:1 | avg_hold=32.8h
+    10:15-19:02  LONG     VINE sz=1x entry=$0.02     exit=$0.02     PnL=$2.25     ROI=3.85%
+    10:15-19:02 SHORT   MORPHO sz=1x entry=$1.75     exit=$1.77     PnL=$-0.90    ROI=-1.08%
+  2026-05-17 |   2 trades | PnL=$   13.14 | W:2 L:0 | avg_hold=27.7h
+    10:00-13:45  LONG     BOME sz=1x entry=$0.00     exit=$0.00     PnL=$3.74     ROI=1.49%
+    10:00-13:45 SHORT      SUI sz=1x entry=$1.08     exit=$1.04     PnL=$9.40     ROI=3.76%
+  2026-05-18 |   6 trades | PnL=$  -49.74 | W:2 L:4 | avg_hold=90.2h
+    00:30-02:00  LONG     VINE sz=1x entry=$0.02     exit=$0.02     PnL=$9.93     ROI=12.61%
+    00:30-02:00 SHORT   MORPHO sz=1x entry=$1.74     exit=$1.74     PnL=$-0.32    ROI=-0.37%
+    18:45-01:45  LONG     BOME sz=1x entry=$0.00     exit=$0.00     PnL=$8.65     ROI=5.76%
+    18:45-01:45 SHORT      SUI sz=1x entry=$1.03     exit=$1.03     PnL=$-0.50    ROI=-0.33%
+    16:30-15:08 SHORT   MORPHO sz=1x entry=$1.98     exit=$2.23     PnL=$-61.86   ROI=-12.66%
+    16:30-13:55  LONG     VINE sz=1x entry=$0.02     exit=$0.02     PnL=$-5.64    ROI=-11.66%
+  2026-05-19 |   6 trades | PnL=$ -109.06 | W:3 L:3 | avg_hold=163.5h
+    00:45-19:02  LONG      CRV sz=1x entry=$0.24     exit=$0.23     PnL=$-8.47    ROI=-2.12%
+    00:45-19:02 SHORT      MON sz=1x entry=$0.03     exit=$0.03     PnL=$3.97     ROI=3.46%
+    14:15-07:02  LONG    PENGU sz=1x entry=$0.01     exit=$0.01     PnL=$10.72    ROI=7.91%
+    14:15-07:02 SHORT      ZEC sz=1x entry=$629.61   exit=$651.53   PnL=$-34.63   ROI=-3.53%
+    06:45-06:06  LONG      REZ sz=1x entry=$0.00     exit=$0.00     PnL=$-125.09  ROI=-26.92%
+    06:45-06:06 SHORT       CC sz=1x entry=$0.16     exit=$0.15     PnL=$44.44    ROI=8.11%
+  2026-05-20 |   6 trades | PnL=$   53.49 | W:3 L:3 | avg_hold=99.5h
+    20:45-00:45  LONG     PURR sz=1x entry=$0.10     exit=$0.11     PnL=$2.29     ROI=15.00%
+    20:45-00:45 SHORT     HYPE sz=1x entry=$52.00    exit=$55.90    PnL=$-22.64   ROI=-7.54%
+    06:45-07:02  LONG      CRV sz=1x entry=$0.24     exit=$0.23     PnL=$-6.55    ROI=-3.51%
+    06:45-07:02 SHORT      MON sz=1x entry=$0.03     exit=$0.03     PnL=$36.30    ROI=7.99%
+    09:45-15:58 SHORT      SUI sz=1x entry=$1.06     exit=$0.92     PnL=$54.23    ROI=13.12%
+    09:45-15:58  LONG     BOME sz=1x entry=$0.00     exit=$0.00     PnL=$-10.14   ROI=-11.88%
+  2026-05-21 |   2 trades | PnL=$   24.32 | W:1 L:1 | avg_hold=73.0h
+    06:00-07:02  LONG      JTO sz=1x entry=$0.50     exit=$0.53     PnL=$25.01    ROI=6.44%
+    06:00-07:02 SHORT    TRUMP sz=1x entry=$2.06     exit=$2.11     PnL=$-0.69    ROI=-2.42%
+  2026-05-22 |   2 trades | PnL=$   10.51 | W:1 L:1 | avg_hold=31.0h
+    15:00-22:00  LONG     PURR sz=1x entry=$0.11     exit=$0.12     PnL=$23.25    ROI=8.17%
+    15:00-22:00 SHORT     HYPE sz=1x entry=$57.03    exit=$58.21    PnL=$-12.74   ROI=-2.12%
+  2026-05-23 |   4 trades | PnL=$   16.95 | W:3 L:1 | avg_hold=58.4h
+    01:30-14:15  LONG      TAO sz=1x entry=$264.70   exit=$264.89   PnL=$0.09     ROI=0.03%
+    01:30-14:15 SHORT      TON sz=1x entry=$1.86     exit=$1.76     PnL=$16.70    ROI=5.57%
+    09:15-17:15  LONG    PENGU sz=1x entry=$0.01     exit=$0.01     PnL=$-7.44    ROI=-2.12%
+    09:15-17:15 SHORT      ZEC sz=1x entry=$592.82   exit=$550.34   PnL=$7.60     ROI=7.13%
+  2026-05-24 |   8 trades | PnL=$    7.82 | W:6 L:2 | avg_hold=53.7h
+    17:30-13:30  LONG      JTO sz=1x entry=$0.51     exit=$0.54     PnL=$7.94     ROI=5.40%
+    17:30-13:30 SHORT    TRUMP sz=1x entry=$2.08     exit=$2.07     PnL=$0.36     ROI=0.18%
+    21:45-09:45  LONG      TAO sz=1x entry=$275.35   exit=$286.83   PnL=$9.47     ROI=4.13%
+    21:45-09:45 SHORT      TON sz=1x entry=$1.93     exit=$1.88     PnL=$22.50    ROI=2.59%
+    11:45-13:40 SHORT     HYPE sz=1x entry=$62.08    exit=$60.57    PnL=$24.46    ROI=2.39%
+    01:15-13:41 SHORT      MON sz=1x entry=$0.03     exit=$0.02     PnL=$14.51    ROI=5.56%
+    01:15-13:43  LONG      CRV sz=1x entry=$0.23     exit=$0.22     PnL=$-30.96   ROI=-7.74%
+    11:45-14:24  LONG     PURR sz=1x entry=$0.11     exit=$0.10     PnL=$-40.46   ROI=-9.71%
+  2026-05-25 |   2 trades | PnL=$   12.19 | W:2 L:0 | avg_hold=14.0h
+    23:30-13:30  LONG      JTO sz=1x entry=$0.51     exit=$0.54     PnL=$10.37    ROI=5.19%
+    23:30-13:30 SHORT    TRUMP sz=1x entry=$2.08     exit=$2.06     PnL=$1.82     ROI=0.91%
+  2026-05-26 |   4 trades | PnL=$   97.14 | W:2 L:2 | avg_hold=64.4h
+    20:15-19:02  LONG      TAO sz=1x entry=$281.65   exit=$262.40   PnL=$-9.00    ROI=-6.87%
+    20:15-19:02 SHORT      TON sz=1x entry=$1.98     exit=$1.77     PnL=$23.58    ROI=10.57%
+    01:15-11:15  LONG      NIL sz=1x entry=$0.07     exit=$0.07     PnL=$87.60    ROI=8.98%
+    01:15-11:15 SHORT      SOL sz=1x entry=$81.67    exit=$82.06    PnL=$-5.04    ROI=-0.52%
+  2026-05-29 |  12 trades | PnL=$  -28.35 | W:7 L:5 | avg_hold=98.5h
+    21:45-21:45  LONG   RENDER sz=1x entry=$1.98     exit=$2.14     PnL=$23.18    ROI=7.72%
+    21:45-21:45 SHORT      SUI sz=1x entry=$0.90     exit=$0.91     PnL=$-4.77    ROI=-1.59%
+    20:45-15:30  LONG   PENDLE sz=1x entry=$1.38     exit=$1.36     PnL=$-4.41    ROI=-1.55%
+    20:45-15:30 SHORT      ZEC sz=1x entry=$566.97   exit=$530.44   PnL=$43.93    ROI=6.40%
+    22:30-01:45  LONG     NEAR sz=1x entry=$2.38     exit=$2.61     PnL=$27.80    ROI=9.23%
+    22:30-01:45 SHORT      TON sz=1x entry=$2.02     exit=$2.08     PnL=$-38.34   ROI=-3.15%
+    12:15-07:02  LONG     DASH sz=1x entry=$39.54    exit=$39.64    PnL=$0.02     ROI=0.21%
+    12:15-07:02 SHORT      ETH sz=1x entry=$1999.10  exit=$1867.90  PnL=$14.40    ROI=6.52%
+    16:45-06:43 SHORT      ZRO sz=1x entry=$1.17     exit=$1.01     PnL=$4.64     ROI=13.65%
+    16:45-06:43  LONG     AERO sz=1x entry=$0.38     exit=$0.33     PnL=$-132.23  ROI=-13.26%
+    22:30-06:59  LONG    BRETT sz=1x entry=$0.01     exit=$0.01     PnL=$-18.63   ROI=-19.64%
+    22:30-06:59 SHORT    TRUMP sz=1x entry=$1.97     exit=$1.66     PnL=$56.06    ROI=16.02%
+  2026-05-30 |   2 trades | PnL=$    1.98 | W:2 L:0 | avg_hold=25.6h
+    03:15-04:51 SHORT      ARB sz=1x entry=$0.11     exit=$0.10     PnL=$1.23     ROI=1.76%
+    03:15-04:51  LONG GRIFFAIN sz=1x entry=$0.01     exit=$0.01     PnL=$0.75     ROI=0.54%
+  2026-05-31 |   6 trades | PnL=$   23.74 | W:5 L:1 | avg_hold=28.9h
+    11:45-22:00  LONG     HYPE sz=1x entry=$67.64    exit=$71.42    PnL=$13.88    ROI=5.54%
+    11:45-22:00 SHORT      ARB sz=1x entry=$0.10     exit=$0.10     PnL=$-0.12    ROI=-0.06%
+    12:15-20:30  LONG      VVV sz=1x entry=$18.41    exit=$18.90    PnL=$1.32     ROI=2.63%
+    12:15-20:30 SHORT      XLM sz=1x entry=$0.26     exit=$0.25     PnL=$1.38     ROI=2.77%
+    04:00-00:15  LONG    GRASS sz=1x entry=$0.49     exit=$0.50     PnL=$3.27     ROI=3.27%
+    04:00-00:15 SHORT      MON sz=1x entry=$0.02     exit=$0.02     PnL=$4.01     ROI=4.01%
+  2026-06-01 |   2 trades | PnL=$   11.47 | W:1 L:1 | avg_hold=29.0h
+    10:00-15:00  LONG     HYPE sz=1x entry=$72.52    exit=$72.37    PnL=$-0.63    ROI=-0.25%
+    10:00-15:00 SHORT      ARB sz=1x entry=$0.10     exit=$0.10     PnL=$12.10    ROI=6.00%
+  2026-06-02 |  10 trades | PnL=$  -39.48 | W:6 L:4 | avg_hold=13.1h
+    03:00-17:21  LONG   PENDLE sz=1x entry=$1.37     exit=$1.35     PnL=$-3.63    ROI=-1.64%
+    03:00-17:21 SHORT      ZEC sz=1x entry=$583.15   exit=$615.18   PnL=$-63.62   ROI=-5.54%
+    20:15-02:30  LONG      NIL sz=1x entry=$0.06     exit=$0.06     PnL=$-2.44    ROI=-2.44%
+    20:15-02:30 SHORT      BCH sz=1x entry=$281.44   exit=$260.83   PnL=$7.28     ROI=7.28%
+    19:45-04:30  LONG     HYPE sz=1x entry=$69.88    exit=$71.66    PnL=$6.25     ROI=2.50%
+    19:45-04:30 SHORT      ARB sz=1x entry=$0.09     exit=$0.09     PnL=$2.70     ROI=3.40%
+    20:00-09:30 SHORT      SUI sz=1x entry=$0.82     exit=$0.83     PnL=$-1.61    ROI=-0.64%
+    20:00-09:31  LONG     BABY sz=1x entry=$0.01     exit=$0.01     PnL=$0.56     ROI=1.14%
+    23:45-22:15  LONG  VIRTUAL sz=1x entry=$0.70     exit=$0.74     PnL=$3.36     ROI=5.67%
+    23:45-22:15 SHORT      XLM sz=1x entry=$0.22     exit=$0.21     PnL=$11.67    ROI=2.92%
+  2026-06-03 |   4 trades | PnL=$   91.34 | W:2 L:2 | avg_hold=27.7h
+    16:45-13:15  LONG   PENDLE sz=1x entry=$1.37     exit=$1.37     PnL=$-0.73    ROI=-0.18%
+    16:45-13:15 SHORT     MEGA sz=1x entry=$0.06     exit=$0.05     PnL=$23.33    ROI=6.54%
+    19:15-06:03  LONG     STBL sz=1x entry=$0.03     exit=$0.03     PnL=$-31.23   ROI=-4.89%
+    19:15-06:03 SHORT      BCH sz=1x entry=$242.64   exit=$232.28   PnL=$99.97    ROI=4.23%
+  2026-06-04 |  12 trades | PnL=$   27.88 | W:7 L:5 | avg_hold=87.7h
+    13:00-18:00  LONG   STABLE sz=1x entry=$0.04     exit=$0.04     PnL=$1.67     ROI=6.08%
+    13:00-18:00 SHORT      ARB sz=1x entry=$0.09     exit=$0.09     PnL=$0.55     ROI=0.51%
+    06:15-16:50  LONG      JTO sz=1x entry=$0.62     exit=$0.51     PnL=$-17.51   ROI=-17.56%
+    06:15-16:50 SHORT      SUI sz=1x entry=$0.80     exit=$0.71     PnL=$10.77    ROI=10.77%
+    03:30-07:48  LONG      GMT sz=1x entry=$0.01     exit=$0.01     PnL=$-3.22    ROI=-1.59%
+    03:30-07:48 SHORT      XLM sz=1x entry=$0.21     exit=$0.21     PnL=$-0.33    ROI=-0.10%
+    15:15-04:55 SHORT      MON sz=1x entry=$0.02     exit=$0.02     PnL=$23.83    ROI=4.96%
+    15:15-04:55  LONG    ASTER sz=1x entry=$0.64     exit=$0.63     PnL=$-2.92    ROI=-1.61%
+    15:45-09:18 SHORT      ETH sz=1x entry=$1774.40  exit=$1677.90  PnL=$10.74    ROI=5.40%
+    15:45-09:18  LONG GRIFFAIN sz=1x entry=$0.01     exit=$0.01     PnL=$-0.50    ROI=-5.73%
+    00:00-19:02  LONG      DYM sz=1x entry=$0.02     exit=$0.02     PnL=$0.94     ROI=0.51%
+    00:00-19:02 SHORT      DOT sz=1x entry=$1.00     exit=$0.96     PnL=$3.86     ROI=3.59%
+  2026-06-05 |   8 trades | PnL=$   31.17 | W:6 L:2 | avg_hold=45.7h
+    19:15-23:45  LONG      BIO sz=1x entry=$0.02     exit=$0.03     PnL=$0.95     ROI=4.05%
+    19:15-23:45 SHORT      BCH sz=1x entry=$211.00   exit=$208.55   PnL=$2.24     ROI=1.12%
+    07:15-13:56 SHORT      ZEC sz=1x entry=$360.77   exit=$354.74   PnL=$3.11     ROI=1.63%
+    07:15-13:56  LONG  VIRTUAL sz=1x entry=$0.55     exit=$0.54     PnL=$-4.79    ROI=-1.88%
+    08:00-19:02  LONG   STABLE sz=1x entry=$0.03     exit=$0.03     PnL=$3.66     ROI=0.40%
+    08:00-19:02 SHORT      ARB sz=1x entry=$0.08     exit=$0.08     PnL=$4.99     ROI=2.53%
+    14:30-07:02  LONG   RENDER sz=1x entry=$1.67     exit=$1.58     PnL=$-30.63   ROI=-5.34%
+    14:30-07:02 SHORT     MEGA sz=1x entry=$0.05     exit=$0.05     PnL=$51.64    ROI=7.83%
+  2026-06-06 |   6 trades | PnL=$   11.79 | W:3 L:3 | avg_hold=28.9h
+    01:30-07:45  LONG      JTO sz=1x entry=$0.51     exit=$0.58     PnL=$25.54    ROI=12.77%
+    01:30-07:45 SHORT      SUI sz=1x entry=$0.72     exit=$0.75     PnL=$-8.73    ROI=-4.37%
+    04:30-07:50 SHORT      BCH sz=1x entry=$205.19   exit=$223.75   PnL=$-18.17   ROI=-9.09%
+    04:30-07:50  LONG      BIO sz=1x entry=$0.03     exit=$0.03     PnL=$14.70    ROI=9.88%
+    03:15-08:17 SHORT    TRUMP sz=1x entry=$1.59     exit=$1.62     PnL=$-2.27    ROI=-1.88%
+    03:15-08:17  LONG     HBAR sz=1x entry=$0.08     exit=$0.08     PnL=$0.72     ROI=2.24%
+  2026-06-07 |  11 trades | PnL=$  185.44 | W:7 L:4 | avg_hold=35.0h
+    00:45-12:03  LONG  VIRTUAL sz=1x entry=$0.55     exit=$0.57     PnL=$12.37    ROI=4.12%
+    00:45-12:03 SHORT      ZEC sz=1x entry=$365.63   exit=$410.19   PnL=$-36.68   ROI=-12.24%
+    16:30-06:30  LONG      LIT sz=1x entry=$1.38     exit=$1.51     PnL=$35.97    ROI=8.98%
+    16:30-06:30 SHORT     AVAX sz=1x entry=$6.69     exit=$6.66     PnL=$0.58     ROI=0.44%
+    20:00-07:30  LONG      VVV sz=1x entry=$15.78    exit=$17.21    PnL=$10.57    ROI=9.00%
+    20:00-07:30 SHORT      ARB sz=1x entry=$0.08     exit=$0.08     PnL=$-12.88   ROI=-3.22%
+    15:09-08:16  LONG      ZEC sz=1x entry=$432.28   exit=$435.09   PnL=$6.06     ROI=0.61%
+    23:00-09:15  LONG   STABLE sz=1x entry=$0.03     exit=$0.03     PnL=$-0.95    ROI=-1.35%
+    23:00-09:15 SHORT      BCH sz=1x entry=$229.55   exit=$206.49   PnL=$40.02    ROI=10.01%
+    20:00-13:06 SHORT      LTC sz=1x entry=$42.38    exit=$43.95    PnL=$-16.46   ROI=-3.74%
+    20:00-13:06  LONG      FET sz=1x entry=$0.19     exit=$0.21     PnL=$146.84   ROI=8.30%
+  2026-06-08 |   6 trades | PnL=$  324.56 | W:5 L:1 | avg_hold=41.3h
+    12:00-07:02  LONG      XMR sz=1x entry=$314.20   exit=$326.67   PnL=$6.13     ROI=3.92%
+    12:00-07:02 SHORT     AVAX sz=1x entry=$6.78     exit=$6.76     PnL=$0.67     ROI=0.26%
+    15:45-18:15  LONG   STABLE sz=1x entry=$0.03     exit=$0.03     PnL=$16.75    ROI=4.68%
+    15:45-18:15 SHORT      BCH sz=1x entry=$210.23   exit=$203.88   PnL=$0.35     ROI=2.98%
+    21:00-03:15  LONG      VVV sz=1x entry=$13.82    exit=$15.40    PnL=$312.68   ROI=11.39%
+    21:00-03:15 SHORT      ARB sz=1x entry=$0.08     exit=$0.08     PnL=$-12.02   ROI=-5.13%
+  2026-06-09 |   4 trades | PnL=$   52.04 | W:2 L:2 | avg_hold=47.1h
+    17:15-08:15  LONG      WLD sz=1x entry=$0.47     exit=$0.50     PnL=$52.44    ROI=7.75%
+    17:15-08:15 SHORT     AVAX sz=1x entry=$6.53     exit=$6.60     PnL=$-1.52    ROI=-1.16%
+    11:30-18:40  LONG     PURR sz=1x entry=$0.08     exit=$0.09     PnL=$20.14    ROI=2.50%
+    11:30-18:40 SHORT      MON sz=1x entry=$0.02     exit=$0.02     PnL=$-19.02   ROI=-3.32%
+  2026-06-10 |   2 trades | PnL=$   -5.60 | W:1 L:1 | avg_hold=67.0h
+    12:45-07:43  LONG     DYDX sz=1x entry=$0.12     exit=$0.12     PnL=$0.84     ROI=0.17%
+    12:45-07:43 SHORT     MEGA sz=1x entry=$0.05     exit=$0.05     PnL=$-6.44    ROI=-1.64%
+  2026-06-11 |   2 trades | PnL=$   23.68 | W:1 L:1 | avg_hold=19.7h
+    14:00-09:45  LONG   RENDER sz=1x entry=$1.56     exit=$1.67     PnL=$28.20    ROI=7.05%
+    14:00-09:45 SHORT     AVAX sz=1x entry=$6.58     exit=$6.65     PnL=$-4.52    ROI=-1.13%
+  2026-06-12 |   4 trades | PnL=$    5.25 | W:2 L:2 | avg_hold=11.9h
+    11:00-03:30  LONG      VVV sz=1x entry=$14.69    exit=$16.84    PnL=$9.37     ROI=14.57%
+    11:00-03:30 SHORT      ARB sz=1x entry=$0.08     exit=$0.08     PnL=$-0.03    ROI=-0.06%
+    23:45-07:02  LONG      WLD sz=1x entry=$0.46     exit=$0.48     PnL=$0.73     ROI=4.23%
+    23:45-07:02 SHORT     AVAX sz=1x entry=$6.55     exit=$6.63     PnL=$-4.82    ROI=-1.21%
+  2026-06-13 |   2 trades | PnL=$  459.72 | W:2 L:0 | avg_hold=3.7h
+    05:51-07:37  LONG      TAO sz=1x entry=$213.94   exit=$233.00   PnL=$442.67   ROI=8.86%
+    07:58-13:36  LONG      TAO sz=1x entry=$235.12   exit=$249.83   PnL=$17.05    ROI=6.21%
+
+  📈 Thống kê theo coin:
+         MORPHO: 4 trades, WR=25.0%, PnL=$-47.01
+           HYPE: 7 trades, WR=42.9%, PnL=$-5.71
+           BOME: 4 trades, WR=75.0%, PnL=$2.57
+            SUI: 8 trades, WR=50.0%, PnL=$66.49
+           VINE: 3 trades, WR=66.7%, PnL=$6.54
+           NEAR: 2 trades, WR=100.0%, PnL=$51.43
+            ZRO: 2 trades, WR=50.0%, PnL=$2.17
+            CRV: 3 trades, WR=0.0%, PnL=$-45.98
+            MON: 6 trades, WR=83.3%, PnL=$63.60
+            JTO: 6 trades, WR=66.7%, PnL=$49.62
+          TRUMP: 6 trades, WR=66.7%, PnL=$73.29
+           PURR: 4 trades, WR=75.0%, PnL=$5.22
+          PENGU: 2 trades, WR=50.0%, PnL=$3.28
+            ZEC: 7 trades, WR=57.1%, PnL=$-74.23
+            TAO: 5 trades, WR=80.0%, PnL=$460.28
+            TON: 4 trades, WR=75.0%, PnL=$24.44
+            NIL: 2 trades, WR=50.0%, PnL=$85.16
+            SOL: 1 trades, WR=0.0%, PnL=$-5.04
+         RENDER: 3 trades, WR=66.7%, PnL=$20.75
+            ARB: 9 trades, WR=55.6%, PnL=$-3.48
+       GRIFFAIN: 2 trades, WR=50.0%, PnL=$0.25
+         PENDLE: 3 trades, WR=0.0%, PnL=$-8.77
+            VVV: 4 trades, WR=100.0%, PnL=$333.94
+            XLM: 3 trades, WR=66.7%, PnL=$12.72
+          GRASS: 1 trades, WR=100.0%, PnL=$3.27
+          LINEA: 1 trades, WR=0.0%, PnL=$-84.85
+            ICP: 1 trades, WR=0.0%, PnL=$-87.36
+            BCH: 6 trades, WR=83.3%, PnL=$131.69
+           DASH: 1 trades, WR=100.0%, PnL=$0.02
+            ETH: 2 trades, WR=100.0%, PnL=$25.14
+           BABY: 1 trades, WR=100.0%, PnL=$0.56
+        VIRTUAL: 3 trades, WR=66.7%, PnL=$10.94
+           MEGA: 3 trades, WR=66.7%, PnL=$68.53
+         STABLE: 4 trades, WR=75.0%, PnL=$21.13
+           STBL: 1 trades, WR=0.0%, PnL=$-31.23
+            REZ: 1 trades, WR=0.0%, PnL=$-125.09
+             CC: 1 trades, WR=100.0%, PnL=$44.44
+           AERO: 1 trades, WR=0.0%, PnL=$-132.23
+          BRETT: 1 trades, WR=0.0%, PnL=$-18.63
+            BIO: 2 trades, WR=100.0%, PnL=$15.65
+            GMT: 1 trades, WR=0.0%, PnL=$-3.22
+           HBAR: 1 trades, WR=100.0%, PnL=$0.72
+            LIT: 1 trades, WR=100.0%, PnL=$35.97
+           AVAX: 5 trades, WR=40.0%, PnL=$-9.61
+          ASTER: 1 trades, WR=0.0%, PnL=$-2.92
+            XMR: 1 trades, WR=100.0%, PnL=$6.13
+            WLD: 2 trades, WR=100.0%, PnL=$53.17
+            DYM: 1 trades, WR=100.0%, PnL=$0.94
+            DOT: 1 trades, WR=100.0%, PnL=$3.86
+           DYDX: 1 trades, WR=100.0%, PnL=$0.84
+            LTC: 1 trades, WR=0.0%, PnL=$-16.46
+            FET: 1 trades, WR=100.0%, PnL=$146.84
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+VÍ #5: 0x7d65ea6c187d6219ab6a1335cd2fe09f12e818fa
+  📊 Tổng quan:
+     Số fills: 2000
+     Số trades tái tạo: 62
+     Strategy: DAY_TRADER
+     Total PnL: $290.12
+     Win rate: 62.9%
+     Avg hold: 1.5h
+     Fill PnL (thuần): $1,940.94
+  📌 Positions đang mở:
+     LONG BTC size=3.89 entry=$67394.77
+
+  📅 Nhật ký giao dịch theo ngày:
+  2026-05-29 |   7 trades | PnL=$  122.29 | W:6 L:1 | avg_hold=1.6h
+    15:43-16:03  LONG      BTC sz=1x entry=$73740.49 exit=$73776.00 PnL=$10.22    ROI=0.05%
+    16:03-18:30 SHORT      BTC sz=1x entry=$73951.51 exit=$73747.00 PnL=$22.72    ROI=0.28%
+    18:30-18:50  LONG      BTC sz=1x entry=$73747.00 exit=$73544.00 PnL=$-21.95   ROI=-0.27%
+    18:50-18:55 SHORT      BTC sz=1x entry=$73389.32 exit=$73278.00 PnL=$45.32    ROI=0.15%
+    18:55-19:10  LONG      BTC sz=1x entry=$73278.00 exit=$73452.00 PnL=$5.65     ROI=0.24%
+    19:10-19:16 SHORT      BTC sz=1x entry=$73452.00 exit=$73358.00 PnL=$4.56     ROI=0.13%
+    19:16-02:52  LONG      BTC sz=1x entry=$73540.08 exit=$73705.00 PnL=$55.77    ROI=0.23%
+  2026-05-30 |  11 trades | PnL=$  355.71 | W:7 L:4 | avg_hold=2.1h
+    02:52-04:32 SHORT      BTC sz=1x entry=$73638.76 exit=$73281.00 PnL=$130.94   ROI=0.49%
+    04:32-05:48  LONG      BTC sz=1x entry=$73254.00 exit=$73606.00 PnL=$232.92   ROI=0.48%
+    05:48-06:08 SHORT      BTC sz=1x entry=$73576.10 exit=$73504.00 PnL=$6.82     ROI=0.11%
+    06:08-09:35  LONG      BTC sz=1x entry=$73493.70 exit=$73525.00 PnL=$45.33    ROI=0.04%
+    09:35-10:00 SHORT      BTC sz=1x entry=$73525.00 exit=$73588.00 PnL=$-2.54    ROI=-0.08%
+    10:00-10:26  LONG      BTC sz=1x entry=$73588.00 exit=$73620.00 PnL=$5.14     ROI=0.04%
+    10:26-12:18 SHORT      BTC sz=1x entry=$73581.56 exit=$73571.00 PnL=$2.70     ROI=0.02%
+    12:18-12:34  LONG      BTC sz=1x entry=$73571.00 exit=$73676.00 PnL=$29.17    ROI=0.14%
+    12:34-14:12 SHORT      BTC sz=1x entry=$73769.19 exit=$73973.00 PnL=$-2.79    ROI=-0.26%
+    14:12-23:55  LONG      BTC sz=1x entry=$73875.45 exit=$73824.00 PnL=$-0.41    ROI=-0.06%
+    23:55-01:45 SHORT      BTC sz=1x entry=$73912.51 exit=$74046.00 PnL=$-91.57   ROI=-0.18%
+  2026-05-31 |   8 trades | PnL=$ -192.56 | W:3 L:5 | avg_hold=3.1h
+    01:45-14:26  LONG      BTC sz=1x entry=$73839.84 exit=$73560.00 PnL=$-114.83  ROI=-0.38%
+    14:26-15:27 SHORT      BTC sz=1x entry=$73604.31 exit=$73724.00 PnL=$-20.10   ROI=-0.16%
+    15:27-16:33  LONG      BTC sz=1x entry=$73610.05 exit=$73429.00 PnL=$-32.24   ROI=-0.23%
+    16:33-18:03 SHORT      BTC sz=1x entry=$73558.86 exit=$73593.00 PnL=$-42.41   ROI=-0.05%
+    18:03-20:01  LONG      BTC sz=1x entry=$73612.87 exit=$73626.00 PnL=$3.45     ROI=0.02%
+    20:01-21:46 SHORT      BTC sz=1x entry=$73672.45 exit=$73792.00 PnL=$-4.58    ROI=-0.16%
+    21:46-21:49  LONG      BTC sz=1x entry=$73813.84 exit=$73841.00 PnL=$7.71     ROI=0.04%
+    21:49-02:31 SHORT      BTC sz=1x entry=$73715.90 exit=$73459.00 PnL=$10.44    ROI=0.35%
+  2026-06-01 |  26 trades | PnL=$  412.92 | W:17 L:9 | avg_hold=0.9h
+    02:31-02:33  LONG      BTC sz=1x entry=$73459.00 exit=$73458.00 PnL=$0.02     ROI=0.00%
+    02:33-02:39 SHORT      BTC sz=1x entry=$73455.14 exit=$73517.00 PnL=$-2.15    ROI=-0.08%
+    02:39-02:40  LONG      BTC sz=1x entry=$73517.00 exit=$73542.00 PnL=$2.92     ROI=0.04%
+    02:40-03:06 SHORT      BTC sz=1x entry=$73691.71 exit=$73901.00 PnL=$-21.99   ROI=-0.28%
+    03:06-06:23  LONG      BTC sz=1x entry=$73589.60 exit=$73164.00 PnL=$-24.63   ROI=-0.58%
+    06:23-06:23 SHORT      BTC sz=1x entry=$73164.00 exit=$73166.00 PnL=$0.00     ROI=0.00%
+    06:23-07:23  LONG      BTC sz=1x entry=$73135.74 exit=$73033.00 PnL=$-0.67    ROI=-0.12%
+    07:23-07:40 SHORT      BTC sz=1x entry=$73033.00 exit=$72953.00 PnL=$10.93    ROI=0.11%
+    07:40-07:50  LONG      BTC sz=1x entry=$72804.80 exit=$72838.00 PnL=$2.84     ROI=0.05%
+    07:50-11:58 SHORT      BTC sz=1x entry=$72733.38 exit=$72485.00 PnL=$143.96   ROI=0.34%
+    11:58-12:09  LONG      BTC sz=1x entry=$72320.71 exit=$72074.00 PnL=$-13.76   ROI=-0.33%
+    12:09-12:11 SHORT      BTC sz=1x entry=$72076.80 exit=$71910.00 PnL=$5.48     ROI=0.25%
+    12:11-12:16  LONG      BTC sz=1x entry=$71908.83 exit=$72067.00 PnL=$52.73    ROI=0.22%
+    12:16-13:11 SHORT      BTC sz=1x entry=$72122.18 exit=$71823.00 PnL=$180.62   ROI=0.42%
+    13:11-13:58  LONG      BTC sz=1x entry=$71773.78 exit=$71817.00 PnL=$8.93     ROI=0.06%
+    13:58-15:18 SHORT      BTC sz=1x entry=$71616.93 exit=$71239.00 PnL=$35.06    ROI=0.53%
+    15:18-15:29  LONG      BTC sz=1x entry=$71238.55 exit=$71109.00 PnL=$-11.44   ROI=-0.18%
+    15:29-16:08 SHORT      BTC sz=1x entry=$71299.06 exit=$70956.00 PnL=$20.44    ROI=0.49%
+    16:08-16:12  LONG      BTC sz=1x entry=$70955.83 exit=$70722.00 PnL=$-156.64  ROI=-0.33%
+    16:12-16:13 SHORT      BTC sz=1x entry=$70723.00 exit=$70750.00 PnL=$-2.14    ROI=-0.04%
+    16:13-16:39  LONG      BTC sz=1x entry=$70833.16 exit=$71206.00 PnL=$11.25    ROI=0.53%
+    16:39-18:06 SHORT      BTC sz=1x entry=$71441.19 exit=$71561.00 PnL=$0.28     ROI=0.06%
+    18:06-18:32  LONG      BTC sz=1x entry=$71551.94 exit=$71616.00 PnL=$40.43    ROI=0.09%
+    18:32-18:46 SHORT      BTC sz=1x entry=$71616.93 exit=$71434.00 PnL=$97.65    ROI=0.26%
+    18:46-20:36  LONG      BTC sz=1x entry=$71442.63 exit=$71661.00 PnL=$31.32    ROI=0.31%
+    20:36-00:41 SHORT      BTC sz=1x entry=$71322.41 exit=$71194.00 PnL=$1.48     ROI=0.19%
+  2026-06-02 |  10 trades | PnL=$ -408.24 | W:6 L:4 | avg_hold=1.5h
+    00:41-03:15  LONG      BTC sz=1x entry=$70779.62 exit=$70937.00 PnL=$65.91    ROI=0.22%
+    03:15-05:25 SHORT      BTC sz=1x entry=$70950.70 exit=$70634.00 PnL=$15.41    ROI=0.45%
+    05:25-07:32  LONG      BTC sz=1x entry=$70115.32 exit=$70037.00 PnL=$-2.04    ROI=-0.11%
+    07:32-08:58 SHORT      BTC sz=1x entry=$70007.31 exit=$69747.00 PnL=$9.44     ROI=0.38%
+    08:58-09:32  LONG      BTC sz=1x entry=$69491.74 exit=$69431.00 PnL=$-0.53    ROI=-0.07%
+    09:32-10:22 SHORT      BTC sz=1x entry=$69678.85 exit=$69539.00 PnL=$18.90    ROI=0.20%
+    10:22-14:28  LONG      BTC sz=1x entry=$68468.63 exit=$67796.00 PnL=$-327.09  ROI=-0.98%
+    14:28-15:03 SHORT      BTC sz=1x entry=$68107.36 exit=$67866.00 PnL=$15.28    ROI=0.36%
+    15:03-15:20  LONG      BTC sz=1x entry=$67833.53 exit=$67573.00 PnL=$-211.47  ROI=-0.38%
+    15:20-15:26 SHORT      BTC sz=1x entry=$67573.77 exit=$67530.00 PnL=$7.95     ROI=0.07%
+
+  📈 Thống kê theo coin:
+            BTC: 62 trades, WR=62.9%, PnL=$290.12
+
+====================================================================================================
+HẾT BÁO CÁO
+====================================================================================================

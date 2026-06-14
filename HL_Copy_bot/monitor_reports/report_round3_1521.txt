@@ -1,0 +1,1165 @@
+=== MONITOR START 15:04:45 ===
+
+--- T+13min @ 15:04:55 ---
+  Scans: +1 (total ~328)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:03:20.427436Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:04:18.590734Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:04:18.590822Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+    [2m2026-06-13T15:04:15.214325Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:SPCX Open Short 3.46 @164.51 user=0x6e6f2ca7
+    [2m2026-06-13T15:04:15.214356Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:SPCX Open Short 4.14 @164.51 user=0x6e6f2ca7
+    [2m2026-06-13T15:04:15.542912Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:SPCX Open Short 4.14 @164.51 user=0x6e6f2ca7
+    [2m2026-06-13T15:04:15.542956Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:SPCX Open Short 3.46 @164.51 user=0x6e6f2ca7
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:04:18.590867Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9978.20
+  Target fetch:
+  Tail:
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+    [2m2026-06-13T15:04:52.363274Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+    ━━━ [Scan #328] ━━━
+
+--- T+1min @ 15:05:45 ---
+  Scans: +0 (total ~330)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:04:18.590734Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:05:21.053415Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:05:21.053542Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+    [2m2026-06-13T15:04:15.214325Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:SPCX Open Short 3.46 @164.51 user=0x6e6f2ca7
+    [2m2026-06-13T15:04:15.214356Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:SPCX Open Short 4.14 @164.51 user=0x6e6f2ca7
+    [2m2026-06-13T15:04:15.542912Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:SPCX Open Short 4.14 @164.51 user=0x6e6f2ca7
+    [2m2026-06-13T15:04:15.542956Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:SPCX Open Short 3.46 @164.51 user=0x6e6f2ca7
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:05:21.053617Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9978.50
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+14min @ 15:05:55 ---
+  Scans: +1 (total ~331)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:04:18.590734Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:05:21.053415Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:05:21.053542Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+    [2m2026-06-13T15:04:15.214325Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:SPCX Open Short 3.46 @164.51 user=0x6e6f2ca7
+    [2m2026-06-13T15:04:15.214356Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:SPCX Open Short 4.14 @164.51 user=0x6e6f2ca7
+    [2m2026-06-13T15:04:15.542912Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:SPCX Open Short 4.14 @164.51 user=0x6e6f2ca7
+    [2m2026-06-13T15:04:15.542956Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:SPCX Open Short 3.46 @164.51 user=0x6e6f2ca7
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:05:21.053617Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9978.50
+  Target fetch:
+  Tail:
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+    [2m2026-06-13T15:05:55.801797Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+    ━━━ [Scan #331] ━━━
+
+--- T+2min @ 15:06:45 ---
+  Scans: +0 (total ~333)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:05:21.053415Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:06:23.823922Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:06:23.824094Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:06:23.824198Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 2s, equity=$9977.33
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+15min @ 15:06:55 ---
+  Scans: +0 (total ~333)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:05:21.053415Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:06:23.823922Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:06:23.824094Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:06:23.824198Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 2s, equity=$9977.33
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+3min @ 15:07:45 ---
+  Scans: +1 (total ~336)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:06:23.823922Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:07:26.286949Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:07:26.287009Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:07:26.287058Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 2s, equity=$9979.55
+  Target fetch:
+  Tail:
+    [2m2026-06-13T15:07:26.287058Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 2s, equity=$9979.55
+    [2m2026-06-13T15:07:40.496709Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+    ━━━ [Scan #336] ━━━
+
+--- T+16min @ 15:07:55 ---
+  Scans: +0 (total ~336)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:06:23.823922Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:07:26.286949Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:07:26.287009Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:07:26.287058Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 2s, equity=$9979.55
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+4min @ 15:08:45 ---
+  Scans: +1 (total ~339)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:07:26.286949Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:08:28.603684Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:08:42.778996Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:08:42.779110Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+    [2m2026-06-13T15:08:36.637921Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:CL Close Long 46.677 @81.166 user=0x6e6f2ca7
+    [2m2026-06-13T15:08:38.786298Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:CL Close Long 123.208 @81.166 user=0x6e6f2ca7
+    [2m2026-06-13T15:08:39.914999Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:CL Close Long 2.241 @81.166 user=0x6e6f2ca7
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:08:42.779178Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 2s, equity=$9979.25
+  Target fetch:
+  Tail:
+    [2m2026-06-13T15:08:42.779178Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 2s, equity=$9979.25
+    [2m2026-06-13T15:08:44.253202Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+    ━━━ [Scan #339] ━━━
+
+--- T+17min @ 15:08:55 ---
+  Scans: +0 (total ~339)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:07:26.286949Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:08:28.603684Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:08:42.778996Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:08:42.779110Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+    [2m2026-06-13T15:08:36.637921Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:CL Close Long 46.677 @81.166 user=0x6e6f2ca7
+    [2m2026-06-13T15:08:38.786298Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:CL Close Long 123.208 @81.166 user=0x6e6f2ca7
+    [2m2026-06-13T15:08:39.914999Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:CL Close Long 2.241 @81.166 user=0x6e6f2ca7
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:08:42.779178Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 2s, equity=$9979.25
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+5min @ 15:09:45 ---
+  Scans: +0 (total ~341)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:08:28.603684Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:08:42.778996Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:09:04.180117Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:09:23.431088Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:09:23.431168Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+    [2m2026-06-13T15:08:38.786298Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:CL Close Long 123.208 @81.166 user=0x6e6f2ca7
+    [2m2026-06-13T15:08:39.914999Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:CL Close Long 2.241 @81.166 user=0x6e6f2ca7
+    [2m2026-06-13T15:09:00.701560Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.31158 @64188.0 user=0x6e6f2ca7
+    [2m2026-06-13T15:09:00.701593Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.46738 @64188.0 user=0x6e6f2ca7
+    [2m2026-06-13T15:09:20.421685Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.2092 @64199.0 user=0x6e6f2ca7
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:09:23.431224Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9979.28
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+18min @ 15:09:55 ---
+  Scans: +0 (total ~341)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:08:28.603684Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:08:42.778996Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:09:04.180117Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:09:23.431088Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:09:23.431168Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+    [2m2026-06-13T15:08:38.786298Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:CL Close Long 123.208 @81.166 user=0x6e6f2ca7
+    [2m2026-06-13T15:08:39.914999Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:CL Close Long 2.241 @81.166 user=0x6e6f2ca7
+    [2m2026-06-13T15:09:00.701560Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.31158 @64188.0 user=0x6e6f2ca7
+    [2m2026-06-13T15:09:00.701593Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.46738 @64188.0 user=0x6e6f2ca7
+    [2m2026-06-13T15:09:20.421685Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.2092 @64199.0 user=0x6e6f2ca7
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:09:23.431224Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9979.28
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+6min @ 15:10:45 ---
+  Scans: +0 (total ~343)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:08:42.778996Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:09:04.180117Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:09:23.431088Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:10:26.350422Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:10:26.350493Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+    [2m2026-06-13T15:08:38.786298Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:CL Close Long 123.208 @81.166 user=0x6e6f2ca7
+    [2m2026-06-13T15:08:39.914999Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:CL Close Long 2.241 @81.166 user=0x6e6f2ca7
+    [2m2026-06-13T15:09:00.701560Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.31158 @64188.0 user=0x6e6f2ca7
+    [2m2026-06-13T15:09:00.701593Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.46738 @64188.0 user=0x6e6f2ca7
+    [2m2026-06-13T15:09:20.421685Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.2092 @64199.0 user=0x6e6f2ca7
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:10:26.350532Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9978.70
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+19min @ 15:10:55 ---
+  Scans: +1 (total ~344)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:08:42.778996Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:09:04.180117Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:09:23.431088Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:10:26.350422Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:10:26.350493Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+    [2m2026-06-13T15:08:39.914999Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:CL Close Long 2.241 @81.166 user=0x6e6f2ca7
+    [2m2026-06-13T15:09:00.701560Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.31158 @64188.0 user=0x6e6f2ca7
+    [2m2026-06-13T15:09:00.701593Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.46738 @64188.0 user=0x6e6f2ca7
+    [2m2026-06-13T15:09:20.421685Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.2092 @64199.0 user=0x6e6f2ca7
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:10:26.350532Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9978.70
+  Target fetch:
+  Tail:
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+    [2m2026-06-13T15:10:51.470181Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+    ━━━ [Scan #344] ━━━
+
+--- T+7min @ 15:11:45 ---
+  Scans: +1 (total ~346)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:09:23.431088Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:10:26.350422Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:11:28.674967Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:11:28.675055Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+    [2m2026-06-13T15:09:20.421685Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL BTC Open Short 0.2092 @64199.0 user=0x6e6f2ca7
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:11:28.675317Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 2s, equity=$9975.94
+  Target fetch:
+  Tail:
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+    [2m2026-06-13T15:11:44.207998Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+    ━━━ [Scan #346] ━━━
+
+--- T+20min @ 15:11:55 ---
+  Scans: +0 (total ~346)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:10:26.350422Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:11:28.674967Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:11:28.675055Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:11:28.675317Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 2s, equity=$9975.94
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+8min @ 15:12:45 ---
+  Scans: +1 (total ~348)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:10:26.350422Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:11:28.674967Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:12:32.254845Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:12:32.254908Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:12:32.254966Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 4s, equity=$9976.30
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+21min @ 15:12:56 ---
+  Scans: +0 (total ~348)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:11:28.674967Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:12:32.254845Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:12:32.254908Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:12:32.254966Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 4s, equity=$9976.30
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+9min @ 15:13:45 ---
+  Scans: +0 (total ~350)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:12:32.254845Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:13:34.697165Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:13:34.697225Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] RESIZE SOL from $124 to $95 (Δ=23.1%)
+  RECONCILE summary:
+    [2m2026-06-13T15:13:35.196821Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 1 acted, 0 skipped (cooldown), 3 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:13:35.196852Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9976.28
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+22min @ 15:13:56 ---
+  Scans: +1 (total ~351)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:12:32.254845Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:13:34.697165Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:13:34.697225Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] RESIZE SOL from $124 to $95 (Δ=23.1%)
+  RECONCILE summary:
+    [2m2026-06-13T15:13:35.196821Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 1 acted, 0 skipped (cooldown), 3 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:13:35.196852Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9976.28
+  Target fetch:
+  Tail:
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+    [2m2026-06-13T15:13:51.933917Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+    ━━━ [Scan #351] ━━━
+
+--- T+10min @ 15:14:45 ---
+  Scans: +1 (total ~353)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:12:32.254845Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:13:34.697165Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:13:34.697225Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] RESIZE SOL from $124 to $95 (Δ=23.1%)
+    [2m2026-06-13T15:14:38.512904Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:14:38.512973Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:14:38.513011Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9976.27
+  Target fetch:
+  Tail:
+    [2m2026-06-13T15:14:38.513011Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9976.27
+    [2m2026-06-13T15:14:43.405132Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+    ━━━ [Scan #353] ━━━
+
+--- T+23min @ 15:14:56 ---
+  Scans: +0 (total ~353)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:13:34.697165Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:13:34.697225Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] RESIZE SOL from $124 to $95 (Δ=23.1%)
+    [2m2026-06-13T15:14:38.512904Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:14:38.512973Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:14:38.513011Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9976.27
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+11min @ 15:15:45 ---
+  Scans: +0 (total ~355)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:14:38.512904Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:15:40.736654Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:15:40.736723Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:15:40.736772Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 2s, equity=$9976.70
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+24min @ 15:15:56 ---
+  Scans: +0 (total ~355)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:14:38.512904Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:15:40.736654Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:15:40.736723Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:15:40.736772Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 2s, equity=$9976.70
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+12min @ 15:16:45 ---
+  Scans: +1 (total ~358)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:14:38.512904Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:15:40.736654Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:16:43.738183Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:16:43.738256Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:16:43.738285Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9976.00
+  Target fetch:
+  Tail:
+        SOL LONG sz=1.3915 entry=$68.44 mtx=$68.51 uPnL=$0.09
+        ETH LONG sz=1.1993 entry=$1673.45 mtx=$1680.95 uPnL=$8.99
+    [2m2026-06-13T15:16:43.738285Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9976.00
+
+--- T+25min @ 15:16:56 ---
+  Scans: +0 (total ~358)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:15:40.736654Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:16:43.738183Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:16:43.738256Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:16:43.738285Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9976.00
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+13min @ 15:17:45 ---
+  Scans: +1 (total ~361)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:15:40.736654Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:16:43.738183Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:16:43.738256Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:16:43.738285Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9976.00
+  Target fetch:
+  Tail:
+    [2m2026-06-13T15:17:43.901834Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+    ━━━ [Scan #361] ━━━
+    [2m2026-06-13T15:17:44.409375Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] start — 5 targets, 821 prices loaded
+
+--- T+26min @ 15:17:56 ---
+  Scans: +0 (total ~361)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:16:43.738183Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:17:46.302115Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:17:46.302195Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:17:46.302245Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 2s, equity=$9976.18
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+14min @ 15:18:45 ---
+  Scans: +0 (total ~363)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:17:46.302115Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:18:23.484509Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:18:23.484591Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+    [2m2026-06-13T15:18:20.005853Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:CL Close Long 25.67 @81.236 user=0x6e6f2ca7
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:18:23.484652Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9975.85
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+27min @ 15:18:56 ---
+  Scans: +0 (total ~364)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:17:46.302115Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:18:23.484509Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:18:23.484591Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+    [2m2026-06-13T15:18:20.005853Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:CL Close Long 25.67 @81.236 user=0x6e6f2ca7
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:18:23.484652Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9975.85
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+15min @ 15:19:45 ---
+  Scans: +0 (total ~366)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:18:23.484509Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:19:26.562550Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:19:26.562632Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+    [2m2026-06-13T15:18:20.005853Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:CL Close Long 25.67 @81.236 user=0x6e6f2ca7
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:19:26.562667Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 2s, equity=$9977.61
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+28min @ 15:19:56 ---
+  Scans: +1 (total ~367)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:18:23.484509Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:19:26.562550Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:19:26.562632Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+    [2m2026-06-13T15:18:20.005853Z[0m [32m INFO[0m [2mhl_copy_bot::ws[0m[2m:[0m [ws] FILL xyz:CL Close Long 25.67 @81.236 user=0x6e6f2ca7
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:19:26.562667Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 2s, equity=$9977.61
+  Target fetch:
+  Tail:
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+    [2m2026-06-13T15:19:52.282187Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+    ━━━ [Scan #367] ━━━
+
+--- T+16min @ 15:20:46 ---
+  Scans: +0 (total ~369)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:19:26.562550Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:20:29.640760Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:20:29.640826Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:20:29.640866Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9979.02
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+29min @ 15:20:56 ---
+  Scans: +1 (total ~370)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:19:26.562550Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:20:29.640760Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:20:29.640826Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:20:29.640866Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9979.02
+  Target fetch:
+  Tail:
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+    [2m2026-06-13T15:20:56.153858Z[0m [32m INFO[0m [2mhl_copy_bot[0m[2m:[0m 
+    ━━━ [Scan #370] ━━━
+
+--- T+17min @ 15:21:46 ---
+  Scans: +0 (total ~372)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:20:29.640760Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:21:32.501946Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:21:32.502017Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:21:32.502079Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9976.78
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+--- T+30min @ 15:21:56 ---
+  Scans: +0 (total ~372)
+  RECONCILE events (last 5min):
+    [2m2026-06-13T15:20:29.640760Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+    [2m2026-06-13T15:21:32.501946Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+  RECONCILE summary:
+    [2m2026-06-13T15:21:32.502017Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+  FILL events:
+  ERRORS:
+  AUTO-ADD / EVICT:
+  SKIP (cooldown):
+  WS health:
+  Status:
+  Price fetch:
+  Poll timing:
+    [2m2026-06-13T15:21:32.502079Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [poll] done — 3s, equity=$9976.78
+  Target fetch:
+  Tail:
+      0x9da9ccc7 → PnL=$1367 WR=91.7%
+      0x76fe28b8 → PnL=$61 WR=75.0%
+      0x6e6f2ca7 → PnL=$155 WR=50.0%
+
+=== MONITOR END @ 15:21:56 ===
+=== SUMMARY ===
+Total scans: 372
+Total RECONCILE: 312
+  SKIP: 0
+Total FILL: 115
+Total AUTO-ADD: 0
+Total EVICT: 0
+Total ERROR: 0
+Price fetch issues: 0
+WS disconnects: 0
+Target fetch fails: 0
+BANKRUPT events: 0
+
+=== FULL RECONCILE LOG ===
+[2m2026-06-13T13:04:35.411967Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:04:35.412067Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:05:38.013743Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:05:38.013805Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:06:41.027784Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:06:41.027838Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:07:43.612148Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:07:43.612300Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:08:46.466920Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:08:46.467099Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:09:47.622530Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:09:47.622678Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:09:51.270180Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:09:51.270329Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:10:54.289688Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:10:54.289838Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:11:30.506381Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:11:30.506431Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:12:32.086642Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:12:32.086792Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:12:37.206899Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:12:37.207101Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:13:47.353954Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:13:47.354141Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:13:54.089220Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:13:54.089363Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:14:56.783690Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:14:56.783840Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:15:26.480734Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:15:26.480887Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:16:29.402953Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:16:29.403137Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:17:06.426301Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:17:06.426456Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:18:09.697799Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:18:09.697957Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:19:12.176798Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:19:12.176859Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:20:14.767702Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:20:14.767854Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:21:17.516308Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:21:17.516464Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:22:20.189130Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:22:20.189312Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:23:23.778318Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:23:23.778367Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:24:27.576134Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:24:27.576301Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:25:30.758075Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:25:30.758218Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:26:21.240930Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:26:21.241114Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:27:24.422890Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:27:24.423082Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:28:27.037479Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:28:27.037640Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:29:16.799441Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:29:16.799603Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:29:33.038859Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:29:33.039007Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:29:39.284544Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:29:39.284692Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:30:41.954795Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:30:41.954944Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:31:44.726896Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:31:44.727085Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:32:47.805895Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:32:47.806097Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:33:39.313617Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:33:39.313777Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:33:44.331285Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:33:44.331437Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:34:46.949291Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:34:46.949455Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:35:49.976380Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:35:49.976531Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:36:53.774086Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:36:53.774238Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:37:56.647225Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:37:56.647386Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:39:00.033170Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:39:00.033348Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:40:02.590692Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:40:02.590749Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:41:06.588093Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:41:06.588152Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:42:09.095426Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:42:09.095483Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:43:12.143196Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:43:12.143254Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:44:15.526306Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:44:15.526454Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:45:18.296307Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:45:18.296459Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:46:21.660230Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:46:21.660283Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:46:31.306333Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:46:31.306404Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:47:34.627352Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:47:34.627406Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:48:37.564583Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:48:37.564758Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:49:39.850966Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:49:39.851072Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:50:42.900666Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:50:42.900741Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:51:45.257380Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:51:45.257440Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:52:47.675919Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:52:47.675998Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:53:50.908040Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:53:50.908102Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:54:53.488097Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:54:53.488172Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:55:56.754523Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:55:56.754615Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:56:59.337508Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:56:59.337589Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:58:03.115858Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:58:03.115920Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T13:59:06.501905Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T13:59:06.501980Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:00:08.965109Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:00:08.965275Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:01:11.531193Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:01:11.531263Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:02:14.507174Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:02:14.507252Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:03:17.278165Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:03:17.278234Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:04:20.459076Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:04:20.459133Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:05:23.946389Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:05:23.946532Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:06:26.734951Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:06:26.735029Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:07:30.054046Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:07:30.054111Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:08:32.772338Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:08:32.772393Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:09:36.341375Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:09:36.341458Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:10:38.622524Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:10:38.622591Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:11:42.009000Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:11:42.009091Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:12:44.574592Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:12:44.574686Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:13:47.951802Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:13:47.951952Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:14:50.267092Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:14:50.267161Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:15:35.858546Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:15:35.858605Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:15:43.774456Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:15:43.774550Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] RESIZE HYPE from $274 to $418 (Δ=52.8%)
+[2m2026-06-13T14:15:44.742652Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 1 acted, 0 skipped (cooldown), 3 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:16:48.288048Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:16:48.288114Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:17:51.367774Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:17:51.367848Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:18:54.550726Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:18:54.550787Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:19:57.324166Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:19:57.324232Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:21:00.098799Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:21:00.098884Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:22:02.581232Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:22:02.581301Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:23:07.806673Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:23:07.806735Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:24:10.361042Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:24:10.361115Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:25:12.841940Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:25:12.841994Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:26:15.393979Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:26:15.394068Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:27:18.693476Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:27:18.693549Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:28:20.941030Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:28:20.941091Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:29:20.729073Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:29:20.729156Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:30:23.723100Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:30:23.723184Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:30:46.245504Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:30:46.245580Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:31:49.120533Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:31:49.120629Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:32:52.199660Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:32:52.199740Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:33:55.278993Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:33:55.279070Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:34:05.724190Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:34:05.724255Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:34:09.001105Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:34:09.001180Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:35:12.922607Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:35:12.922757Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:36:16.286926Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:36:16.287010Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:36:38.812235Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:36:38.812321Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:37:03.901623Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:37:03.901778Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:37:12.401155Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:37:12.401225Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:38:15.069988Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:38:15.070094Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:39:18.967421Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:39:18.967585Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:40:21.432777Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:40:21.432858Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:40:51.947358Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:40:51.947509Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:41:55.027167Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:41:55.027265Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:42:57.594206Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:42:57.594281Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:44:01.891867Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:44:01.891929Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:45:04.877331Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:45:04.877495Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:46:07.445090Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:46:07.445163Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:47:10.012183Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:47:10.012301Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:47:59.163289Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:47:59.163380Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:48:21.293728Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:48:21.293784Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:48:29.139175Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:48:29.139245Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:48:39.306524Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:48:39.306583Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:49:42.076918Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:49:42.077032Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:50:44.951218Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:50:44.951382Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:51:47.615994Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:51:47.616092Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:52:50.178662Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:52:50.178761Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:53:52.580865Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:53:52.580950Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:54:56.123973Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:54:56.124066Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:55:59.097121Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:55:59.097242Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:56:48.144873Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:56:48.144955Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:57:25.518422Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:57:25.518497Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:58:29.005595Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:58:29.005774Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:58:55.423807Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:58:55.423889Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:59:02.795391Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:59:02.795490Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:59:32.499771Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:59:32.499827Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T14:59:53.175479Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T14:59:53.175575Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:00:14.210778Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:00:14.210872Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:01:14.684031Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:01:14.684106Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:02:17.658560Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:02:17.658628Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:03:20.427436Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:03:20.427507Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:04:18.590734Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:04:18.590822Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:05:21.053415Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:05:21.053542Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:06:23.823922Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:06:23.824094Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:07:26.286949Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:07:26.287009Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:08:28.603684Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:08:28.603760Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:08:42.778996Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:08:42.779110Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:09:04.180117Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:09:04.180202Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:09:23.431088Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:09:23.431168Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:10:26.350422Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:10:26.350493Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:11:28.674967Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:11:28.675055Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:12:32.254845Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:12:32.254908Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:13:34.697165Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:13:34.697225Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] RESIZE SOL from $124 to $95 (Δ=23.1%)
+[2m2026-06-13T15:13:35.196821Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 1 acted, 0 skipped (cooldown), 3 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:14:38.512904Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:14:38.512973Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:15:40.736654Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:15:40.736723Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:16:43.738183Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:16:43.738256Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:17:46.302115Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:17:46.302195Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:18:23.484509Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:18:23.484591Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:19:26.562550Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:19:26.562632Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:20:29.640760Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:20:29.640826Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+[2m2026-06-13T15:21:32.501946Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] desired: 15 coins across 5 targets
+[2m2026-06-13T15:21:32.502017Z[0m [32m INFO[0m [2mhl_copy_bot::copier[0m[2m:[0m [RECONCILE] summary: 0 acted, 0 skipped (cooldown), 4 in-range (no change) — regime=calm, cooldown=300s
+
+=== FULL AUTO-ADD/EVICT LOG ===
+
+=== FULL ERROR LOG ===
+
+=== WS DISCONNECT LOG ===

@@ -1,0 +1,16 @@
+  Round 1 done: 49f 0e 42r
+  Round 1 done: 73f 0e 72r
+  Round 2 done: 82f 0e 167r
+  Round 2 done: 86f 0e 197r
+  Round 3 done: 115f 0e 312r
+  Round 3 done: 149f 0e 348r
+  Round 4 done: 177f 0e 460r
+  Round 4 done: 240f 0e 497r
+  Round 5 done: 266f 0e 608r
+  Round 5 done: 272f 0e 638r
+  Round 6 done: 335f 0e 784r
+  Round 6 done: 347f 0e 816r
+  Round 7 done: 436f 1e 939r
+  Round 7 done: 440f 1e 969r
+  Round 8 done: 458f 1e 1080r
+  Round 8 done: 461f 1e 1106r
